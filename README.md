@@ -31,7 +31,7 @@ python -m src.download
 python -m src.verify_data --live
 ```
 
-`python -m src.download` fetches every accession in `data/seeds.csv` from UniProt and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (21 luciferases, 6 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
+`python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (30 luciferases, 7 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
 
 See [`PROJECT_PLAN.md`](PROJECT_PLAN.md) for scope, syllabus mapping, and execution phases. Background context is in [`bioinformatics_project_handoff.md`](bioinformatics_project_handoff.md).
 

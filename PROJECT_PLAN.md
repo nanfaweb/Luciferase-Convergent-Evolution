@@ -26,12 +26,12 @@
 | Family | Luciferases | Non-luminous controls |
 |---|---|---|
 | Firefly | 8 | AbLL (A9ZPM4, non-luminous click beetle), CG6178 (Q9VCC6) |
-| *Renilla* | 2 (only two exist in UniProt; 96.5% identical) | LinB (D4Z2G1), DhaA (P0A3G2) |
-| Bacterial LuxA | 7 | SsuD (P80645) |
-| Fungal Luz | 4 | *Fistulina hepatica* Luz-domain protein (A0A0D7AKP7) |
+| Renilla-type (HLD-derived) | 3: 2 *Renilla* + brittle-star AfLuc (all characterised ones that exist publicly) | LinB (D4Z2G1), DhaA (P0A3G2), brittle-star DafA (XRP75329.1) |
+| Bacterial LuxA | 10 | SsuD (P80645) |
+| Fungal Luz | 9 | *Fistulina hepatica* Luz-domain protein (A0A0D7AKP7) |
 
-The accession list lives in `data/seeds.csv`. DhlA (P22643) was replaced by
-the closer dehalogenases LinB and DhaA.
+The accession list lives in `data/seeds.csv` (UniProt plus 3 NCBI records).
+DhlA (P22643) was replaced by the closer dehalogenases LinB and DhaA.
 
 **Download pattern:** `https://rest.uniprot.org/uniprotkb/{ACCESSION}.fasta`
 
@@ -51,7 +51,10 @@ the closer dehalogenases LinB and DhaA.
   that low cross-family similarity can be interpreted.
 - Trees: no MSA tool is installed. Build within-family neighbour-joining trees
   from pairwise distances, rooted on the family's control.
-- *Renilla* (n=2) is reported as a single lineage, with no group statistics.
+- The Renilla-type group (n=3, two independent lineages) is reported
+  descriptively, with no group statistics. Luciferase-vs-control
+  conclusions rest on the 4 family-level comparisons, not on 30 pooled
+  sequences.
 
 **Scientific constraints (always):**
 - Many luciferase systems evolved independently; do not claim every pair is wholly unrelated.
@@ -200,7 +203,7 @@ flowchart TD
 ## 9. Immediate first actions
 
 1. ~~Scaffold the repository layout and dependencies.~~ Done.
-2. ~~Validate accessions and write the manifest.~~ Done; the dataset grew to 21 luciferases + 6 controls (Phase 3 step 1, done early).
+2. ~~Validate accessions and write the manifest.~~ Done; the dataset grew to 30 luciferases + 7 controls (Phase 3 step 1, done early).
 3. Next: Phase 2 analyses on the locked dataset (features, alignment, DotPlots, BLAST, trees, clustering).
 
 ## 10. Out of scope

@@ -22,12 +22,15 @@ from src.download import (
     PROJECT_ROOT,
     RAW_DIR,
     UNIPROT_JSON,
+    curated_sequence,
     load_seeds,
 )
 
 # Curation rule: within a family, no two luciferases may be this similar.
 MAX_IDENTITY = 97.0
-REQUIRED_COLUMNS = ("label", "organism", "interpro", "uniprot_url", "reason")
+REQUIRED_COLUMNS = ("label", "organism", "uniprot_url", "reason")
+# NCBI records carry no InterPro cross-references.
+REQUIRED_UNIPROT_COLUMNS = ("interpro", "taxon_id")
 AMINO_ACIDS = set("ACDEFGHIKLMNPQRSTVWY")
 
 
@@ -84,10 +87,14 @@ def verify_local() -> tuple[list[str], list[dict], dict[str, str]]:
             if seed[col] != row[col]:
                 issues.append(f"{row['accession']} {col} {row[col]!r} != seed {seed[col]!r}")
 
+    seeds_by_acc = {s["accession"]: s for s in seeds}
     seqs: dict[str, str] = {}
     for row in rows:
         acc = row["accession"]
-        for col in REQUIRED_COLUMNS:
+        required = REQUIRED_COLUMNS
+        if row["source"] == "uniprot":
+            required += REQUIRED_UNIPROT_COLUMNS
+        for col in required:
             if not (row.get(col) or "").strip():
                 issues.append(f"{acc} empty {col}")
         if row["complete"] != "True":
@@ -96,7 +103,8 @@ def verify_local() -> tuple[list[str], list[dict], dict[str, str]]:
         if len(records) != 1:
             issues.append(f"{acc}: raw FASTA has {len(records)} records")
             continue
-        rec_acc, seq = records[0]
+        rec_acc, raw_seq = records[0]
+        seq = curated_sequence(raw_seq, seeds_by_acc.get(acc, {"accession": acc}))
         seqs[acc] = seq
         if rec_acc != acc:
             issues.append(f"{acc}: raw FASTA accession is {rec_acc}")
@@ -141,9 +149,12 @@ def verify_live(rows: list[dict]) -> list[str]:
     session = requests.Session()
     session.headers.update({"User-Agent": "luciferase-course-project/0.2-verify"})
     for i, row in enumerate(rows):
+        acc = row["accession"]
+        if row["source"] != "uniprot":
+            # NCBI accessions are versioned (e.g. .1), so a changed sequence gets a new accession.
+            continue
         if i:
             time.sleep(0.35)
-        acc = row["accession"]
         response = session.get(UNIPROT_JSON.format(accession=acc), timeout=60)
         if not response.ok:
             issues.append(f"{acc}: live UniProt returned HTTP {response.status_code}")
