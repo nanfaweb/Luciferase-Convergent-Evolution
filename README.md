@@ -1,6 +1,6 @@
 # Comparative Sequence Analysis of Independently Evolved Luciferases
 
-Course project in bioinformatics: compare luciferase proteins from fireflies, *Renilla*, luminous bacteria, and fungi to ask whether independently evolved light-producing proteins share common sequence-level or physicochemical features.
+Course project in bioinformatics: compare luciferase proteins from fireflies, *Renilla*-type, luminous bacteria, fungi, copepods, dinoflagellates and ostracods to ask whether independently evolved light-producing proteins share common sequence-level or physicochemical features.
 
 ## Question
 
@@ -31,7 +31,7 @@ python -m src.download
 python -m src.verify_data --live
 ```
 
-`python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (30 luciferases, 7 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
+`python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (51 luciferases from 7 families, 7 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
 
 See [`PROJECT_PLAN.md`](PROJECT_PLAN.md) for scope, syllabus mapping, and execution phases. Background context is in [`bioinformatics_project_handoff.md`](bioinformatics_project_handoff.md).
 

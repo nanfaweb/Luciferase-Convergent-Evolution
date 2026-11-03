@@ -40,7 +40,15 @@ NCBI_EFETCH = (
 )
 NCBI_PAGE = "https://www.ncbi.nlm.nih.gov/protein/{accession}"
 
-FAMILIES = ["firefly", "renilla_type", "bacterial_luxa", "fungal_luz"]
+FAMILIES = [
+    "firefly",
+    "renilla_type",
+    "bacterial_luxa",
+    "fungal_luz",
+    "copepod",
+    "dinoflagellate",
+    "ostracod",
+]
 ROLES = ["luciferase", "control"]
 SOURCES = ["uniprot", "ncbi"]
 
@@ -218,7 +226,8 @@ def _uniprot_metadata(session: requests.Session, accession: str, raw_seq: str) -
         "taxon_id": entry.get("organism", {}).get("taxonId", ""),
         "reviewed": entry.get("entryType") == "UniProtKB reviewed (Swiss-Prot)",
         "evidence_level": entry.get("proteinExistence", ""),
-        "fragment": bool(entry.get("proteinDescription", {}).get("flag")),
+        # the flag can also be "Precursor", which is not a fragment
+        "fragment": "Fragment" in (entry.get("proteinDescription", {}).get("flag") or ""),
         "nonterminal": any(
             f.get("type") == "Non-terminal residue" for f in entry.get("features") or []
         ),

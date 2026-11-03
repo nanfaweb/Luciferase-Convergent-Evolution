@@ -29,6 +29,27 @@ A0A3G9JTL9,uniprot,fungal_luz,luciferase,,,yes,,Panellus stipticus Luz; transcri
 A0A3G9K9H1,uniprot,fungal_luz,luciferase,,,yes,,Neonothopanus gardneri Luz; transcript-level (Kotlobay et al. 2018 clone); fragment flag but starts with Met; 89% to N. nambi.
 A0A3G9JTQ0,uniprot,fungal_luz,luciferase,,,yes,,Mycena citricolor Luz; transcript-level (Kotlobay et al. 2018 clone); fragment flag but starts with Met.
 BCK50966.1,ncbi,fungal_luz,luciferase,,,,,Mycena lux-coeli Luz (NCBI only; complete CDS); 79% to Panellus Luz.
+Q9BLZ2,uniprot,copepod,luciferase,,,,,Gaussia princeps (Metridinidae) secreted luciferase GLuc; protein-level evidence.
+Q6UQE3,uniprot,copepod,luciferase,,,,,Metridia longa (Metridinidae) secreted luciferase MLuc; transcript-level evidence.
+I7GGY2,uniprot,copepod,luciferase,,,,,Metridia pacifica (Metridinidae) secreted luciferase; transcript-level evidence.
+H3JS09,uniprot,copepod,luciferase,,,,,Metridia okhotensis (Metridinidae) secreted luciferase; 89% to M. pacifica.
+U3TKG7,uniprot,copepod,luciferase,,,,,Metridia asymmetrica (Metridinidae) secreted luciferase; transcript-level evidence.
+H3JS11,uniprot,copepod,luciferase,,,,,Pleuromamma abdominalis (Metridinidae) secreted luciferase; transcript-level evidence.
+U3TIM6,uniprot,copepod,luciferase,,,,,Pleuromamma scutullata (Metridinidae) secreted luciferase; transcript-level evidence.
+H3JS17,uniprot,copepod,luciferase,,,,,Heterorhabdus tanneri (Heterorhabdidae) secreted luciferase; 44-52% to Metridinidae.
+H3JS19,uniprot,copepod,luciferase,,,,,Heterostylites major (Heterorhabdidae) secreted luciferase; transcript-level evidence.
+H3JS13,uniprot,copepod,luciferase,,,,,Lucicutia ovaliformis (Lucicutiidae) secreted luciferase; third copepod family.
+O77206,uniprot,dinoflagellate,luciferase,,,,,Lingulodinium polyedra luciferase (three repeated catalytic domains); reviewed; protein-level evidence.
+Q8W210,uniprot,dinoflagellate,luciferase,,,,,Pyrocystis lunula luciferase; transcript-level evidence.
+Q5UAZ5,uniprot,dinoflagellate,luciferase,,,,,Pyrocystis fusiformis luciferase (Liu et al. 2004 cDNA); 87% to P. lunula.
+Q5UAZ4,uniprot,dinoflagellate,luciferase,,,,,Pyrocystis noctiluca luciferase (Liu et al. 2004 cDNA); 92% to P. fusiformis.
+Q5UAZ6,uniprot,dinoflagellate,luciferase,,,,,Alexandrium tamarense luciferase (Liu et al. 2004 cDNA).
+Q5UAZ7,uniprot,dinoflagellate,luciferase,,,,,Alexandrium affine luciferase (Liu et al. 2004 cDNA); 95% to A. tamarense.
+Q5UAZ3,uniprot,dinoflagellate,luciferase,,,,,Protoceratium reticulatum luciferase (Liu et al. 2004 cDNA).
+F5CV94,uniprot,dinoflagellate,luciferase,,,,,Noctiluca scintillans luciferase; different architecture (luciferin-binding-protein domain fused to luciferase domains); 23-38% to other dinoflagellate luciferases.
+P17554,uniprot,ostracod,luciferase,,,,,Vargula (Cypridina) hilgendorfii luciferase; reviewed; protein-level evidence.
+BAD08210.1,ncbi,ostracod,luciferase,,,,,Cypridina noctiluca secreted luciferase (cloned and characterised; NCBI only); 84% to V. hilgendorfii.
+QOS14273.1,ncbi,ostracod,luciferase,,,yes,,Vargula tsujii luciferase from a cypridinid transcriptome study (NCBI only); C-terminal partial (~3 residues short of V. hilgendorfii); 49% to other ostracod luciferases.
 A9ZPM4,uniprot,firefly,control,Luciferase-like protein AbLL (non-luminous click beetle),,,,Agrypnus binodulus (non-luminous Elateridae); closest non-luminous beetle homolog found (~47% identity to firefly luciferase).
 Q9VCC6,uniprot,firefly,control,Fatty acyl-CoA synthetase CG6178,,,,Drosophila melanogaster CG6178; classic non-luminous firefly-luciferase homolog (~40-45% identity). UniProt names it 'Luciferin 4-monooxygenase' by homology only.
 D4Z2G1,uniprot,renilla_type,control,Haloalkane dehalogenase LinB,,,,Sphingobium indicum LinB; closest reviewed bacterial haloalkane dehalogenase to Renilla luciferase (~40% identity).

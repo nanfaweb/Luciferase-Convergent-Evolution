@@ -15,11 +15,19 @@
 
 ## 2. Biological groups and data
 
-**Luciferase groups (target ~5–10 sequences each after expansion):**
+**Luciferase groups (target ~5–10 sequences each where public data allow):**
 1. Firefly luciferase
-2. *Renilla* / sea pansy luciferase
+2. *Renilla*-type (HLD-derived) luciferase
 3. Bacterial LuxA (alpha subunit)
 4. Fungal Luz luciferase
+5. Copepod secreted luciferase (added 2026-11-03)
+6. Dinoflagellate luciferase (added 2026-11-03)
+7. Ostracod (cypridinid) luciferase (added 2026-11-03)
+
+Groups 5–7 add independent origins. The convergence question is answered
+across families, so more families strengthen it more than more sequences
+per family do. The comparison is at the **protein** level (sequence +
+physicochemical), not DNA.
 
 **Current dataset (expanded and validated 2026-11-03; full rules in [data/README.md](data/README.md)):**
 
@@ -29,8 +37,11 @@
 | Renilla-type (HLD-derived) | 3: 2 *Renilla* + brittle-star AfLuc (all characterised ones that exist publicly) | LinB (D4Z2G1), DhaA (P0A3G2), brittle-star DafA (XRP75329.1) |
 | Bacterial LuxA | 10 | SsuD (P80645) |
 | Fungal Luz | 9 | *Fistulina hepatica* Luz-domain protein (A0A0D7AKP7) |
+| Copepod | 10 (3 copepod families) | none known |
+| Dinoflagellate | 8 | none known |
+| Ostracod | 3 (all that exist publicly) | none known |
 
-The accession list lives in `data/seeds.csv` (UniProt plus 3 NCBI records).
+The accession list lives in `data/seeds.csv` (UniProt plus 5 NCBI records).
 DhlA (P22643) was replaced by the closer dehalogenases LinB and DhaA.
 
 **Download pattern:** `https://rest.uniprot.org/uniprotkb/{ACCESSION}.fasta`
@@ -39,9 +50,11 @@ DhlA (P22643) was replaced by the closer dehalogenases LinB and DhaA.
 
 - Scope goes beyond the proposal: the plan's syllabus analyses (DotPlots,
   within-family trees, feature clustering) are in scope.
-- Every family has its own non-luminous control from the same protein family.
-  This makes possible the core test: does each luciferase family differ from
-  its own control in the same direction?
+- Each of the original four families has its own non-luminous control from
+  the same protein family. This makes possible the core test: does each
+  luciferase family differ from its own control in the same direction? The
+  three added families have no known non-luminous homologs. They join the
+  cross-family feature comparison only.
 - Dataset rules: complete sequences only; reviewed entries preferred; within a
   family, luciferases must be <97% identical; every unreviewed or predicted
   entry is flagged in the manifest.
@@ -203,7 +216,7 @@ flowchart TD
 ## 9. Immediate first actions
 
 1. ~~Scaffold the repository layout and dependencies.~~ Done.
-2. ~~Validate accessions and write the manifest.~~ Done; the dataset grew to 30 luciferases + 7 controls (Phase 3 step 1, done early).
+2. ~~Validate accessions and write the manifest.~~ Done; the dataset grew to 51 luciferases in 7 families + 7 controls (Phase 3 step 1, done early).
 3. Next: Phase 2 analyses on the locked dataset (features, alignment, DotPlots, BLAST, trees, clustering).
 
 ## 10. Out of scope

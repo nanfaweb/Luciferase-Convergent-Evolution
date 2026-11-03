@@ -29,8 +29,8 @@ from src.download import (
 # Curation rule: within a family, no two luciferases may be this similar.
 MAX_IDENTITY = 97.0
 REQUIRED_COLUMNS = ("label", "organism", "uniprot_url", "reason")
-# NCBI records carry no InterPro cross-references.
-REQUIRED_UNIPROT_COLUMNS = ("interpro", "taxon_id")
+# NCBI records carry no cross-references and have no taxon after an organism override.
+REQUIRED_UNIPROT_COLUMNS = ("taxon_id",)
 AMINO_ACIDS = set("ACDEFGHIKLMNPQRSTVWY")
 
 
@@ -179,6 +179,10 @@ def main() -> None:
     args = parser.parse_args()
 
     issues, rows, _ = verify_local()
+    # Not an error: some families (e.g. copepod luciferases) have no InterPro/Pfam entry.
+    no_domain = [r["accession"] for r in rows if not r["interpro"] and not r["pfam"]]
+    if no_domain:
+        print(f"note: no InterPro/Pfam annotation for {len(no_domain)}: {' '.join(no_domain)}")
     families: dict[str, dict[str, int]] = {}
     for row in rows:
         families.setdefault(row["family"], {}).setdefault(row["role"], 0)
