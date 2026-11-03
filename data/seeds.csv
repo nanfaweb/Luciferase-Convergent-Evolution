@@ -1,0 +1,28 @@
+accession,family,role,label,reason
+P08659,firefly,luciferase,,Photinus pyralis (Lampyrinae); classic reviewed firefly luciferase.
+P13129,firefly,luciferase,,Nipponoluciola cruciata (Luciolinae); reviewed.
+Q26304,firefly,luciferase,,Luciola mingrelica (Luciolinae); reviewed; 81% identical to P13129.
+Q01158,firefly,luciferase,,Aquatica lateralis (Luciolinae); reviewed.
+Q27757,firefly,luciferase,,Photuris pensylvanica (Photurinae); reviewed; most divergent firefly in the set.
+Q5UFR2,firefly,luciferase,,Lampyris turkestanicus (Lampyrinae); protein-level evidence.
+A0A3F2YLV6,firefly,luciferase,,Amydetes sp. (Amydetinae); protein-level evidence; adds subfamily breadth.
+Q5USC8,firefly,luciferase,,Cratomorphus distinctus (Lampyrinae); transcript-level evidence.
+P27652,renilla,luciferase,,Renilla reniformis; reviewed Renilla-type (haloalkane-dehalogenase-derived) luciferase.
+Q9BLZ3,renilla,luciferase,,Renilla muelleri; 96.5% identical to P27652 (only other functionally characterised Renilla-type luciferase in UniProt).
+P19907,bacterial_luxa,luciferase,,Aliivibrio fischeri LuxA; reviewed.
+P09140,bacterial_luxa,luciferase,,Photobacterium leiognathi LuxA; reviewed.
+P29238,bacterial_luxa,luciferase,,Photobacterium leiognathi (second strain) LuxA; reviewed; 77% identical to P09140.
+P24113,bacterial_luxa,luciferase,,Photobacterium phosphoreum LuxA; reviewed.
+P07740,bacterial_luxa,luciferase,,Vibrio harveyi LuxA; reviewed; protein-level evidence.
+P23146,bacterial_luxa,luciferase,,Photorhabdus luminescens LuxA (terrestrial bacterium); reviewed.
+P18299,bacterial_luxa,luciferase,,Kryptophanaron alfredi (flashlight fish) symbiont LuxA; reviewed.
+A0A3G9JYH7,fungal_luz,luciferase,,Neonothopanus nambi Luz; reviewed; protein-level evidence.
+A0A2H3E985,fungal_luz,luciferase,,Armillaria gallica Luz; reviewed; protein-level evidence.
+A0A3G9JTR4,fungal_luz,luciferase,,Armillaria mellea Luz; reviewed; protein-level evidence; 95% identical to A. gallica.
+A0A8H6SUE6,fungal_luz,luciferase,,Mycena chlorophos (luminous) Luz-domain protein; predicted only; 72-75% identical to reviewed Luz.
+A9ZPM4,firefly,control,Luciferase-like protein AbLL (non-luminous click beetle),Agrypnus binodulus (non-luminous Elateridae); closest non-luminous beetle homolog found (~47% identity to firefly luciferase).
+Q9VCC6,firefly,control,Fatty acyl-CoA synthetase CG6178,Drosophila melanogaster CG6178; classic non-luminous firefly-luciferase homolog (~40-45% identity). UniProt names it 'Luciferin 4-monooxygenase' by homology only.
+D4Z2G1,renilla,control,Haloalkane dehalogenase LinB,Sphingobium indicum LinB; closest reviewed haloalkane dehalogenase to Renilla luciferase (~40% identity).
+P0A3G2,renilla,control,Haloalkane dehalogenase DhaA,Rhodococcus rhodochrous DhaA; reviewed HLD-II dehalogenase (~36% identity to Renilla luciferase).
+P80645,bacterial_luxa,control,Alkanesulfonate monooxygenase SsuD,Escherichia coli SsuD; non-luminous member of the bacterial-luciferase-like monooxygenase family (~24% identity).
+A0A0D7AKP7,fungal_luz,control,Luz-domain protein (non-luminous Fistulina hepatica),Fistulina hepatica (non-luminous); closest Luz-domain homolog from a non-luminous fungus (~40-42% identity); predicted only.

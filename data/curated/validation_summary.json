@@ -1,19 +1,55 @@
 {
-  "n_records": 11,
-  "n_luciferases": 9,
-  "n_controls": 2,
+  "retrieved": "2026-11-03",
+  "n_records": 27,
+  "n_luciferases": 21,
+  "n_controls": 6,
+  "counts_by_family": {
+    "firefly": {
+      "luciferase": 8,
+      "control": 2
+    },
+    "renilla": {
+      "luciferase": 2,
+      "control": 2
+    },
+    "bacterial_luxa": {
+      "luciferase": 7,
+      "control": 1
+    },
+    "fungal_luz": {
+      "luciferase": 4,
+      "control": 1
+    }
+  },
   "all_complete": true,
+  "n_reviewed": 19,
   "accessions": [
     "P08659",
     "P13129",
+    "Q26304",
+    "Q01158",
+    "Q27757",
     "Q5UFR2",
+    "A0A3F2YLV6",
+    "Q5USC8",
     "P27652",
     "Q9BLZ3",
     "P19907",
     "P09140",
+    "P29238",
+    "P24113",
+    "P07740",
+    "P23146",
+    "P18299",
     "A0A3G9JYH7",
     "A0A2H3E985",
+    "A0A3G9JTR4",
+    "A0A8H6SUE6",
+    "A9ZPM4",
     "Q9VCC6",
-    "P22643"
+    "D4Z2G1",
+    "P0A3G2",
+    "P80645",
+    "A0A0D7AKP7"
   ]
 }

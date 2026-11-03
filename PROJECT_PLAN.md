@@ -21,15 +21,37 @@
 3. Bacterial LuxA (alpha subunit)
 4. Fungal Luz luciferase
 
-**Starter accessions (must re-validate on UniProt before locking the dataset):**
+**Current dataset (expanded and validated 2026-11-03; full rules in [data/README.md](data/README.md)):**
 
-- Firefly: P08659, P13129, Q5UFR2
-- Renilla: P27652, Q9BLZ3
-- Bacterial LuxA: P19907, P09140
-- Fungal Luz: A0A3G9JYH7, A0A2H3E985
-- Controls (non-luminous): Q9VCC6 (acyl-CoA synthetase), P22643 (haloalkane dehalogenase DhlA)
+| Family | Luciferases | Non-luminous controls |
+|---|---|---|
+| Firefly | 8 | AbLL (A9ZPM4, non-luminous click beetle), CG6178 (Q9VCC6) |
+| *Renilla* | 2 (only two exist in UniProt; 96.5% identical) | LinB (D4Z2G1), DhaA (P0A3G2) |
+| Bacterial LuxA | 7 | SsuD (P80645) |
+| Fungal Luz | 4 | *Fistulina hepatica* Luz-domain protein (A0A0D7AKP7) |
+
+The accession list lives in `data/seeds.csv`. DhlA (P22643) was replaced by
+the closer dehalogenases LinB and DhaA.
 
 **Download pattern:** `https://rest.uniprot.org/uniprotkb/{ACCESSION}.fasta`
+
+**Scope decisions (confirmed 2026-11-03):**
+
+- Scope goes beyond the proposal: the plan's syllabus analyses (DotPlots,
+  within-family trees, feature clustering) are in scope.
+- Every family has its own non-luminous control from the same protein family.
+  This makes possible the core test: does each luciferase family differ from
+  its own control in the same direction?
+- Dataset rules: complete sequences only; reviewed entries preferred; within a
+  family, luciferases must be <97% identical; every unreviewed or predicted
+  entry is flagged in the manifest.
+- BLAST: BLAST+ is not installed, so use NCBI web BLAST (Biopython `qblast`
+  against Swiss-Prot) with cached XML results. Back it up with a local
+  all-vs-all Smith–Waterman comparison with shuffled-sequence z-scores, so
+  that low cross-family similarity can be interpreted.
+- Trees: no MSA tool is installed. Build within-family neighbour-joining trees
+  from pairwise distances, rooted on the family's control.
+- *Renilla* (n=2) is reported as a single lineage, with no group statistics.
 
 **Scientific constraints (always):**
 - Many luciferase systems evolved independently; do not claim every pair is wholly unrelated.
@@ -42,15 +64,18 @@
 ```
 Bio Proj/
   data/
+    seeds.csv            # accession list: family, role, label, reason (edit this)
     raw/                 # per-accession FASTA downloads
     curated/
-      manifest.csv       # family, species, accession, URLs, length, GO/InterPro, reason
+      manifest.csv       # UniProt metadata, evidence level, versions, hash, InterPro/Pfam, reason
       luciferases.fasta  # combined curated sequences
       controls.fasta
+      all_sequences.fasta
   notebooks/
     01_analysis.ipynb    # instructor-facing walkthrough
   src/
     download.py
+    verify_data.py
     features.py
     align.py
     dotplot.py
@@ -174,9 +199,9 @@ flowchart TD
 
 ## 9. Immediate first actions
 
-1. Scaffold the repository layout and dependencies.
-2. Validate the 9 starter + 2 control accessions and write the first manifest.
-3. Download those FASTA files and smoke-test features + one alignment + one DotPlot before dataset expansion.
+1. ~~Scaffold the repository layout and dependencies.~~ Done.
+2. ~~Validate accessions and write the manifest.~~ Done; the dataset grew to 21 luciferases + 6 controls (Phase 3 step 1, done early).
+3. Next: Phase 2 analyses on the locked dataset (features, alignment, DotPlots, BLAST, trees, clustering).
 
 ## 10. Out of scope
 
