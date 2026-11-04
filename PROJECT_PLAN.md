@@ -58,7 +58,7 @@ DhlA (P22643) was replaced by the closer dehalogenases LinB and DhaA.
 - Dataset rules: complete sequences only; reviewed entries preferred; within a
   family, luciferases must be <97% identical; every unreviewed or predicted
   entry is flagged in the manifest.
-- BLAST: BLAST+ is not installed, so use NCBI web BLAST (Biopython `qblast`
+- BLAST: BLAST+ 2.17.0 is now installed locally; the earlier fallback was NCBI web BLAST (Biopython `qblast`
   against Swiss-Prot) with cached XML results. Back it up with a local
   all-vs-all Smith–Waterman comparison with shuffled-sequence z-scores, so
   that low cross-family similarity can be interpreted.
@@ -217,7 +217,7 @@ flowchart TD
 
 1. ~~Scaffold the repository layout and dependencies.~~ Done.
 2. ~~Validate accessions and write the manifest.~~ Done; the dataset grew to 51 luciferases in 7 families + 7 controls (Phase 3 step 1, done early).
-3. Next: Phase 2 analyses on the locked dataset (features, alignment, DotPlots, BLAST, trees, clustering).
+3. Phase 2 in progress: protein properties done (`src/features.py`, `results/features.csv`). Next: alignment, DotPlots, BLAST, trees, clustering.
 
 ## 10. Out of scope
 
