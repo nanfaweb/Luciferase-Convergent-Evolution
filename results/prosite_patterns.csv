@@ -1,0 +1,3 @@
+prosite_id,name,description,pattern,regex
+PS00455,AMP_BINDING,Putative AMP-binding domain signature.,[LIVMFY]-{E}-{VES}-[STG]-[STAG]-G-[ST]-[STEI]-[SG]-x-[PASLIVM]-[KR].,[LIVMFY][^E][^VES][STG][STAG]G[ST][STEI][SG].[PASLIVM][KR]
+PS00494,BACTERIAL_LUCIFERASE,Bacterial luciferase subunits signature.,[GA]-[LIVM]-P-[LIVM]-x-[LIVMFY]-x-W-x(6)-[RK]-x(6)-Y-x(3)-[AR].,[GA][LIVM]P[LIVM].[LIVMFY].W.{6}[RK].{6}Y.{3}[AR]

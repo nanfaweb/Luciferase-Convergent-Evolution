@@ -1,0 +1,14 @@
+family,role,n,go_molecular_function
+firefly,luciferase,8,CoA-ligase activity; Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity; magnesium ion binding; protein-folding chaperone binding
+firefly,control,2,CoA-ligase activity; long-chain fatty acid-CoA ligase activity
+renilla_type,luciferase,3,Renilla-luciferin 2-monooxygenase activity; catalytic activity
+renilla_type,control,3,haloalkane dehalogenase activity
+bacterial_luxa,luciferase,10,alkanal monooxygenase (FMN-linked) activity
+bacterial_luxa,control,3,alkanesulfonate monooxygenase activity; identical protein binding
+fungal_luz,luciferase,9,
+fungal_luz,control,3,
+copepod,luciferase,10,Renilla-luciferin 2-monooxygenase activity; luciferin monooxygenase activity
+dinoflagellate,luciferase,8,"luciferin monooxygenase activity; oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases)"
+ostracod,luciferase,3,Cypridina-luciferin 2-monooxygenase activity
+click_beetle,luciferase,4,CoA-ligase activity; Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity
+click_beetle,control,1,CoA-ligase activity; Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity
