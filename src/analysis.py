@@ -5,9 +5,9 @@
    protein architecture). PCA plot, and Ward clustering compared with the
    family labels by the adjusted Rand index (1 = groups exactly by family,
    0 = no better than chance).
-2. Kruskal-Wallis test across the 7 luciferase families for each main feature.
-3. Luciferase vs own control: direction of the median difference in the 4
-   families that have controls, with a two-sided sign test.
+2. Kruskal-Wallis test across all luciferase families for each main feature.
+3. Luciferase vs own control: direction of the median difference in each
+   family that has controls, with a two-sided sign test.
 
 Writes results/stats.csv, control_comparison.csv,
 figures/pca_features.png and figures/feature_boxplots.png.
@@ -69,7 +69,7 @@ def kruskal_tests(table: pd.DataFrame) -> list[dict]:
     for feature in MAIN_FEATURES:
         groups = [luc.loc[luc["family"] == f, feature] for f in FAMILIES]
         stat, p = kruskal(*groups)
-        rows.append({"test": "Kruskal-Wallis across 7 luciferase families", "feature": feature,
+        rows.append({"test": f"Kruskal-Wallis across {len(FAMILIES)} luciferase families", "feature": feature,
                      "statistic": stat, "p_value": p, "n": len(luc)})
     return rows
 
@@ -90,7 +90,7 @@ def control_comparison(table: pd.DataFrame) -> tuple[pd.DataFrame, list[dict]]:
     tests = []
     for feature, group in comparison.groupby("feature", sort=False):
         higher = int((group["direction"] == "higher").sum())
-        tests.append({"test": "Sign test: luciferase vs own control (4 families)", "feature": feature,
+        tests.append({"test": f"Sign test: luciferase vs own control ({len(group)} families)", "feature": feature,
                       "statistic": higher, "p_value": binomtest(higher, len(group)).pvalue,
                       "n": len(group)})
     return comparison, tests

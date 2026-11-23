@@ -1,12 +1,12 @@
 accession,family,role,same_family_hits,cross_family_hits,cross_family_subjects,best_cross_family_evalue
-P08659,firefly,luciferase,9,0,,
-P13129,firefly,luciferase,9,0,,
-Q26304,firefly,luciferase,9,0,,
-Q01158,firefly,luciferase,9,0,,
-Q27757,firefly,luciferase,9,0,,
-Q5UFR2,firefly,luciferase,9,0,,
-A0A3F2YLV6,firefly,luciferase,9,0,,
-Q5USC8,firefly,luciferase,9,0,,
+P08659,firefly,luciferase,9,5,A0A0C6E621 A0A0C6E0Y4 Q718A7 A9ZPM4 D2KV86,0.0
+P13129,firefly,luciferase,9,5,A0A0C6E621 A0A0C6E0Y4 Q718A7 A9ZPM4 D2KV86,0.0
+Q26304,firefly,luciferase,9,5,A0A0C6E621 A0A0C6E0Y4 Q718A7 A9ZPM4 D2KV86,0.0
+Q01158,firefly,luciferase,9,5,A0A0C6E621 A0A0C6E0Y4 Q718A7 D2KV86 A9ZPM4,0.0
+Q27757,firefly,luciferase,9,5,A0A0C6E621 A9ZPM4 Q718A7 A0A0C6E0Y4 D2KV86,0.0
+Q5UFR2,firefly,luciferase,9,5,A0A0C6E621 A0A0C6E0Y4 A9ZPM4 Q718A7 D2KV86,0.0
+A0A3F2YLV6,firefly,luciferase,9,5,A0A0C6E621 A0A0C6E0Y4 Q718A7 A9ZPM4 D2KV86,0.0
+Q5USC8,firefly,luciferase,9,5,A0A0C6E621 A9ZPM4 A0A0C6E0Y4 Q718A7 D2KV86,0.0
 P27652,renilla_type,luciferase,5,0,,
 Q9BLZ3,renilla_type,luciferase,5,0,,
 XRP75328.1,renilla_type,luciferase,5,0,,
@@ -15,20 +15,20 @@ P09140,bacterial_luxa,luciferase,9,0,,
 P29238,bacterial_luxa,luciferase,9,0,,
 P24113,bacterial_luxa,luciferase,9,0,,
 P07740,bacterial_luxa,luciferase,10,0,,
-P23146,bacterial_luxa,luciferase,10,0,,
+P23146,bacterial_luxa,luciferase,11,0,,
 P18299,bacterial_luxa,luciferase,9,0,,
 S3DID0,bacterial_luxa,luciferase,9,0,,
 G0XZS5,bacterial_luxa,luciferase,9,0,,
-B2XS47,bacterial_luxa,luciferase,9,0,,
-A0A3G9JYH7,fungal_luz,luciferase,9,0,,
-A0A2H3E985,fungal_luz,luciferase,9,0,,
-A0A3G9JTR4,fungal_luz,luciferase,9,0,,
-A0A3G9K5D8,fungal_luz,luciferase,9,0,,
-A0A3G9JTL4,fungal_luz,luciferase,9,0,,
-A0A3G9JTL9,fungal_luz,luciferase,9,0,,
-A0A3G9K9H1,fungal_luz,luciferase,9,0,,
-A0A3G9JTQ0,fungal_luz,luciferase,9,0,,
-BCK50966.1,fungal_luz,luciferase,9,0,,
+B2XS47,bacterial_luxa,luciferase,10,0,,
+A0A3G9JYH7,fungal_luz,luciferase,11,0,,
+A0A2H3E985,fungal_luz,luciferase,11,0,,
+A0A3G9JTR4,fungal_luz,luciferase,11,0,,
+A0A3G9K5D8,fungal_luz,luciferase,11,0,,
+A0A3G9JTL4,fungal_luz,luciferase,11,0,,
+A0A3G9JTL9,fungal_luz,luciferase,11,0,,
+A0A3G9K9H1,fungal_luz,luciferase,11,0,,
+A0A3G9JTQ0,fungal_luz,luciferase,11,0,,
+BCK50966.1,fungal_luz,luciferase,11,0,,
 Q9BLZ2,copepod,luciferase,9,0,,
 Q6UQE3,copepod,luciferase,9,0,,
 I7GGY2,copepod,luciferase,9,0,,
@@ -50,10 +50,19 @@ F5CV94,dinoflagellate,luciferase,7,0,,
 P17554,ostracod,luciferase,2,0,,
 BAD08210.1,ostracod,luciferase,2,0,,
 QOS14273.1,ostracod,luciferase,2,0,,
-A9ZPM4,firefly,control,9,0,,
-Q9VCC6,firefly,control,9,0,,
+Q718A7,click_beetle,luciferase,4,10,Q5UFR2 Q27757 Q5USC8 P08659 A0A3F2YLV6 P13129 Q01158 Q26304 Q1ET68 Q9VCC6,0.0
+D2KV86,click_beetle,luciferase,4,10,Q5UFR2 Q5USC8 Q01158 P13129 P08659 Q26304 A0A3F2YLV6 Q27757 Q9VCC6 Q1ET68,0.0
+A0A0C6E0Y4,click_beetle,luciferase,4,10,Q5UFR2 Q5USC8 Q27757 P08659 A0A3F2YLV6 Q01158 P13129 Q26304 Q9VCC6 Q1ET68,0.0
+A0A0C6E621,click_beetle,luciferase,4,10,Q5UFR2 Q27757 Q5USC8 A0A3F2YLV6 P08659 P13129 Q01158 Q26304 Q9VCC6 Q1ET68,0.0
+A9ZPM4,click_beetle,control,4,10,Q27757 Q5USC8 Q5UFR2 P08659 A0A3F2YLV6 P13129 Q01158 Q26304 Q9VCC6 Q1ET68,0.0
+Q9VCC6,firefly,control,9,5,A0A0C6E621 A9ZPM4 D2KV86 A0A0C6E0Y4 Q718A7,9.4e-151
 D4Z2G1,renilla_type,control,5,0,,
 P0A3G2,renilla_type,control,5,0,,
 XRP75329.1,renilla_type,control,5,0,,
-P80645,bacterial_luxa,control,3,0,,
-A0A0D7AKP7,fungal_luz,control,9,0,,
+P80645,bacterial_luxa,control,5,0,,
+A0A0D7AKP7,fungal_luz,control,11,0,,
+Q1ET68,firefly,control,9,5,A0A0C6E621 A9ZPM4 Q718A7 A0A0C6E0Y4 D2KV86,3.78e-150
+Q9HYG2,bacterial_luxa,control,2,0,,
+P40402,bacterial_luxa,control,4,0,,
+A0A6A4GH72,fungal_luz,control,11,0,,
+A0A550C6L9,fungal_luz,control,11,0,,

@@ -50,10 +50,19 @@ F5CV94,uniprot,dinoflagellate,luciferase,,,,,Noctiluca scintillans luciferase; d
 P17554,uniprot,ostracod,luciferase,,,,,Vargula (Cypridina) hilgendorfii luciferase; reviewed; protein-level evidence.
 BAD08210.1,ncbi,ostracod,luciferase,,,,,Cypridina noctiluca secreted luciferase (cloned and characterised; NCBI only); 84% to V. hilgendorfii.
 QOS14273.1,ncbi,ostracod,luciferase,,,yes,,Vargula tsujii luciferase from a cypridinid transcriptome study (NCBI only); C-terminal partial (~3 residues short of V. hilgendorfii); 49% to other ostracod luciferases.
-A9ZPM4,uniprot,firefly,control,Luciferase-like protein AbLL (non-luminous click beetle),,,,Agrypnus binodulus (non-luminous Elateridae); closest non-luminous beetle homolog found (~47% identity to firefly luciferase).
+Q718A7,uniprot,click_beetle,luciferase,,,,,Pyrophorus plagiophthalamus (Jamaican click beetle) luciferase; transcript-level; ~49% to firefly luciferase.
+D2KV86,uniprot,click_beetle,luciferase,,,,,Pyrophorus angustus luscus click-beetle luciferase; transcript-level; 84% to P. plagiophthalamus.
+A0A0C6E0Y4,uniprot,click_beetle,luciferase,,,,,Pyrophorus sp. YO-2006 click-beetle luciferase; transcript-level; 94% to P. plagiophthalamus.
+A0A0C6E621,uniprot,click_beetle,luciferase,,,,,Cryptalaus berus (luminous click beetle) luciferase; transcript-level; 59-60% to Pyrophorus.
+A9ZPM4,uniprot,click_beetle,control,Luciferase-like protein AbLL (non-luminous click beetle),,,,Agrypnus binodulus (non-luminous Elateridae); closest non-luminous beetle homolog found (~47% identity to firefly luciferase).
 Q9VCC6,uniprot,firefly,control,Fatty acyl-CoA synthetase CG6178,,,,Drosophila melanogaster CG6178; classic non-luminous firefly-luciferase homolog (~40-45% identity). UniProt names it 'Luciferin 4-monooxygenase' by homology only.
 D4Z2G1,uniprot,renilla_type,control,Haloalkane dehalogenase LinB,,,,Sphingobium indicum LinB; closest reviewed bacterial haloalkane dehalogenase to Renilla luciferase (~40% identity).
 P0A3G2,uniprot,renilla_type,control,Haloalkane dehalogenase DhaA,,,,Rhodococcus rhodochrous DhaA; reviewed HLD-II dehalogenase (~36% identity to Renilla luciferase).
 XRP75329.1,ncbi,renilla_type,control,Brittle-star haloalkane dehalogenase DafA,Amphiura filiformis,,HHHHHH,Non-luminous dehalogenase from the same brittle-star genome as AfLuc (Lau et al. 2025; GenBank PP777634 construct; His6 tag removed); 62% to AfLuc.
 P80645,uniprot,bacterial_luxa,control,Alkanesulfonate monooxygenase SsuD,,,,Escherichia coli SsuD; non-luminous member of the bacterial-luciferase-like monooxygenase family (~24% identity).
 A0A0D7AKP7,uniprot,fungal_luz,control,Luz-domain protein (non-luminous Fistulina hepatica),,,,Fistulina hepatica (non-luminous); closest Luz-domain homolog from a non-luminous fungus (~40-42% identity); predicted only.
+Q1ET68,uniprot,firefly,control,Luciferase-like protein (non-luminous mealworm beetle),,,,Tenebrio molitor tm-llg3 (non-luminous Tenebrionidae); acyl-CoA-synthetase-family homolog (~36-40% to beetle luciferases).
+Q9HYG2,uniprot,bacterial_luxa,control,Alkanesulfonate monooxygenase SsuD,,,,Pseudomonas aeruginosa SsuD; protein-level evidence; non-luminous luciferase-like monooxygenase (78% to E. coli SsuD).
+P40402,uniprot,bacterial_luxa,control,Alkanesulfonate monooxygenase SsuD,,,,Bacillus subtilis SsuD; non-luminous luciferase-like monooxygenase (65% to E. coli SsuD).
+A0A6A4GH72,uniprot,fungal_luz,control,Luz-domain protein (non-luminous Gymnopus androsaceus),,,,Gymnopus androsaceus (non-luminous); Luz-domain homolog (~35% to Luz); predicted only.
+A0A550C6L9,uniprot,fungal_luz,control,Luz-domain protein (non-luminous Schizophyllum amplum),,,,Schizophyllum amplum (non-luminous); Luz-domain homolog (~38% to Luz); predicted only.

@@ -1,8 +1,8 @@
 {
-  "retrieved": "2026-11-03",
-  "n_records": 58,
-  "n_luciferases": 51,
-  "n_controls": 7,
+  "retrieved": "2026-11-23",
+  "n_records": 67,
+  "n_luciferases": 55,
+  "n_controls": 12,
   "counts_by_family": {
     "firefly": {
       "luciferase": 8,
@@ -14,11 +14,11 @@
     },
     "bacterial_luxa": {
       "luciferase": 10,
-      "control": 1
+      "control": 3
     },
     "fungal_luz": {
       "luciferase": 9,
-      "control": 1
+      "control": 3
     },
     "copepod": {
       "luciferase": 10,
@@ -31,10 +31,14 @@
     "ostracod": {
       "luciferase": 3,
       "control": 0
+    },
+    "click_beetle": {
+      "luciferase": 4,
+      "control": 1
     }
   },
   "all_complete": true,
-  "n_reviewed": 21,
+  "n_reviewed": 23,
   "accessions": [
     "P08659",
     "P13129",
@@ -87,12 +91,21 @@
     "P17554",
     "BAD08210.1",
     "QOS14273.1",
+    "Q718A7",
+    "D2KV86",
+    "A0A0C6E0Y4",
+    "A0A0C6E621",
     "A9ZPM4",
     "Q9VCC6",
     "D4Z2G1",
     "P0A3G2",
     "XRP75329.1",
     "P80645",
-    "A0A0D7AKP7"
+    "A0A0D7AKP7",
+    "Q1ET68",
+    "Q9HYG2",
+    "P40402",
+    "A0A6A4GH72",
+    "A0A550C6L9"
   ]
 }

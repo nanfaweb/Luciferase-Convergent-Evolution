@@ -1,8 +1,8 @@
 family,feature,luciferase_median,control_median,difference,direction
-firefly,gravy,-0.0795,-0.0159,-0.0636,lower
-firefly,isoelectric_point,6.4495,8.4216,-1.9721,lower
-firefly,aromaticity,0.0930,0.0809,0.0121,higher
-firefly,aa_C_pct,1.4599,1.7463,-0.2864,lower
+firefly,gravy,-0.0795,0.0039,-0.0835,lower
+firefly,isoelectric_point,6.4495,7.0819,-0.6324,lower
+firefly,aromaticity,0.0930,0.0852,0.0078,higher
+firefly,aa_C_pct,1.4599,1.3119,0.1480,higher
 renilla_type,gravy,-0.4299,-0.2280,-0.2019,lower
 renilla_type,isoelectric_point,5.8602,5.0291,0.8311,higher
 renilla_type,aromaticity,0.1190,0.1092,0.0098,higher
@@ -11,7 +11,11 @@ bacterial_luxa,gravy,-0.3781,-0.1916,-0.1865,lower
 bacterial_luxa,isoelectric_point,5.3839,5.6939,-0.3100,lower
 bacterial_luxa,aromaticity,0.1042,0.0787,0.0255,higher
 bacterial_luxa,aa_C_pct,2.2161,0.2625,1.9536,higher
-fungal_luz,gravy,-0.2364,-0.1717,-0.0647,lower
+fungal_luz,gravy,-0.2364,-0.1266,-0.1098,lower
 fungal_luz,isoelectric_point,8.6326,8.1593,0.4733,higher
-fungal_luz,aromaticity,0.0865,0.0919,-0.0054,lower
-fungal_luz,aa_C_pct,1.1236,2.4735,-1.3499,lower
+fungal_luz,aromaticity,0.0865,0.0798,0.0067,higher
+fungal_luz,aa_C_pct,1.1236,1.4981,-0.3745,lower
+click_beetle,gravy,-0.0553,-0.0281,-0.0272,lower
+click_beetle,isoelectric_point,7.6825,8.5878,-0.9053,lower
+click_beetle,aromaticity,0.0884,0.0827,0.0057,higher
+click_beetle,aa_C_pct,2.3963,2.3897,0.0066,higher

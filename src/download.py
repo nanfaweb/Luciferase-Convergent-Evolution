@@ -48,6 +48,7 @@ FAMILIES = [
     "copepod",
     "dinoflagellate",
     "ostracod",
+    "click_beetle",
 ]
 ROLES = ["luciferase", "control"]
 SOURCES = ["uniprot", "ncbi"]

@@ -58,7 +58,8 @@ def run() -> None:
     proteins = load_proteins()
     identity = pd.read_csv(RESULTS_DIR / "identity_matrix.csv", index_col=0)
     (RESULTS_DIR / "trees").mkdir(exist_ok=True)
-    fig, axes = plt.subplots(4, 2, figsize=(14, 20))
+    rows = math.ceil(len(FAMILIES) / 2)
+    fig, axes = plt.subplots(rows, 2, figsize=(14, 5 * rows))
     for ax, family in zip(axes.flat, FAMILIES):
         tree = family_tree(proteins[proteins["family"] == family], identity)
         Phylo.write(tree, RESULTS_DIR / "trees" / f"{family}.nwk", "newick")
@@ -68,7 +69,8 @@ def run() -> None:
         ax.set_ylabel("")
         ax.set_xlabel("Poisson distance (substitutions per site)")
         print(f"{family}: {tree.count_terminals()} sequences")
-    axes.flat[-1].axis("off")
+    for ax in axes.flat[len(FAMILIES):]:
+        ax.axis("off")
     fig.suptitle("Within-family neighbour-joining trees (no cross-family tree by design)")
     fig.tight_layout(rect=(0, 0, 1, 0.98))
     fig.savefig(RESULTS_DIR / "figures" / "trees.png", dpi=150)
