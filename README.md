@@ -44,14 +44,17 @@ See [`PLAN.md`](PLAN.md) for scope, syllabus mapping, and execution phases. Back
 
 | Week | Topic | Where it appears |
 |---|---|---|
-| W3 | Biological databases, GO | UniProt downloads, `manifest.csv`, InterPro/GO notes |
+| W2, W12 | Motif search, multiple pattern matching | `src/motifs.py`, `results/motif_hits.csv` |
+| W3 | Biological databases, GO | UniProt downloads, `manifest.csv`, `results/go_by_family.csv` |
+| W5, W14 | Mass spectrometry, peptides | `src/digest.py`, `results/tryptic_summary.csv` |
 | W6 | Similarity / homology | `src/align.py`, `results/figures/identity_heatmap.png` |
-| W7–W8 | Global/local alignment, DP | `src/align.py`, `results/example_alignments.txt` |
+| W7–W8 | Global/local alignment, DP | `src/align.py`, `results/example_alignments.txt`, `results/dp_example.txt` |
 | W9 | DotPlots | `src/dotplot.py`, `results/figures/dotplots.png` |
 | W10 | Phylogeny | `src/phylo.py`, `results/figures/trees.png` |
 | W11 | Clustering | `src/analysis.py`, `results/figures/pca_features.png` |
 | W12 | BLAST | `src/blast.py`, `results/blast_summary.csv` |
 | W14 | Proteomics | `src/features.py`, `results/features.csv` |
+| W15 | Deep learning (AlphaFold) | `src/structure.py`, `results/alphafold_confidence.csv` |
 
 W1–W2 (intro/motifs via InterPro), W13 (HMMs as Pfam/InterPro profiles), and W15 (deep learning) are mentioned in presentation notes only.
 
