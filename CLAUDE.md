@@ -24,6 +24,6 @@ Run from the project root, in this order:
 ## Project notes
 
 - `data/seeds.csv` is the source of truth for the dataset. Analyse `data/curated/`, never `data/raw/`.
-- BLAST+ cannot handle the space in this folder's path, so BLAST runs inside `tmp/blast/` with relative paths.
+- BLAST+ cannot handle the space in this folder's path, so `src/blast.py` runs it in a system temp folder.
 - Keep `docs/PROJECT_REPORT.md` updated after each phase, in simple language.
 - Conclusions stay cautious: no claim that a property causes light production.
