@@ -34,9 +34,9 @@ python -m src.features
 
 `python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (51 luciferases from 7 families, 7 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
 
-For a plain-language account of methods and results so far, read [`PROJECT_REPORT.md`](PROJECT_REPORT.md).
+For a plain-language account of methods and results so far, read [`docs/PROJECT_REPORT.md`](docs/PROJECT_REPORT.md).
 
-See [`PROJECT_PLAN.md`](PROJECT_PLAN.md) for scope, syllabus mapping, and execution phases. Background context is in [`bioinformatics_project_handoff.md`](bioinformatics_project_handoff.md).
+See [`PLAN.md`](PLAN.md) for scope, syllabus mapping, and execution phases. Background context is in [`docs/bioinformatics_project_handoff.md`](docs/bioinformatics_project_handoff.md).
 
 ## Course concepts used
 
@@ -55,4 +55,4 @@ W1–W2 (intro/motifs via InterPro), W13 (HMMs as Pfam/InterPro profiles), and W
 
 ## Stack
 
-Python, Biopython, Pandas, NumPy, Matplotlib, SciPy, Seaborn
+Python, Biopython, Pandas, NumPy, Matplotlib, SciPy, scikit-learn, BLAST+

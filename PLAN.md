@@ -1,4 +1,37 @@
-# Final Plan: Comparative Sequence Analysis of Independently Evolved Luciferases
+# Luciferase convergent evolution
+
+**Goal:** Test whether independently evolved luciferases share protein-sequence or physicochemical features, as an undergraduate course project.
+
+**Status:** Dataset and protein properties done; analysis in progress.
+
+## Next
+
+- [ ] M1 Pairwise similarity: NW/SW alignment, identity heatmap (`src/align.py`)
+- [ ] M2 Dot plots (`src/dotplot.py`)
+- [ ] M3 Local BLAST all-vs-all (`src/blast.py`)
+- [ ] M4 Within-family trees (`src/phylo.py`)
+- [ ] M5 Clustering and statistics (`src/analysis.py`)
+- [ ] M6 Analysis notebook (`notebooks/01_analysis.ipynb`)
+- [ ] M7 Conclusions in `docs/PROJECT_REPORT.md`
+
+## Done
+
+- [x] Dataset: 51 luciferases in 7 families plus 7 controls (`data/`)
+- [x] BLAST+ 2.17.0 installed locally
+- [x] Protein properties (`src/features.py`, `results/features.csv`)
+- [x] Workspace layout: `PLAN.md`, `CLAUDE.md`, notes in `docs/`
+
+## Decisions
+
+- Protein-level comparison, not DNA.
+- One non-luminous control per original family; the 3 added families have none.
+- Composition features, not length or weight, are used for cross-family comparison.
+- No tree that mixes families; within-family trees only.
+
+---
+
+# Detailed plan (original)
+
 
 ## 1. Project identity
 
@@ -9,7 +42,7 @@
 | Type | Undergraduate CS elective project/presentation — not a publication |
 | Core method | Protein-sequence comparative analysis in Python (not DNA motifs, not ML, not wet lab) |
 | Proposal | Already exists — do not rewrite; use as scope contract |
-| Source of truth | [bioinformatics_project_handoff.md](bioinformatics_project_handoff.md) |
+| Source of truth | [docs/bioinformatics_project_handoff.md](docs/bioinformatics_project_handoff.md) |
 
 **Plain-language pitch:** Compare luciferase proteins from fireflies, marine animals (*Renilla*), luminous bacteria, and fungi using public sequences, alignments, BLAST, DotPlots, within-family trees, and measurable protein properties to see what is shared vs family-specific.
 
@@ -108,7 +141,7 @@ Bio Proj/
   README.md              # setup + "Course concepts used"
 ```
 
-**Stack:** Python 3, Biopython, Pandas, NumPy, Matplotlib, SciPy, Seaborn. BLAST via Biopython/NCBI web export if BLAST+ is unavailable. No GPU, deep learning, or web app.
+**Stack:** Python 3, Biopython, Pandas, NumPy, Matplotlib, SciPy, scikit-learn. Local BLAST+ 2.17.0. No GPU, deep learning, or web app.
 
 ## 4. Syllabus coverage (instructor map)
 

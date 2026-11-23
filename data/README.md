@@ -150,4 +150,4 @@ changed sequence would get a new accession.
   entries. The three unreviewed LuxA additions are also homology-inferred;
   they are luxA genes from luminous species.
 - Sequence similarity alone cannot rule out deep homology across families.
-  See the caveats in `../bioinformatics_project_handoff.md` §5.
+  See the caveats in `../docs/bioinformatics_project_handoff.md` §5.

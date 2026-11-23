@@ -7,3 +7,5 @@ __pycache__/
 Thumbs.db
 *.egg-info/
 .pytest_cache/
+tmp/
+.env
