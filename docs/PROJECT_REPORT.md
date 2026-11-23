@@ -363,6 +363,8 @@ problem.
 
 The numbers in the phase sections above are from the earlier 58-protein run. The updated numbers are in `docs/FINAL_REPORT.md`.
 
+**Final report as a PDF.** `docs/FINAL_REPORT.pdf` has the same sections with all figures and tables, a subsection for each course topic explaining how we used it, and references checked against Crossref.
+
 ---
 
 ## Glossary

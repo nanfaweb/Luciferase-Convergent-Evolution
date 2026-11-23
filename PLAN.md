@@ -23,7 +23,7 @@
 - [x] M6 Analysis notebook (`notebooks/01_analysis.ipynb`) — executes end to end
 - [x] M7 Conclusions in `docs/PROJECT_REPORT.md`
 - [x] Click-beetle family + extra controls (67 proteins); motif, digest, AlphaFold, DP additions
-- [x] Final report (`docs/FINAL_REPORT.md`)
+- [x] Final report (`docs/FINAL_REPORT.md`), references verified against Crossref, PDF version with figures (`docs/FINAL_REPORT.pdf`, `src/report_pdf.py`)
 - [x] Workspace layout: `PLAN.md`, `CLAUDE.md`, notes in `docs/`
 
 ## Decisions

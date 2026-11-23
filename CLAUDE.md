@@ -20,6 +20,7 @@ Run from the project root, in this order:
 - Trees: `python -m src.phylo` (needs `src.align` output)
 - Clustering and stats: `python -m src.analysis` (needs `src.features` output)
 - Motifs + GO: `python -m src.motifs`; trypsin digest: `python -m src.digest`; AlphaFold: `python -m src.structure`
+- PDF report (after all modules): `python -m src.report_pdf` → `docs/FINAL_REPORT.pdf`
 - Notebook: `jupyter nbconvert --to notebook --execute --inplace notebooks/01_analysis.ipynb`
 
 ## Project notes

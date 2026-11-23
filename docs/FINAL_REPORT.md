@@ -278,22 +278,22 @@ higher aromaticity that deserves testing on more families.
 2. He J, et al. Multiple origins of bioluminescence in beetles and evolution of luciferase function. *Molecular Biology and Evolution* 41(1):msad287 (2024). https://doi.org/10.1093/molbev/msad287
 3. Kotlobay AA, et al. Genetically encodable bioluminescent system from fungi. *PNAS* 115(50):12728–12732 (2018). https://doi.org/10.1073/pnas.1803615115
 4. Lau ES, et al. Functional characterization of luciferase in a brittle star indicates parallel evolution influenced by genomic availability of haloalkane dehalogenase. *Molecular Biology and Evolution* 42(5):msaf081 (2025). https://doi.org/10.1093/molbev/msaf081
-5. Takenaka Y, et al. Evolution of bioluminescence in marine planktonic copepods. *Molecular Biology and Evolution* 29(6):1669–1681 (2012).
-6. Liu L, Wilson T, Hastings JW. Molecular evolution of dinoflagellate luciferases, enzymes with three catalytic domains in a single polypeptide. *PNAS* 101(47):16555–16560 (2004).
-7. Needleman SB, Wunsch CD. A general method applicable to the search for similarities in the amino acid sequence of two proteins. *Journal of Molecular Biology* 48(3):443–453 (1970).
-8. Smith TF, Waterman MS. Identification of common molecular subsequences. *Journal of Molecular Biology* 147(1):195–197 (1981).
-9. Henikoff S, Henikoff JG. Amino acid substitution matrices from protein blocks. *PNAS* 89(22):10915–10919 (1992).
-10. Camacho C, et al. BLAST+: architecture and applications. *BMC Bioinformatics* 10:421 (2009).
-11. Saitou N, Nei M. The neighbor-joining method: a new method for reconstructing phylogenetic trees. *Molecular Biology and Evolution* 4(4):406–425 (1987).
-12. Cock PJA, et al. Biopython: freely available Python tools for computational molecular biology and bioinformatics. *Bioinformatics* 25(11):1422–1423 (2009).
-13. Gasteiger E, et al. Protein identification and analysis tools on the ExPASy server. In: Walker JM (ed.), *The Proteomics Protocols Handbook*, Humana Press, 571–607 (2005).
-14. Kyte J, Doolittle RF. A simple method for displaying the hydropathic character of a protein. *Journal of Molecular Biology* 157(1):105–132 (1982).
-15. Jumper J, et al. Highly accurate protein structure prediction with AlphaFold. *Nature* 596:583–589 (2021).
-16. Varadi M, et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. *Nucleic Acids Research* 50(D1):D439–D444 (2022).
-17. The UniProt Consortium. UniProt: the Universal Protein Knowledgebase in 2023. *Nucleic Acids Research* 51(D1):D523–D531 (2023).
-18. Sigrist CJA, et al. New and continuing developments at PROSITE. *Nucleic Acids Research* 41(D1):D344–D347 (2013).
-19. Kruskal WH, Wallis WA. Use of ranks in one-criterion variance analysis. *Journal of the American Statistical Association* 47(260):583–621 (1952).
-20. Hubert L, Arabie P. Comparing partitions. *Journal of Classification* 2:193–218 (1985).
+5. Takenaka Y, et al. Evolution of bioluminescence in marine planktonic copepods. *Molecular Biology and Evolution* 29(6):1669–1681 (2012). https://doi.org/10.1093/molbev/mss009
+6. Liu L, Wilson T, Hastings JW. Molecular evolution of dinoflagellate luciferases, enzymes with three catalytic domains in a single polypeptide. *PNAS* 101(47):16555–16560 (2004). https://doi.org/10.1073/pnas.0407597101
+7. Needleman SB, Wunsch CD. A general method applicable to the search for similarities in the amino acid sequence of two proteins. *Journal of Molecular Biology* 48(3):443–453 (1970). https://doi.org/10.1016/0022-2836(70)90057-4
+8. Smith TF, Waterman MS. Identification of common molecular subsequences. *Journal of Molecular Biology* 147(1):195–197 (1981). https://doi.org/10.1016/0022-2836(81)90087-5
+9. Henikoff S, Henikoff JG. Amino acid substitution matrices from protein blocks. *PNAS* 89(22):10915–10919 (1992). https://doi.org/10.1073/pnas.89.22.10915
+10. Camacho C, et al. BLAST+: architecture and applications. *BMC Bioinformatics* 10:421 (2009). https://doi.org/10.1186/1471-2105-10-421
+11. Saitou N, Nei M. The neighbor-joining method: a new method for reconstructing phylogenetic trees. *Molecular Biology and Evolution* 4(4):406–425 (1987). https://doi.org/10.1093/oxfordjournals.molbev.a040454
+12. Cock PJA, et al. Biopython: freely available Python tools for computational molecular biology and bioinformatics. *Bioinformatics* 25(11):1422–1423 (2009). https://doi.org/10.1093/bioinformatics/btp163
+13. Gasteiger E, et al. Protein identification and analysis tools on the ExPASy server. In: Walker JM (ed.), *The Proteomics Protocols Handbook*, Humana Press, 571–607 (2005). https://doi.org/10.1385/1-59259-890-0:571
+14. Kyte J, Doolittle RF. A simple method for displaying the hydropathic character of a protein. *Journal of Molecular Biology* 157(1):105–132 (1982). https://doi.org/10.1016/0022-2836(82)90515-0
+15. Jumper J, et al. Highly accurate protein structure prediction with AlphaFold. *Nature* 596:583–589 (2021). https://doi.org/10.1038/s41586-021-03819-2
+16. Varadi M, et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. *Nucleic Acids Research* 50(D1):D439–D444 (2022). https://doi.org/10.1093/nar/gkab1061
+17. The UniProt Consortium. UniProt: the Universal Protein Knowledgebase in 2023. *Nucleic Acids Research* 51(D1):D523–D531 (2023). https://doi.org/10.1093/nar/gkac1052
+18. Sigrist CJA, et al. New and continuing developments at PROSITE. *Nucleic Acids Research* 41(D1):D344–D347 (2013). https://doi.org/10.1093/nar/gks1067
+19. Kruskal WH, Wallis WA. Use of ranks in one-criterion variance analysis. *Journal of the American Statistical Association* 47(260):583–621 (1952). https://doi.org/10.1080/01621459.1952.10483441
+20. Hubert L, Arabie P. Comparing partitions. *Journal of Classification* 2(1):193–218 (1985). https://doi.org/10.1007/BF01908075
 
-*Bibliographic details were written from memory, not checked against the
-sources. Verify every reference before submission, especially [2]–[6].*
+*All 20 references were checked on 2026-11-23 against their Crossref records
+(authors, title, journal, volume, pages, year, DOI).*
