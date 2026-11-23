@@ -1,0 +1,147 @@
+=== Global (Needleman-Wunsch): P08659 (firefly) vs P13129 (firefly) | score 1949.5 ===
+target            0 ---MEDAKNIKKGPAPFYPLEDGTAGEQLHKAMKRYALVPGTIAFTDAHIEVNITYAEYF
+                  0 ---||...||..||.||||.|.|.||.||.|.|.|||..-|.||||.|...|...||||.
+query             0 MENMENDENIVVGPKPFYPIEEGSAGTQLRKYMERYAKL-GAIAFTNAVTGVDYSYAEYL
+
+target           57 EMSVRLAEAMKRYGLNTNHRIVVCSENSLQFFMPVLGALFIGVAVAPANDIYNERELLNS
+                 60 |.|..|..|...|||....||..||||...||.||...|||||.|||.|.||..|||..|
+query            59 EKSCCLGKALQNYGLVVDGRIALCSENCEEFFIPVIAGLFIGVGVAPTNEIYTLRELVHS
+
+target          117 MNISQPTVVFVSKKGLQKILNVQKKLPIIQKIIIMDSKTDYQGFQSMYTFVTSHLPPGFN
+                120 ..||.||.||.|||||.|...|||....|..|.|.|||.||.|.|...||.....||||.
+query           119 LGISKPTIVFSSKKGLDKVITVQKTVTTIKTIVILDSKVDYRGYQCLDTFIKRNTPPGFQ
+
+target          177 EYDFVPESFDRDKTIALIMNSSGSTGLPKGVALPHRTACVRFSHARDPIFGNQIIPDTAI
+                180 ...|.....||....||||||||||||||||.|.|.....|||||||||.|||..|.||.
+query           179 ASSFKTVEVDRKEQVALIMNSSGSTGLPKGVQLTHENTVTRFSHARDPIYGNQVSPGTAV
+
+target          237 LSVVPFHHGFGMFTTLGYLICGFRVVLMYRFEEELFLRSLQDYKIQSALLVPTLFSFFAK
+                240 |.||||||||||||||||||||||||....|.||.||..|||||..|..||||||....|
+query           239 LTVVPFHHGFGMFTTLGYLICGFRVVMLTKFDEETFLKTLQDYKCTSVILVPTLFAILNK
+
+target          297 STLIDKYDLSNLHEIASGGAPLSKEVGEAVAKRFHLPGIRQGYGLTETTSAILITPEGDD
+                300 |.|..|||||||.||||||||||||||||||.||.|||.|||||||||||||.|||||||
+query           299 SELLNKYDLSNLVEIASGGAPLSKEVGEAVARRFNLPGVRQGYGLTETTSAIIITPEGDD
+
+target          357 KPGAVGKVVPFFEAKVVDLDTGKTLGVNQRGELCVRGPMIMSGYVNNPEATNALIDKDGW
+                360 ||||.|||||.|.|||.||||.|.||.|.|||.||.|||.|.|||||||||..|||..||
+query           359 KPGASGKVVPLFKAKVIDLDTKKSLGPNRRGEVCVKGPMLMKGYVNNPEATKELIDEEGW
+
+target          417 LHSGDIAYWDEDEHFFIVDRLKSLIKYKGYQVAPAELESILLQHPNIFDAGVAGLPDDDA
+                420 ||.|||.|.||..|||||||||||||||||||.||||||.|||||.||||||||.||..|
+query           419 LHTGDIGYYDEEKHFFIVDRLKSLIKYKGYQVPPAELESVLLQHPSIFDAGVAGVPDPVA
+
+target          477 GELPAAVVVLEHGKTMTEKEIVDYVASQVTTAKKLRGGVVFVDEVPKGLTGKLDARKIRE
+                480 ||||.||||||.||.|||||..|||||||..||.|||||.||||||||||||.|.|.|||
+query           479 GELPGAVVVLESGKNMTEKEVMDYVASQVSNAKRLRGGVRFVDEVPKGLTGKIDGRAIRE
+
+target          537 ILIK--AKKGGKSKL 550
+                540 ||.|--||.------ 555
+query           539 ILKKPVAKM------ 548
+
+
+=== Local (Smith-Waterman): P08659 (firefly) vs P13129 (firefly) | score 1952.0 ===
+target            0 MEDAKNIKKGPAPFYPLEDGTAGEQLHKAMKRYALVPGTIAFTDAHIEVNITYAEYFEMS
+                  0 ||...||..||.||||.|.|.||.||.|.|.|||..-|.||||.|...|...||||.|.|
+query             3 MENDENIVVGPKPFYPIEEGSAGTQLRKYMERYAKL-GAIAFTNAVTGVDYSYAEYLEKS
+
+target           60 VRLAEAMKRYGLNTNHRIVVCSENSLQFFMPVLGALFIGVAVAPANDIYNERELLNSMNI
+                 60 ..|..|...|||....||..||||...||.||...|||||.|||.|.||..|||..|..|
+query            62 CCLGKALQNYGLVVDGRIALCSENCEEFFIPVIAGLFIGVGVAPTNEIYTLRELVHSLGI
+
+target          120 SQPTVVFVSKKGLQKILNVQKKLPIIQKIIIMDSKTDYQGFQSMYTFVTSHLPPGFNEYD
+                120 |.||.||.|||||.|...|||....|..|.|.|||.||.|.|...||.....||||....
+query           122 SKPTIVFSSKKGLDKVITVQKTVTTIKTIVILDSKVDYRGYQCLDTFIKRNTPPGFQASS
+
+target          180 FVPESFDRDKTIALIMNSSGSTGLPKGVALPHRTACVRFSHARDPIFGNQIIPDTAILSV
+                180 |.....||....||||||||||||||||.|.|.....|||||||||.|||..|.||.|.|
+query           182 FKTVEVDRKEQVALIMNSSGSTGLPKGVQLTHENTVTRFSHARDPIYGNQVSPGTAVLTV
+
+target          240 VPFHHGFGMFTTLGYLICGFRVVLMYRFEEELFLRSLQDYKIQSALLVPTLFSFFAKSTL
+                240 |||||||||||||||||||||||....|.||.||..|||||..|..||||||....||.|
+query           242 VPFHHGFGMFTTLGYLICGFRVVMLTKFDEETFLKTLQDYKCTSVILVPTLFAILNKSEL
+
+target          300 IDKYDLSNLHEIASGGAPLSKEVGEAVAKRFHLPGIRQGYGLTETTSAILITPEGDDKPG
+                300 ..|||||||.||||||||||||||||||.||.|||.|||||||||||||.||||||||||
+query           302 LNKYDLSNLVEIASGGAPLSKEVGEAVARRFNLPGVRQGYGLTETTSAIIITPEGDDKPG
+
+target          360 AVGKVVPFFEAKVVDLDTGKTLGVNQRGELCVRGPMIMSGYVNNPEATNALIDKDGWLHS
+                360 |.|||||.|.|||.||||.|.||.|.|||.||.|||.|.|||||||||..|||..||||.
+query           362 ASGKVVPLFKAKVIDLDTKKSLGPNRRGEVCVKGPMLMKGYVNNPEATKELIDEEGWLHT
+
+target          420 GDIAYWDEDEHFFIVDRLKSLIKYKGYQVAPAELESILLQHPNIFDAGVAGLPDDDAGEL
+                420 |||.|.||..|||||||||||||||||||.||||||.|||||.||||||||.||..||||
+query           422 GDIGYYDEEKHFFIVDRLKSLIKYKGYQVPPAELESVLLQHPSIFDAGVAGVPDPVAGEL
+
+target          480 PAAVVVLEHGKTMTEKEIVDYVASQVTTAKKLRGGVVFVDEVPKGLTGKLDARKIREILI
+                480 |.||||||.||.|||||..|||||||..||.|||||.||||||||||||.|.|.|||||.
+query           482 PGAVVVLESGKNMTEKEVMDYVASQVSNAKRLRGGVRFVDEVPKGLTGKIDGRAIREILK
+
+target          540 K 541
+                540 | 541
+query           542 K 543
+
+
+=== Global (Needleman-Wunsch): P08659 (firefly) vs P19907 (bacterial_luxa) | score 23.0 ===
+target            0 ------------------------------------------------------------
+                  0 ------------------------------------------------------------
+query             0 MKFGNICFSYQPPGETHKLSNGSLCSAWYRLRRVGFDTYWTLEHHFTEFGLTGNLFVAAA
+
+target            0 --MEDAKNIKKGPA--------PFYPLEDGTAGEQLHKAMKRYALVPGTIAFTDAHIEVN
+                 60 --....|....|..--------|...|||.....|..|.......|.|------------
+query            60 NLLGRTKTLNVGTMGVVIPTAHPVRQLEDVLLLDQMSKGRFNFGTVRG------------
+
+target           50 ITYAEYFEMSVRLAEAMKRYGLNTNHRIVVCSENSLQFFMPVLGALFIGVAVA-------
+                120 -.|...|..----------.|.........-..|---|.......|..|....-------
+query           108 -LYHKDFRV----------FGVDMEESRAI-TQN---FYQMIMESLQTGTISSDSDYIQF
+
+target          103 PANDIYNERELLNSMNISQPTVVFVSKKGLQKILNVQKKLPIIQKIIIMDSKTDYQGFQS
+                180 |..|.|..---..|.|.--||............|..|-.||.....||.......|--..
+query           153 PKVDVYPK---VYSKNV--PTCMTAESASTTEWLAIQ-GLPMVLSWIIGTNEKKAQ--ME
+
+target          163 MYTFVTSHLPPGFNEYD----------------------FVPESFDRDKTIALIMNSSGS
+                240 .|..............|----------------------|.....|.......|.|.|..
+query           205 LYNEIATEYGHDISKIDHCMTYICSVDDDAQKAQDVCREFLKNWYDSYVNATNIFNDSNQ
+
+target          201 T-------GLPKGVALPHRTAC---VRFSHARDPIFGNQIIPDTAILSVVPFHHGFGMFT
+                300 |-------|......|...|..---|..|....|.-|.---|...|..........|...
+query           265 TRGYDYHKGQWRDFVLQGHTNTNRRVDYSNGINPV-GT---PEQCIEIIQRDIDATGITN
+
+target          251 TLGYLICGFR--------VVLMYRFEEEL--FLRSLQDYKIQSALLVPTLFSFFAKSTLI
+                360 ----..|||.--------...|.||....--||....-----------------------
+query           321 ----ITCGFEANGTEDEIIASMRRFMTQVAPFLKEPK-----------------------
+
+target          301 DKYDLSNLHEIASGGAPLSKEVGEAVAKRFHLPGIRQGYGLTETTSAILITPEGDDKPGA
+                420 ------------------------------------------------------------
+query           354 ------------------------------------------------------------
+
+target          361 VGKVVPFFEAKVVDLDTGKTLGVNQRGELCVRGPMIMSGYVNNPEATNALIDKDGWLHSG
+                480 ------------------------------------------------------------
+query           354 ------------------------------------------------------------
+
+target          421 DIAYWDEDEHFFIVDRLKSLIKYKGYQVAPAELESILLQHPNIFDAGVAGLPDDDAGELP
+                540 ------------------------------------------------------------
+query           354 ------------------------------------------------------------
+
+target          481 AAVVVLEHGKTMTEKEIVDYVASQVTTAKKLRGGVVFVDEVPKGLTGKLDARKIREILIK
+                600 ------------------------------------------------------------
+query           354 ------------------------------------------------------------
+
+target          541 AKKGGKSKL 550
+                660 --------- 669
+query           354 --------- 354
+
+
+=== Local (Smith-Waterman): P08659 (firefly) vs P19907 (bacterial_luxa) | score 44.5 ===
+target           56 FEMSVRLAEAMKRYGLNTNHRIVVCSENSLQFFMPVLGALFIGVAVAPANDIYNERELLN
+                  0 |.....|.......||..|--..|...|.|.-....|.....||....|.........|.
+query            35 FDTYWTLEHHFTEFGLTGN--LFVAAANLLG-RTKTLNVGTMGVVIPTAHPVRQLEDVLL
+
+target          116 SMNISQPTVVFVSKKGLQ----KILNVQKKLPIIQKIIIMDSKTDYQGFQSMYTFVTSHL
+                 60 ....|.....|....||.----....|...----------.|....|.|---|......|
+query            92 LDQMSKGRFNFGTVRGLYHKDFRVFGVDME----------ESRAITQNF---YQMIMESL
+
+target          172 PPG----------FNEYDFVPESFDRDKTIALIMNSSGST------GLP 205
+                120 ..|----------|...|..|..............|...|------||| 169
+query           139 QTGTISSDSDYIQFPKVDVYPKVYSKNVPTCMTAESASTTEWLAIQGLP 188
+

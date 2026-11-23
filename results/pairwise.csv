@@ -1,0 +1,1654 @@
+accession_a,accession_b,family_a,family_b,category,global_identity_pct,local_score,local_zscore
+P08659,P13129,firefly,firefly,same family,67.883,1952.000,240.197
+P08659,Q26304,firefly,firefly,same family,67.518,1933.000,156.352
+P08659,Q01158,firefly,firefly,same family,68.066,1955.000,146.944
+P08659,Q27757,firefly,firefly,same family,60.000,1706.500,136.517
+P08659,Q5UFR2,firefly,firefly,same family,84.644,2436.000,209.106
+P08659,A0A3F2YLV6,firefly,firefly,same family,79.159,2246.000,160.603
+P08659,Q5USC8,firefly,firefly,same family,83.364,2399.000,375.373
+P08659,A9ZPM4,firefly,firefly,luciferase vs own control,46.875,1349.500,127.380
+P08659,Q9VCC6,firefly,firefly,luciferase vs own control,39.522,1002.000,68.252
+P08659,P27652,firefly,renilla_type,cross-family,11.897,40.000,-0.811
+P08659,Q9BLZ3,firefly,renilla_type,cross-family,12.540,44.500,0.173
+P08659,XRP75328.1,firefly,renilla_type,cross-family,22.050,55.000,1.509
+P08659,D4Z2G1,firefly,renilla_type,cross-family (control),18.581,39.000,-0.396
+P08659,P0A3G2,firefly,renilla_type,cross-family (control),22.184,42.500,-0.148
+P08659,XRP75329.1,firefly,renilla_type,cross-family (control),11.146,39.000,-0.563
+P08659,P19907,firefly,bacterial_luxa,cross-family,16.102,44.500,-0.155
+P08659,P09140,firefly,bacterial_luxa,cross-family,17.514,44.000,-0.258
+P08659,P29238,firefly,bacterial_luxa,cross-family,18.079,80.000,2.926
+P08659,P24113,firefly,bacterial_luxa,cross-family,16.763,41.500,-0.573
+P08659,P07740,firefly,bacterial_luxa,cross-family,19.437,43.000,-0.681
+P08659,P23146,firefly,bacterial_luxa,cross-family,16.298,33.000,-1.683
+P08659,P18299,firefly,bacterial_luxa,cross-family,18.207,43.500,-0.461
+P08659,S3DID0,firefly,bacterial_luxa,cross-family,17.222,45.500,-0.199
+P08659,G0XZS5,firefly,bacterial_luxa,cross-family,20.904,68.000,2.021
+P08659,B2XS47,firefly,bacterial_luxa,cross-family,19.718,46.500,0.042
+P08659,P80645,firefly,bacterial_luxa,cross-family (control),14.961,40.000,-1.602
+P08659,A0A3G9JYH7,firefly,fungal_luz,cross-family,27.341,49.500,1.095
+P08659,A0A2H3E985,firefly,fungal_luz,cross-family,22.932,36.500,-0.656
+P08659,A0A3G9JTR4,firefly,fungal_luz,cross-family,22.932,39.000,-0.526
+P08659,A0A3G9K5D8,firefly,fungal_luz,cross-family,6.773,37.000,-0.810
+P08659,A0A3G9JTL4,firefly,fungal_luz,cross-family,21.456,34.000,-0.888
+P08659,A0A3G9JTL9,firefly,fungal_luz,cross-family,22.892,43.500,0.115
+P08659,A0A3G9K9H1,firefly,fungal_luz,cross-family,24.242,40.500,-0.306
+P08659,A0A3G9JTQ0,firefly,fungal_luz,cross-family,23.577,54.000,1.155
+P08659,BCK50966.1,firefly,fungal_luz,cross-family,24.900,43.500,0.799
+P08659,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),20.141,44.500,-0.230
+P08659,Q9BLZ2,firefly,copepod,cross-family,23.243,41.500,0.158
+P08659,Q6UQE3,firefly,copepod,cross-family,7.763,37.000,-0.273
+P08659,I7GGY2,firefly,copepod,cross-family,13.333,46.000,2.076
+P08659,H3JS09,firefly,copepod,cross-family,21.659,40.500,0.347
+P08659,U3TKG7,firefly,copepod,cross-family,6.806,32.000,-0.959
+P08659,H3JS11,firefly,copepod,cross-family,2.844,38.000,-0.066
+P08659,U3TIM6,firefly,copepod,cross-family,23.636,39.500,-0.161
+P08659,H3JS17,firefly,copepod,cross-family,15.816,36.000,-0.174
+P08659,H3JS19,firefly,copepod,cross-family,20.976,37.500,-0.200
+P08659,H3JS13,firefly,copepod,cross-family,3.139,32.500,-0.678
+P08659,O77206,firefly,dinoflagellate,cross-family,23.636,66.000,0.583
+P08659,Q8W210,firefly,dinoflagellate,cross-family,12.545,57.000,-0.359
+P08659,Q5UAZ5,firefly,dinoflagellate,cross-family,24.364,57.000,-0.773
+P08659,Q5UAZ4,firefly,dinoflagellate,cross-family,24.545,62.000,0.148
+P08659,Q5UAZ6,firefly,dinoflagellate,cross-family,20.182,58.000,0.216
+P08659,Q5UAZ7,firefly,dinoflagellate,cross-family,19.091,59.500,-0.100
+P08659,Q5UAZ3,firefly,dinoflagellate,cross-family,4.364,59.000,0.204
+P08659,F5CV94,firefly,dinoflagellate,cross-family,14.000,57.500,-0.494
+P08659,P17554,firefly,ostracod,cross-family,16.000,52.000,0.589
+P08659,BAD08210.1,firefly,ostracod,cross-family,17.455,55.500,1.576
+P08659,QOS14273.1,firefly,ostracod,cross-family,14.727,50.000,0.742
+P13129,Q26304,firefly,firefly,same family,80.839,2318.000,212.307
+P13129,Q01158,firefly,firefly,same family,93.613,2689.000,370.328
+P13129,Q27757,firefly,firefly,same family,55.963,1606.000,145.394
+P13129,Q5UFR2,firefly,firefly,same family,68.007,1947.000,149.006
+P13129,A0A3F2YLV6,firefly,firefly,same family,67.093,1926.500,174.084
+P13129,Q5USC8,firefly,firefly,same family,68.190,1935.000,230.823
+P13129,A9ZPM4,firefly,firefly,luciferase vs own control,47.243,1337.000,116.129
+P13129,Q9VCC6,firefly,firefly,luciferase vs own control,42.647,1022.000,80.449
+P13129,P27652,firefly,renilla_type,cross-family,12.540,55.000,1.121
+P13129,Q9BLZ3,firefly,renilla_type,cross-family,11.254,55.500,1.382
+P13129,XRP75328.1,firefly,renilla_type,cross-family,22.360,45.500,0.626
+P13129,D4Z2G1,firefly,renilla_type,cross-family (control),21.622,37.000,-0.254
+P13129,P0A3G2,firefly,renilla_type,cross-family (control),2.389,49.500,0.483
+P13129,XRP75329.1,firefly,renilla_type,cross-family (control),17.197,49.500,0.472
+P13129,P19907,firefly,bacterial_luxa,cross-family,20.339,51.500,0.641
+P13129,P09140,firefly,bacterial_luxa,cross-family,13.277,41.500,-0.600
+P13129,P29238,firefly,bacterial_luxa,cross-family,20.339,56.000,0.529
+P13129,P24113,firefly,bacterial_luxa,cross-family,21.098,42.000,-0.798
+P13129,P07740,firefly,bacterial_luxa,cross-family,21.127,42.500,-0.279
+P13129,P23146,firefly,bacterial_luxa,cross-family,8.011,41.000,-0.489
+P13129,P18299,firefly,bacterial_luxa,cross-family,8.403,44.000,-0.431
+P13129,S3DID0,firefly,bacterial_luxa,cross-family,22.778,51.000,0.616
+P13129,G0XZS5,firefly,bacterial_luxa,cross-family,12.429,47.500,0.148
+P13129,B2XS47,firefly,bacterial_luxa,cross-family,7.606,42.500,-0.076
+P13129,P80645,firefly,bacterial_luxa,cross-family (control),7.087,49.000,0.372
+P13129,A0A3G9JYH7,firefly,fungal_luz,cross-family,23.221,49.000,0.983
+P13129,A0A2H3E985,firefly,fungal_luz,cross-family,22.556,41.500,-0.228
+P13129,A0A3G9JTR4,firefly,fungal_luz,cross-family,22.556,45.000,0.581
+P13129,A0A3G9K5D8,firefly,fungal_luz,cross-family,22.311,49.500,2.456
+P13129,A0A3G9JTL4,firefly,fungal_luz,cross-family,22.222,40.500,-0.378
+P13129,A0A3G9JTL9,firefly,fungal_luz,cross-family,25.703,57.000,2.952
+P13129,A0A3G9K9H1,firefly,fungal_luz,cross-family,27.652,52.500,1.717
+P13129,A0A3G9JTQ0,firefly,fungal_luz,cross-family,24.797,55.000,1.190
+P13129,BCK50966.1,firefly,fungal_luz,cross-family,23.695,57.000,2.428
+P13129,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),10.954,39.500,-0.367
+P13129,Q9BLZ2,firefly,copepod,cross-family,27.027,55.000,1.900
+P13129,Q6UQE3,firefly,copepod,cross-family,25.114,52.000,1.545
+P13129,I7GGY2,firefly,copepod,cross-family,24.762,51.500,1.127
+P13129,H3JS09,firefly,copepod,cross-family,27.650,50.500,0.372
+P13129,U3TKG7,firefly,copepod,cross-family,24.607,33.500,-0.810
+P13129,H3JS11,firefly,copepod,cross-family,26.540,52.500,1.640
+P13129,U3TIM6,firefly,copepod,cross-family,22.273,53.000,1.297
+P13129,H3JS17,firefly,copepod,cross-family,22.959,40.000,-0.276
+P13129,H3JS19,firefly,copepod,cross-family,12.683,33.000,-2.233
+P13129,H3JS13,firefly,copepod,cross-family,3.139,27.000,-2.269
+P13129,O77206,firefly,dinoflagellate,cross-family,25.365,51.500,-1.626
+P13129,Q8W210,firefly,dinoflagellate,cross-family,13.869,62.000,-0.082
+P13129,Q5UAZ5,firefly,dinoflagellate,cross-family,12.226,59.000,-0.481
+P13129,Q5UAZ4,firefly,dinoflagellate,cross-family,14.234,57.500,-0.612
+P13129,Q5UAZ6,firefly,dinoflagellate,cross-family,18.978,50.500,-1.445
+P13129,Q5UAZ7,firefly,dinoflagellate,cross-family,10.219,55.000,-0.707
+P13129,Q5UAZ3,firefly,dinoflagellate,cross-family,25.365,49.000,-1.396
+P13129,F5CV94,firefly,dinoflagellate,cross-family,8.394,50.500,-1.007
+P13129,P17554,firefly,ostracod,cross-family,8.942,52.500,-0.233
+P13129,BAD08210.1,firefly,ostracod,cross-family,17.336,63.000,0.955
+P13129,QOS14273.1,firefly,ostracod,cross-family,0.182,39.000,-1.561
+Q26304,Q01158,firefly,firefly,same family,82.117,2345.000,133.694
+Q26304,Q27757,firefly,firefly,same family,54.128,1563.500,184.368
+Q26304,Q5UFR2,firefly,firefly,same family,66.728,1942.000,185.875
+Q26304,A0A3F2YLV6,firefly,firefly,same family,64.717,1885.000,169.530
+Q26304,Q5USC8,firefly,firefly,same family,65.814,1906.000,150.809
+Q26304,A9ZPM4,firefly,firefly,luciferase vs own control,45.772,1308.000,106.128
+Q26304,Q9VCC6,firefly,firefly,luciferase vs own control,40.074,990.500,89.451
+Q26304,P27652,firefly,renilla_type,cross-family,14.469,58.500,2.883
+Q26304,Q9BLZ3,firefly,renilla_type,cross-family,15.434,60.500,1.323
+Q26304,XRP75328.1,firefly,renilla_type,cross-family,25.776,44.500,-0.121
+Q26304,D4Z2G1,firefly,renilla_type,cross-family (control),21.622,36.000,-0.801
+Q26304,P0A3G2,firefly,renilla_type,cross-family (control),22.867,45.500,0.906
+Q26304,XRP75329.1,firefly,renilla_type,cross-family (control),23.248,40.000,-0.487
+Q26304,P19907,firefly,bacterial_luxa,cross-family,11.864,41.500,-0.730
+Q26304,P09140,firefly,bacterial_luxa,cross-family,11.864,50.500,0.269
+Q26304,P29238,firefly,bacterial_luxa,cross-family,21.186,56.500,1.147
+Q26304,P24113,firefly,bacterial_luxa,cross-family,22.832,48.000,-0.095
+Q26304,P07740,firefly,bacterial_luxa,cross-family,7.887,47.500,0.530
+Q26304,P23146,firefly,bacterial_luxa,cross-family,7.735,40.000,-0.820
+Q26304,P18299,firefly,bacterial_luxa,cross-family,8.123,35.500,-1.420
+Q26304,S3DID0,firefly,bacterial_luxa,cross-family,7.500,42.000,-1.052
+Q26304,G0XZS5,firefly,bacterial_luxa,cross-family,24.011,58.500,1.098
+Q26304,B2XS47,firefly,bacterial_luxa,cross-family,9.014,37.500,-1.123
+Q26304,P80645,firefly,bacterial_luxa,cross-family (control),14.173,47.000,-0.077
+Q26304,A0A3G9JYH7,firefly,fungal_luz,cross-family,20.599,39.500,-0.682
+Q26304,A0A2H3E985,firefly,fungal_luz,cross-family,19.925,37.000,-0.918
+Q26304,A0A3G9JTR4,firefly,fungal_luz,cross-family,20.301,37.500,-0.563
+Q26304,A0A3G9K5D8,firefly,fungal_luz,cross-family,22.709,54.000,1.589
+Q26304,A0A3G9JTL4,firefly,fungal_luz,cross-family,21.073,39.500,-0.205
+Q26304,A0A3G9JTL9,firefly,fungal_luz,cross-family,10.442,38.000,-0.606
+Q26304,A0A3G9K9H1,firefly,fungal_luz,cross-family,19.318,47.500,0.701
+Q26304,A0A3G9JTQ0,firefly,fungal_luz,cross-family,21.545,38.500,-0.613
+Q26304,BCK50966.1,firefly,fungal_luz,cross-family,23.695,49.000,0.596
+Q26304,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),20.495,43.000,0.037
+Q26304,Q9BLZ2,firefly,copepod,cross-family,24.324,47.000,1.000
+Q26304,Q6UQE3,firefly,copepod,cross-family,24.658,45.500,0.954
+Q26304,I7GGY2,firefly,copepod,cross-family,25.714,50.000,1.217
+Q26304,H3JS09,firefly,copepod,cross-family,28.111,46.000,0.212
+Q26304,U3TKG7,firefly,copepod,cross-family,25.654,45.500,2.535
+Q26304,H3JS11,firefly,copepod,cross-family,27.014,41.500,0.103
+Q26304,U3TIM6,firefly,copepod,cross-family,27.727,43.000,0.023
+Q26304,H3JS17,firefly,copepod,cross-family,16.837,37.000,-0.595
+Q26304,H3JS19,firefly,copepod,cross-family,28.780,42.500,0.468
+Q26304,H3JS13,firefly,copepod,cross-family,4.036,27.000,-2.257
+Q26304,O77206,firefly,dinoflagellate,cross-family,20.438,57.500,-0.609
+Q26304,Q8W210,firefly,dinoflagellate,cross-family,23.175,64.000,0.225
+Q26304,Q5UAZ5,firefly,dinoflagellate,cross-family,20.438,57.000,-0.730
+Q26304,Q5UAZ4,firefly,dinoflagellate,cross-family,22.810,53.500,-1.255
+Q26304,Q5UAZ6,firefly,dinoflagellate,cross-family,22.993,51.500,-0.855
+Q26304,Q5UAZ7,firefly,dinoflagellate,cross-family,4.015,50.500,-1.236
+Q26304,Q5UAZ3,firefly,dinoflagellate,cross-family,24.088,58.000,-0.727
+Q26304,F5CV94,firefly,dinoflagellate,cross-family,23.723,55.000,-0.764
+Q26304,P17554,firefly,ostracod,cross-family,14.781,54.000,0.264
+Q26304,BAD08210.1,firefly,ostracod,cross-family,15.511,65.000,0.699
+Q26304,QOS14273.1,firefly,ostracod,cross-family,11.679,47.000,-0.370
+Q01158,Q27757,firefly,firefly,same family,56.697,1622.000,127.058
+Q01158,Q5UFR2,firefly,firefly,same family,68.739,1969.000,239.386
+Q01158,A0A3F2YLV6,firefly,firefly,same family,67.459,1947.500,160.115
+Q01158,Q5USC8,firefly,firefly,same family,69.104,1961.000,180.098
+Q01158,A9ZPM4,firefly,firefly,luciferase vs own control,46.691,1325.000,149.133
+Q01158,Q9VCC6,firefly,firefly,luciferase vs own control,42.647,1026.500,89.904
+Q01158,P27652,firefly,renilla_type,cross-family,11.897,50.000,0.148
+Q01158,Q9BLZ3,firefly,renilla_type,cross-family,10.611,52.000,1.374
+Q01158,XRP75328.1,firefly,renilla_type,cross-family,23.913,45.500,0.039
+Q01158,D4Z2G1,firefly,renilla_type,cross-family (control),22.297,42.500,0.254
+Q01158,P0A3G2,firefly,renilla_type,cross-family (control),20.137,42.500,-0.095
+Q01158,XRP75329.1,firefly,renilla_type,cross-family (control),26.115,52.500,1.237
+Q01158,P19907,firefly,bacterial_luxa,cross-family,20.621,51.500,0.754
+Q01158,P09140,firefly,bacterial_luxa,cross-family,11.864,43.000,-0.271
+Q01158,P29238,firefly,bacterial_luxa,cross-family,17.797,54.000,1.554
+Q01158,P24113,firefly,bacterial_luxa,cross-family,21.965,46.000,-0.635
+Q01158,P07740,firefly,bacterial_luxa,cross-family,19.718,45.500,-0.281
+Q01158,P23146,firefly,bacterial_luxa,cross-family,7.735,39.500,-0.779
+Q01158,P18299,firefly,bacterial_luxa,cross-family,8.403,44.000,-0.278
+Q01158,S3DID0,firefly,bacterial_luxa,cross-family,7.222,47.000,0.055
+Q01158,G0XZS5,firefly,bacterial_luxa,cross-family,22.599,55.500,1.729
+Q01158,B2XS47,firefly,bacterial_luxa,cross-family,7.324,42.000,-0.531
+Q01158,P80645,firefly,bacterial_luxa,cross-family (control),7.349,45.000,-0.426
+Q01158,A0A3G9JYH7,firefly,fungal_luz,cross-family,23.596,48.000,0.316
+Q01158,A0A2H3E985,firefly,fungal_luz,cross-family,22.556,38.000,-0.518
+Q01158,A0A3G9JTR4,firefly,fungal_luz,cross-family,22.556,40.500,-0.638
+Q01158,A0A3G9K5D8,firefly,fungal_luz,cross-family,22.709,52.000,1.495
+Q01158,A0A3G9JTL4,firefly,fungal_luz,cross-family,25.287,50.500,1.328
+Q01158,A0A3G9JTL9,firefly,fungal_luz,cross-family,26.104,52.500,1.325
+Q01158,A0A3G9K9H1,firefly,fungal_luz,cross-family,22.727,54.000,0.869
+Q01158,A0A3G9JTQ0,firefly,fungal_luz,cross-family,23.984,52.000,1.051
+Q01158,BCK50966.1,firefly,fungal_luz,cross-family,24.900,51.000,1.620
+Q01158,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),18.375,34.500,-1.476
+Q01158,Q9BLZ2,firefly,copepod,cross-family,23.243,50.000,1.455
+Q01158,Q6UQE3,firefly,copepod,cross-family,24.658,50.000,1.104
+Q01158,I7GGY2,firefly,copepod,cross-family,25.238,52.000,0.969
+Q01158,H3JS09,firefly,copepod,cross-family,28.111,51.000,0.647
+Q01158,U3TKG7,firefly,copepod,cross-family,24.607,32.000,-1.375
+Q01158,H3JS11,firefly,copepod,cross-family,27.962,51.000,1.730
+Q01158,U3TIM6,firefly,copepod,cross-family,22.273,49.500,1.504
+Q01158,H3JS17,firefly,copepod,cross-family,23.980,42.500,0.233
+Q01158,H3JS19,firefly,copepod,cross-family,25.366,34.500,-0.612
+Q01158,H3JS13,firefly,copepod,cross-family,3.587,26.000,-1.647
+Q01158,O77206,firefly,dinoflagellate,cross-family,8.942,47.500,-2.058
+Q01158,Q8W210,firefly,dinoflagellate,cross-family,14.599,64.000,-0.186
+Q01158,Q5UAZ5,firefly,dinoflagellate,cross-family,10.036,58.000,-0.755
+Q01158,Q5UAZ4,firefly,dinoflagellate,cross-family,10.584,56.500,-0.511
+Q01158,Q5UAZ6,firefly,dinoflagellate,cross-family,11.131,48.500,-1.729
+Q01158,Q5UAZ7,firefly,dinoflagellate,cross-family,25.730,46.500,-1.618
+Q01158,Q5UAZ3,firefly,dinoflagellate,cross-family,26.460,47.000,-1.378
+Q01158,F5CV94,firefly,dinoflagellate,cross-family,23.175,63.500,0.361
+Q01158,P17554,firefly,ostracod,cross-family,8.759,48.000,-0.477
+Q01158,BAD08210.1,firefly,ostracod,cross-family,19.708,61.000,0.747
+Q01158,QOS14273.1,firefly,ostracod,cross-family,21.898,44.000,-1.278
+Q27757,Q5UFR2,firefly,firefly,same family,62.385,1771.500,192.019
+Q27757,A0A3F2YLV6,firefly,firefly,same family,61.101,1729.500,164.930
+Q27757,Q5USC8,firefly,firefly,same family,62.202,1780.000,145.936
+Q27757,A9ZPM4,firefly,firefly,luciferase vs own control,47.978,1434.500,131.279
+Q27757,Q9VCC6,firefly,firefly,luciferase vs own control,45.404,1067.500,120.522
+Q27757,P27652,firefly,renilla_type,cross-family,9.968,46.500,-0.264
+Q27757,Q9BLZ3,firefly,renilla_type,cross-family,21.865,43.000,-0.225
+Q27757,XRP75328.1,firefly,renilla_type,cross-family,20.497,50.000,1.107
+Q27757,D4Z2G1,firefly,renilla_type,cross-family (control),8.784,33.500,-0.885
+Q27757,P0A3G2,firefly,renilla_type,cross-family (control),9.215,43.500,0.216
+Q27757,XRP75329.1,firefly,renilla_type,cross-family (control),15.605,38.000,-0.541
+Q27757,P19907,firefly,bacterial_luxa,cross-family,20.621,52.500,0.604
+Q27757,P09140,firefly,bacterial_luxa,cross-family,16.384,41.500,-0.850
+Q27757,P29238,firefly,bacterial_luxa,cross-family,19.209,74.500,2.533
+Q27757,P24113,firefly,bacterial_luxa,cross-family,19.653,68.000,1.367
+Q27757,P07740,firefly,bacterial_luxa,cross-family,17.465,47.500,-0.179
+Q27757,P23146,firefly,bacterial_luxa,cross-family,16.022,60.500,0.354
+Q27757,P18299,firefly,bacterial_luxa,cross-family,15.686,49.000,0.011
+Q27757,S3DID0,firefly,bacterial_luxa,cross-family,18.056,50.500,0.597
+Q27757,G0XZS5,firefly,bacterial_luxa,cross-family,22.034,56.000,0.873
+Q27757,B2XS47,firefly,bacterial_luxa,cross-family,7.324,45.500,-0.004
+Q27757,P80645,firefly,bacterial_luxa,cross-family (control),18.373,38.000,-0.754
+Q27757,A0A3G9JYH7,firefly,fungal_luz,cross-family,23.596,42.500,-0.059
+Q27757,A0A2H3E985,firefly,fungal_luz,cross-family,22.932,47.000,0.386
+Q27757,A0A3G9JTR4,firefly,fungal_luz,cross-family,25.940,43.500,0.234
+Q27757,A0A3G9K5D8,firefly,fungal_luz,cross-family,14.741,35.500,-0.858
+Q27757,A0A3G9JTL4,firefly,fungal_luz,cross-family,22.605,33.500,-1.270
+Q27757,A0A3G9JTL9,firefly,fungal_luz,cross-family,28.916,56.500,2.942
+Q27757,A0A3G9K9H1,firefly,fungal_luz,cross-family,20.833,45.000,0.365
+Q27757,A0A3G9JTQ0,firefly,fungal_luz,cross-family,25.203,42.000,0.102
+Q27757,BCK50966.1,firefly,fungal_luz,cross-family,24.498,48.000,1.803
+Q27757,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),10.601,35.500,-1.292
+Q27757,Q9BLZ2,firefly,copepod,cross-family,22.162,33.000,-0.663
+Q27757,Q6UQE3,firefly,copepod,cross-family,13.242,35.500,-0.792
+Q27757,I7GGY2,firefly,copepod,cross-family,13.333,33.000,-0.996
+Q27757,H3JS09,firefly,copepod,cross-family,13.364,30.500,-1.566
+Q27757,U3TKG7,firefly,copepod,cross-family,12.565,39.500,0.666
+Q27757,H3JS11,firefly,copepod,cross-family,2.844,31.000,-1.759
+Q27757,U3TIM6,firefly,copepod,cross-family,2.727,33.000,-1.311
+Q27757,H3JS17,firefly,copepod,cross-family,10.204,32.500,-0.814
+Q27757,H3JS19,firefly,copepod,cross-family,25.854,35.500,-0.435
+Q27757,H3JS13,firefly,copepod,cross-family,19.283,30.500,-0.932
+Q27757,O77206,firefly,dinoflagellate,cross-family,21.101,78.000,1.611
+Q27757,Q8W210,firefly,dinoflagellate,cross-family,22.569,55.500,-0.217
+Q27757,Q5UAZ5,firefly,dinoflagellate,cross-family,22.569,52.500,-0.939
+Q27757,Q5UAZ4,firefly,dinoflagellate,cross-family,23.119,59.000,0.437
+Q27757,Q5UAZ6,firefly,dinoflagellate,cross-family,25.872,73.500,1.599
+Q27757,Q5UAZ7,firefly,dinoflagellate,cross-family,24.771,66.500,0.427
+Q27757,Q5UAZ3,firefly,dinoflagellate,cross-family,26.239,69.500,1.601
+Q27757,F5CV94,firefly,dinoflagellate,cross-family,21.284,60.000,0.371
+Q27757,P17554,firefly,ostracod,cross-family,4.771,40.000,-1.039
+Q27757,BAD08210.1,firefly,ostracod,cross-family,10.642,46.000,-0.134
+Q27757,QOS14273.1,firefly,ostracod,cross-family,12.844,52.500,0.332
+Q5UFR2,A0A3F2YLV6,firefly,firefly,same family,86.106,2466.000,319.292
+Q5UFR2,Q5USC8,firefly,firefly,same family,93.419,2682.000,293.839
+Q5UFR2,A9ZPM4,firefly,firefly,luciferase vs own control,48.529,1410.500,117.184
+Q5UFR2,Q9VCC6,firefly,firefly,luciferase vs own control,40.625,987.500,59.330
+Q5UFR2,P27652,firefly,renilla_type,cross-family,10.289,44.000,-0.033
+Q5UFR2,Q9BLZ3,firefly,renilla_type,cross-family,8.682,37.500,-0.528
+Q5UFR2,XRP75328.1,firefly,renilla_type,cross-family,8.696,44.000,0.041
+Q5UFR2,D4Z2G1,firefly,renilla_type,cross-family (control),21.284,42.000,-0.182
+Q5UFR2,P0A3G2,firefly,renilla_type,cross-family (control),2.389,36.500,-0.941
+Q5UFR2,XRP75329.1,firefly,renilla_type,cross-family (control),10.191,37.000,-0.938
+Q5UFR2,P19907,firefly,bacterial_luxa,cross-family,19.774,58.500,1.502
+Q5UFR2,P09140,firefly,bacterial_luxa,cross-family,16.384,40.000,-0.926
+Q5UFR2,P29238,firefly,bacterial_luxa,cross-family,15.254,50.500,-0.027
+Q5UFR2,P24113,firefly,bacterial_luxa,cross-family,17.052,44.500,0.053
+Q5UFR2,P07740,firefly,bacterial_luxa,cross-family,8.451,36.500,-1.255
+Q5UFR2,P23146,firefly,bacterial_luxa,cross-family,7.182,43.000,-0.675
+Q5UFR2,P18299,firefly,bacterial_luxa,cross-family,7.003,49.500,0.525
+Q5UFR2,S3DID0,firefly,bacterial_luxa,cross-family,7.500,38.500,-0.860
+Q5UFR2,G0XZS5,firefly,bacterial_luxa,cross-family,22.881,70.500,3.321
+Q5UFR2,B2XS47,firefly,bacterial_luxa,cross-family,7.887,37.000,-1.107
+Q5UFR2,P80645,firefly,bacterial_luxa,cross-family (control),23.885,39.000,-1.054
+Q5UFR2,A0A3G9JYH7,firefly,fungal_luz,cross-family,28.090,37.000,-0.590
+Q5UFR2,A0A2H3E985,firefly,fungal_luz,cross-family,10.150,31.500,-2.127
+Q5UFR2,A0A3G9JTR4,firefly,fungal_luz,cross-family,10.902,36.000,-0.743
+Q5UFR2,A0A3G9K5D8,firefly,fungal_luz,cross-family,23.904,44.500,0.383
+Q5UFR2,A0A3G9JTL4,firefly,fungal_luz,cross-family,24.904,33.500,-1.348
+Q5UFR2,A0A3G9JTL9,firefly,fungal_luz,cross-family,23.293,35.500,-1.093
+Q5UFR2,A0A3G9K9H1,firefly,fungal_luz,cross-family,22.727,45.000,0.830
+Q5UFR2,A0A3G9JTQ0,firefly,fungal_luz,cross-family,22.764,46.500,0.351
+Q5UFR2,BCK50966.1,firefly,fungal_luz,cross-family,26.908,43.000,0.367
+Q5UFR2,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),21.201,40.500,-0.539
+Q5UFR2,Q9BLZ2,firefly,copepod,cross-family,21.622,40.000,0.123
+Q5UFR2,Q6UQE3,firefly,copepod,cross-family,21.461,41.500,0.293
+Q5UFR2,I7GGY2,firefly,copepod,cross-family,21.429,53.500,2.537
+Q5UFR2,H3JS09,firefly,copepod,cross-family,23.963,51.500,2.132
+Q5UFR2,U3TKG7,firefly,copepod,cross-family,23.560,34.500,-1.046
+Q5UFR2,H3JS11,firefly,copepod,cross-family,27.014,37.500,-0.358
+Q5UFR2,U3TIM6,firefly,copepod,cross-family,25.000,36.500,-0.560
+Q5UFR2,H3JS17,firefly,copepod,cross-family,22.959,36.500,-0.230
+Q5UFR2,H3JS19,firefly,copepod,cross-family,22.927,30.500,-1.040
+Q5UFR2,H3JS13,firefly,copepod,cross-family,20.179,39.500,-0.839
+Q5UFR2,O77206,firefly,dinoflagellate,cross-family,23.218,72.500,0.897
+Q5UFR2,Q8W210,firefly,dinoflagellate,cross-family,23.218,61.000,-0.020
+Q5UFR2,Q5UAZ5,firefly,dinoflagellate,cross-family,23.766,64.500,0.261
+Q5UFR2,Q5UAZ4,firefly,dinoflagellate,cross-family,10.969,57.500,-0.610
+Q5UFR2,Q5UAZ6,firefly,dinoflagellate,cross-family,23.766,62.500,0.340
+Q5UFR2,Q5UAZ7,firefly,dinoflagellate,cross-family,25.411,68.000,1.740
+Q5UFR2,Q5UAZ3,firefly,dinoflagellate,cross-family,26.691,71.000,1.324
+Q5UFR2,F5CV94,firefly,dinoflagellate,cross-family,15.356,66.500,1.270
+Q5UFR2,P17554,firefly,ostracod,cross-family,10.969,50.000,-0.219
+Q5UFR2,BAD08210.1,firefly,ostracod,cross-family,2.559,54.500,0.319
+Q5UFR2,QOS14273.1,firefly,ostracod,cross-family,4.570,50.500,0.198
+A0A3F2YLV6,Q5USC8,firefly,firefly,same family,85.009,2441.000,207.478
+A0A3F2YLV6,A9ZPM4,firefly,firefly,luciferase vs own control,46.691,1347.500,101.348
+A0A3F2YLV6,Q9VCC6,firefly,firefly,luciferase vs own control,41.176,974.500,91.088
+A0A3F2YLV6,P27652,firefly,renilla_type,cross-family,10.611,44.500,-0.157
+A0A3F2YLV6,Q9BLZ3,firefly,renilla_type,cross-family,27.331,49.000,0.413
+A0A3F2YLV6,XRP75328.1,firefly,renilla_type,cross-family,12.112,47.000,-0.141
+A0A3F2YLV6,D4Z2G1,firefly,renilla_type,cross-family (control),20.946,39.000,-0.325
+A0A3F2YLV6,P0A3G2,firefly,renilla_type,cross-family (control),23.891,45.000,0.179
+A0A3F2YLV6,XRP75329.1,firefly,renilla_type,cross-family (control),8.599,38.000,-1.208
+A0A3F2YLV6,P19907,firefly,bacterial_luxa,cross-family,15.254,48.500,0.062
+A0A3F2YLV6,P09140,firefly,bacterial_luxa,cross-family,11.582,40.500,-0.829
+A0A3F2YLV6,P29238,firefly,bacterial_luxa,cross-family,18.362,57.000,0.754
+A0A3F2YLV6,P24113,firefly,bacterial_luxa,cross-family,18.786,53.500,0.456
+A0A3F2YLV6,P07740,firefly,bacterial_luxa,cross-family,17.183,39.500,-0.809
+A0A3F2YLV6,P23146,firefly,bacterial_luxa,cross-family,17.403,45.000,-0.409
+A0A3F2YLV6,P18299,firefly,bacterial_luxa,cross-family,18.207,40.500,-0.480
+A0A3F2YLV6,S3DID0,firefly,bacterial_luxa,cross-family,18.889,52.000,0.083
+A0A3F2YLV6,G0XZS5,firefly,bacterial_luxa,cross-family,16.102,54.500,0.873
+A0A3F2YLV6,B2XS47,firefly,bacterial_luxa,cross-family,17.746,39.500,-0.699
+A0A3F2YLV6,P80645,firefly,bacterial_luxa,cross-family (control),22.835,47.500,0.011
+A0A3F2YLV6,A0A3G9JYH7,firefly,fungal_luz,cross-family,23.596,38.000,-0.769
+A0A3F2YLV6,A0A2H3E985,firefly,fungal_luz,cross-family,3.759,36.000,-0.773
+A0A3F2YLV6,A0A3G9JTR4,firefly,fungal_luz,cross-family,2.632,36.000,-0.805
+A0A3F2YLV6,A0A3G9K5D8,firefly,fungal_luz,cross-family,23.506,33.500,-1.488
+A0A3F2YLV6,A0A3G9JTL4,firefly,fungal_luz,cross-family,22.605,34.000,-1.307
+A0A3F2YLV6,A0A3G9JTL9,firefly,fungal_luz,cross-family,23.293,40.500,-0.264
+A0A3F2YLV6,A0A3G9K9H1,firefly,fungal_luz,cross-family,25.758,48.000,1.318
+A0A3F2YLV6,A0A3G9JTQ0,firefly,fungal_luz,cross-family,21.138,45.500,0.224
+A0A3F2YLV6,BCK50966.1,firefly,fungal_luz,cross-family,22.088,40.500,-0.355
+A0A3F2YLV6,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),17.668,36.500,-0.866
+A0A3F2YLV6,Q9BLZ2,firefly,copepod,cross-family,23.784,36.000,-0.915
+A0A3F2YLV6,Q6UQE3,firefly,copepod,cross-family,25.114,36.000,-0.656
+A0A3F2YLV6,I7GGY2,firefly,copepod,cross-family,11.429,36.000,-1.086
+A0A3F2YLV6,H3JS09,firefly,copepod,cross-family,18.433,37.000,-0.492
+A0A3F2YLV6,U3TKG7,firefly,copepod,cross-family,9.948,38.500,-0.211
+A0A3F2YLV6,H3JS11,firefly,copepod,cross-family,19.905,37.500,-0.502
+A0A3F2YLV6,U3TIM6,firefly,copepod,cross-family,25.000,39.000,-0.017
+A0A3F2YLV6,H3JS17,firefly,copepod,cross-family,24.490,52.500,1.620
+A0A3F2YLV6,H3JS19,firefly,copepod,cross-family,21.463,42.500,0.083
+A0A3F2YLV6,H3JS13,firefly,copepod,cross-family,21.525,36.000,-0.559
+A0A3F2YLV6,O77206,firefly,dinoflagellate,cross-family,21.389,62.500,0.258
+A0A3F2YLV6,Q8W210,firefly,dinoflagellate,cross-family,24.863,54.500,-1.003
+A0A3F2YLV6,Q5UAZ5,firefly,dinoflagellate,cross-family,11.517,53.000,-0.893
+A0A3F2YLV6,Q5UAZ4,firefly,dinoflagellate,cross-family,10.969,56.500,-0.296
+A0A3F2YLV6,Q5UAZ6,firefly,dinoflagellate,cross-family,23.583,64.500,-0.073
+A0A3F2YLV6,Q5UAZ7,firefly,dinoflagellate,cross-family,23.949,61.500,-0.268
+A0A3F2YLV6,Q5UAZ3,firefly,dinoflagellate,cross-family,23.218,58.500,-0.108
+A0A3F2YLV6,F5CV94,firefly,dinoflagellate,cross-family,20.293,73.000,1.798
+A0A3F2YLV6,P17554,firefly,ostracod,cross-family,17.185,45.000,-0.746
+A0A3F2YLV6,BAD08210.1,firefly,ostracod,cross-family,18.647,46.500,-0.428
+A0A3F2YLV6,QOS14273.1,firefly,ostracod,cross-family,12.980,50.000,0.114
+Q5USC8,A9ZPM4,firefly,firefly,luciferase vs own control,48.529,1412.500,135.332
+Q5USC8,Q9VCC6,firefly,firefly,luciferase vs own control,40.257,972.500,117.473
+Q5USC8,P27652,firefly,renilla_type,cross-family,10.289,41.000,-0.601
+Q5USC8,Q9BLZ3,firefly,renilla_type,cross-family,7.074,38.000,-1.031
+Q5USC8,XRP75328.1,firefly,renilla_type,cross-family,22.981,41.000,-0.489
+Q5USC8,D4Z2G1,firefly,renilla_type,cross-family (control),16.554,41.500,-0.230
+Q5USC8,P0A3G2,firefly,renilla_type,cross-family (control),20.137,40.000,-0.554
+Q5USC8,XRP75329.1,firefly,renilla_type,cross-family (control),10.191,36.000,-0.909
+Q5USC8,P19907,firefly,bacterial_luxa,cross-family,19.209,52.500,0.871
+Q5USC8,P09140,firefly,bacterial_luxa,cross-family,8.757,39.000,-0.609
+Q5USC8,P29238,firefly,bacterial_luxa,cross-family,14.407,48.500,0.119
+Q5USC8,P24113,firefly,bacterial_luxa,cross-family,24.277,48.500,0.165
+Q5USC8,P07740,firefly,bacterial_luxa,cross-family,20.282,40.000,-0.863
+Q5USC8,P23146,firefly,bacterial_luxa,cross-family,18.508,40.500,-0.500
+Q5USC8,P18299,firefly,bacterial_luxa,cross-family,7.843,35.500,-1.690
+Q5USC8,S3DID0,firefly,bacterial_luxa,cross-family,7.778,43.000,-0.533
+Q5USC8,G0XZS5,firefly,bacterial_luxa,cross-family,15.537,56.500,1.041
+Q5USC8,B2XS47,firefly,bacterial_luxa,cross-family,7.887,36.000,-0.924
+Q5USC8,P80645,firefly,bacterial_luxa,cross-family (control),23.622,42.000,-0.720
+Q5USC8,A0A3G9JYH7,firefly,fungal_luz,cross-family,25.468,35.500,-1.005
+Q5USC8,A0A2H3E985,firefly,fungal_luz,cross-family,21.805,36.500,-0.726
+Q5USC8,A0A3G9JTR4,firefly,fungal_luz,cross-family,25.564,37.000,-0.527
+Q5USC8,A0A3G9K5D8,firefly,fungal_luz,cross-family,22.709,37.000,-0.538
+Q5USC8,A0A3G9JTL4,firefly,fungal_luz,cross-family,22.989,37.500,-0.711
+Q5USC8,A0A3G9JTL9,firefly,fungal_luz,cross-family,22.892,35.500,-1.371
+Q5USC8,A0A3G9K9H1,firefly,fungal_luz,cross-family,26.515,41.500,-0.020
+Q5USC8,A0A3G9JTQ0,firefly,fungal_luz,cross-family,21.138,48.000,1.008
+Q5USC8,BCK50966.1,firefly,fungal_luz,cross-family,24.096,43.000,0.354
+Q5USC8,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),21.201,38.000,-0.606
+Q5USC8,Q9BLZ2,firefly,copepod,cross-family,12.432,37.500,-0.623
+Q5USC8,Q6UQE3,firefly,copepod,cross-family,26.484,35.500,-1.216
+Q5USC8,I7GGY2,firefly,copepod,cross-family,14.762,42.000,-0.201
+Q5USC8,H3JS09,firefly,copepod,cross-family,23.502,39.500,-0.263
+Q5USC8,U3TKG7,firefly,copepod,cross-family,24.607,35.500,-0.454
+Q5USC8,H3JS11,firefly,copepod,cross-family,2.844,32.000,-0.877
+Q5USC8,U3TIM6,firefly,copepod,cross-family,25.455,35.500,-0.254
+Q5USC8,H3JS17,firefly,copepod,cross-family,28.061,49.500,0.827
+Q5USC8,H3JS19,firefly,copepod,cross-family,21.463,31.000,-1.244
+Q5USC8,H3JS13,firefly,copepod,cross-family,20.179,40.500,-0.054
+Q5USC8,O77206,firefly,dinoflagellate,cross-family,26.325,73.500,1.580
+Q5USC8,Q8W210,firefly,dinoflagellate,cross-family,10.969,51.000,-0.974
+Q5USC8,Q5UAZ5,firefly,dinoflagellate,cross-family,24.314,56.000,-0.609
+Q5USC8,Q5UAZ4,firefly,dinoflagellate,cross-family,22.852,65.500,0.281
+Q5USC8,Q5UAZ6,firefly,dinoflagellate,cross-family,22.486,56.500,-0.345
+Q5USC8,Q5UAZ7,firefly,dinoflagellate,cross-family,23.949,56.500,-0.540
+Q5USC8,Q5UAZ3,firefly,dinoflagellate,cross-family,20.658,55.000,-1.004
+Q5USC8,F5CV94,firefly,dinoflagellate,cross-family,15.174,71.500,1.628
+Q5USC8,P17554,firefly,ostracod,cross-family,10.969,58.000,0.774
+Q5USC8,BAD08210.1,firefly,ostracod,cross-family,12.614,54.000,0.121
+Q5USC8,QOS14273.1,firefly,ostracod,cross-family,15.722,55.000,0.593
+A9ZPM4,Q9VCC6,firefly,firefly,control vs control,45.037,1109.500,71.767
+A9ZPM4,P27652,firefly,renilla_type,cross-family (control),20.579,51.500,1.205
+A9ZPM4,Q9BLZ3,firefly,renilla_type,cross-family (control),25.080,50.500,0.572
+A9ZPM4,XRP75328.1,firefly,renilla_type,cross-family (control),23.292,44.000,-0.144
+A9ZPM4,D4Z2G1,firefly,renilla_type,cross-family (control),15.541,38.000,-0.536
+A9ZPM4,P0A3G2,firefly,renilla_type,cross-family (control),24.232,39.500,-0.539
+A9ZPM4,XRP75329.1,firefly,renilla_type,cross-family (control),18.790,38.500,-0.867
+A9ZPM4,P19907,firefly,bacterial_luxa,cross-family (control),18.079,41.500,-0.462
+A9ZPM4,P09140,firefly,bacterial_luxa,cross-family (control),11.864,47.000,0.036
+A9ZPM4,P29238,firefly,bacterial_luxa,cross-family (control),16.949,61.000,0.814
+A9ZPM4,P24113,firefly,bacterial_luxa,cross-family (control),14.740,45.500,-0.053
+A9ZPM4,P07740,firefly,bacterial_luxa,cross-family (control),17.183,52.500,0.406
+A9ZPM4,P23146,firefly,bacterial_luxa,cross-family (control),18.232,43.500,-0.142
+A9ZPM4,P18299,firefly,bacterial_luxa,cross-family (control),14.846,56.500,1.314
+A9ZPM4,S3DID0,firefly,bacterial_luxa,cross-family (control),20.833,51.000,0.408
+A9ZPM4,G0XZS5,firefly,bacterial_luxa,cross-family (control),13.277,46.500,0.267
+A9ZPM4,B2XS47,firefly,bacterial_luxa,cross-family (control),23.662,61.500,2.832
+A9ZPM4,P80645,firefly,bacterial_luxa,cross-family (control),12.598,64.000,2.935
+A9ZPM4,A0A3G9JYH7,firefly,fungal_luz,cross-family (control),24.345,37.000,-0.611
+A9ZPM4,A0A2H3E985,firefly,fungal_luz,cross-family (control),20.301,37.000,-0.743
+A9ZPM4,A0A3G9JTR4,firefly,fungal_luz,cross-family (control),11.278,34.500,-1.121
+A9ZPM4,A0A3G9K5D8,firefly,fungal_luz,cross-family (control),10.757,35.000,-1.060
+A9ZPM4,A0A3G9JTL4,firefly,fungal_luz,cross-family (control),21.073,37.000,-0.990
+A9ZPM4,A0A3G9JTL9,firefly,fungal_luz,cross-family (control),11.245,38.500,-0.744
+A9ZPM4,A0A3G9K9H1,firefly,fungal_luz,cross-family (control),24.621,42.500,-0.223
+A9ZPM4,A0A3G9JTQ0,firefly,fungal_luz,cross-family (control),2.846,30.000,-1.829
+A9ZPM4,BCK50966.1,firefly,fungal_luz,cross-family (control),23.293,39.500,-0.071
+A9ZPM4,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),8.834,35.500,-0.753
+A9ZPM4,Q9BLZ2,firefly,copepod,cross-family (control),24.324,34.500,-1.841
+A9ZPM4,Q6UQE3,firefly,copepod,cross-family (control),26.484,49.000,0.658
+A9ZPM4,I7GGY2,firefly,copepod,cross-family (control),24.762,41.500,-0.217
+A9ZPM4,H3JS09,firefly,copepod,cross-family (control),23.502,43.500,-0.485
+A9ZPM4,U3TKG7,firefly,copepod,cross-family (control),17.801,47.000,0.945
+A9ZPM4,H3JS11,firefly,copepod,cross-family (control),21.801,43.500,-0.282
+A9ZPM4,U3TIM6,firefly,copepod,cross-family (control),16.818,44.000,0.382
+A9ZPM4,H3JS17,firefly,copepod,cross-family (control),18.367,39.500,0.119
+A9ZPM4,H3JS19,firefly,copepod,cross-family (control),20.000,44.000,0.464
+A9ZPM4,H3JS13,firefly,copepod,cross-family (control),12.556,49.500,1.323
+A9ZPM4,O77206,firefly,dinoflagellate,cross-family (control),22.610,61.500,0.107
+A9ZPM4,Q8W210,firefly,dinoflagellate,cross-family (control),26.471,50.500,-1.207
+A9ZPM4,Q5UAZ5,firefly,dinoflagellate,cross-family (control),21.691,52.500,-1.292
+A9ZPM4,Q5UAZ4,firefly,dinoflagellate,cross-family (control),25.000,49.500,-1.237
+A9ZPM4,Q5UAZ6,firefly,dinoflagellate,cross-family (control),23.529,44.500,-1.309
+A9ZPM4,Q5UAZ7,firefly,dinoflagellate,cross-family (control),3.676,51.000,-0.602
+A9ZPM4,Q5UAZ3,firefly,dinoflagellate,cross-family (control),21.691,50.000,-0.645
+A9ZPM4,F5CV94,firefly,dinoflagellate,cross-family (control),14.706,55.000,-0.610
+A9ZPM4,P17554,firefly,ostracod,cross-family (control),19.485,57.500,0.463
+A9ZPM4,BAD08210.1,firefly,ostracod,cross-family (control),8.824,51.500,-0.179
+A9ZPM4,QOS14273.1,firefly,ostracod,cross-family (control),8.088,48.500,-0.363
+Q9VCC6,P27652,firefly,renilla_type,cross-family (control),22.186,49.000,0.395
+Q9VCC6,Q9BLZ3,firefly,renilla_type,cross-family (control),21.222,42.500,-0.495
+Q9VCC6,XRP75328.1,firefly,renilla_type,cross-family (control),18.323,38.500,-0.748
+Q9VCC6,D4Z2G1,firefly,renilla_type,cross-family (control),18.919,34.000,-1.208
+Q9VCC6,P0A3G2,firefly,renilla_type,cross-family (control),20.478,36.000,-0.750
+Q9VCC6,XRP75329.1,firefly,renilla_type,cross-family (control),4.459,42.000,0.104
+Q9VCC6,P19907,firefly,bacterial_luxa,cross-family (control),10.734,36.000,-1.288
+Q9VCC6,P09140,firefly,bacterial_luxa,cross-family (control),14.689,44.500,-0.329
+Q9VCC6,P29238,firefly,bacterial_luxa,cross-family (control),22.034,47.500,-0.118
+Q9VCC6,P24113,firefly,bacterial_luxa,cross-family (control),22.543,57.000,1.134
+Q9VCC6,P07740,firefly,bacterial_luxa,cross-family (control),14.648,42.500,-0.527
+Q9VCC6,P23146,firefly,bacterial_luxa,cross-family (control),16.022,52.500,0.692
+Q9VCC6,P18299,firefly,bacterial_luxa,cross-family (control),17.927,42.500,-0.274
+Q9VCC6,S3DID0,firefly,bacterial_luxa,cross-family (control),15.556,46.000,-0.004
+Q9VCC6,G0XZS5,firefly,bacterial_luxa,cross-family (control),16.102,44.500,0.141
+Q9VCC6,B2XS47,firefly,bacterial_luxa,cross-family (control),14.648,36.000,-1.002
+Q9VCC6,P80645,firefly,bacterial_luxa,cross-family (control),8.136,46.000,0.112
+Q9VCC6,A0A3G9JYH7,firefly,fungal_luz,cross-family (control),10.861,39.000,-0.325
+Q9VCC6,A0A2H3E985,firefly,fungal_luz,cross-family (control),25.940,36.500,-0.873
+Q9VCC6,A0A3G9JTR4,firefly,fungal_luz,cross-family (control),16.165,40.000,-0.089
+Q9VCC6,A0A3G9K5D8,firefly,fungal_luz,cross-family (control),7.171,32.000,-1.247
+Q9VCC6,A0A3G9JTL4,firefly,fungal_luz,cross-family (control),21.073,44.000,-0.007
+Q9VCC6,A0A3G9JTL9,firefly,fungal_luz,cross-family (control),6.024,31.500,-2.043
+Q9VCC6,A0A3G9K9H1,firefly,fungal_luz,cross-family (control),24.242,38.500,-0.684
+Q9VCC6,A0A3G9JTQ0,firefly,fungal_luz,cross-family (control),19.919,37.000,-0.509
+Q9VCC6,BCK50966.1,firefly,fungal_luz,cross-family (control),1.606,32.500,-1.080
+Q9VCC6,A0A0D7AKP7,firefly,fungal_luz,cross-family (control),24.028,38.000,-0.230
+Q9VCC6,Q9BLZ2,firefly,copepod,cross-family (control),24.865,52.000,2.120
+Q9VCC6,Q6UQE3,firefly,copepod,cross-family (control),22.374,44.500,-0.126
+Q9VCC6,I7GGY2,firefly,copepod,cross-family (control),25.714,61.500,2.336
+Q9VCC6,H3JS09,firefly,copepod,cross-family (control),25.346,51.000,1.777
+Q9VCC6,U3TKG7,firefly,copepod,cross-family (control),27.225,38.000,-0.098
+Q9VCC6,H3JS11,firefly,copepod,cross-family (control),24.171,46.500,0.727
+Q9VCC6,U3TIM6,firefly,copepod,cross-family (control),23.182,47.500,0.625
+Q9VCC6,H3JS17,firefly,copepod,cross-family (control),23.469,46.500,0.624
+Q9VCC6,H3JS19,firefly,copepod,cross-family (control),22.927,39.000,-0.289
+Q9VCC6,H3JS13,firefly,copepod,cross-family (control),21.973,32.000,-0.967
+Q9VCC6,O77206,firefly,dinoflagellate,cross-family (control),4.228,45.000,-1.535
+Q9VCC6,Q8W210,firefly,dinoflagellate,cross-family (control),26.103,55.500,-0.268
+Q9VCC6,Q5UAZ5,firefly,dinoflagellate,cross-family (control),12.316,47.000,-1.227
+Q9VCC6,Q5UAZ4,firefly,dinoflagellate,cross-family (control),12.316,46.000,-1.275
+Q9VCC6,Q5UAZ6,firefly,dinoflagellate,cross-family (control),3.860,48.500,-1.001
+Q9VCC6,Q5UAZ7,firefly,dinoflagellate,cross-family (control),4.044,50.000,-0.741
+Q9VCC6,Q5UAZ3,firefly,dinoflagellate,cross-family (control),4.963,45.000,-1.384
+Q9VCC6,F5CV94,firefly,dinoflagellate,cross-family (control),22.243,52.000,-0.762
+Q9VCC6,P17554,firefly,ostracod,cross-family (control),2.941,55.000,0.615
+Q9VCC6,BAD08210.1,firefly,ostracod,cross-family (control),14.522,58.500,1.192
+Q9VCC6,QOS14273.1,firefly,ostracod,cross-family (control),15.993,51.500,0.413
+P27652,Q9BLZ3,renilla_type,renilla_type,same family,96.463,1618.000,128.322
+P27652,XRP75328.1,renilla_type,renilla_type,same family,45.016,760.500,91.833
+P27652,D4Z2G1,renilla_type,renilla_type,luciferase vs own control,40.541,563.500,65.487
+P27652,P0A3G2,renilla_type,renilla_type,luciferase vs own control,35.836,454.500,50.124
+P27652,XRP75329.1,renilla_type,renilla_type,luciferase vs own control,47.267,821.500,79.576
+P27652,P19907,renilla_type,bacterial_luxa,cross-family,11.254,45.500,0.699
+P27652,P09140,renilla_type,bacterial_luxa,cross-family,10.289,46.000,0.382
+P27652,P29238,renilla_type,bacterial_luxa,cross-family,10.932,54.500,2.448
+P27652,P24113,renilla_type,bacterial_luxa,cross-family,10.611,40.500,0.128
+P27652,P07740,renilla_type,bacterial_luxa,cross-family,19.293,39.000,-0.551
+P27652,P23146,renilla_type,bacterial_luxa,cross-family,20.579,36.000,-1.108
+P27652,P18299,renilla_type,bacterial_luxa,cross-family,14.148,51.500,0.708
+P27652,S3DID0,renilla_type,bacterial_luxa,cross-family,14.469,48.500,0.482
+P27652,G0XZS5,renilla_type,bacterial_luxa,cross-family,11.254,48.500,0.573
+P27652,B2XS47,renilla_type,bacterial_luxa,cross-family,9.325,40.500,0.123
+P27652,P80645,renilla_type,bacterial_luxa,cross-family (control),23.151,48.000,0.818
+P27652,A0A3G9JYH7,renilla_type,fungal_luz,cross-family,4.120,40.500,0.333
+P27652,A0A2H3E985,renilla_type,fungal_luz,cross-family,16.165,41.500,0.380
+P27652,A0A3G9JTR4,renilla_type,fungal_luz,cross-family,5.639,33.000,-1.323
+P27652,A0A3G9K5D8,renilla_type,fungal_luz,cross-family,6.773,46.000,0.900
+P27652,A0A3G9JTL4,renilla_type,fungal_luz,cross-family,13.793,40.500,0.003
+P27652,A0A3G9JTL9,renilla_type,fungal_luz,cross-family,13.253,49.000,1.206
+P27652,A0A3G9K9H1,renilla_type,fungal_luz,cross-family,14.394,44.500,0.781
+P27652,A0A3G9JTQ0,renilla_type,fungal_luz,cross-family,15.041,47.500,0.999
+P27652,BCK50966.1,renilla_type,fungal_luz,cross-family,18.474,37.500,-0.507
+P27652,A0A0D7AKP7,renilla_type,fungal_luz,cross-family (control),13.074,51.500,2.442
+P27652,Q9BLZ2,renilla_type,copepod,cross-family,25.405,34.000,-0.020
+P27652,Q6UQE3,renilla_type,copepod,cross-family,18.721,33.000,-0.616
+P27652,I7GGY2,renilla_type,copepod,cross-family,0.952,27.000,-1.414
+P27652,H3JS09,renilla_type,copepod,cross-family,4.608,31.000,-0.487
+P27652,U3TKG7,renilla_type,copepod,cross-family,1.047,28.000,-1.417
+P27652,H3JS11,renilla_type,copepod,cross-family,21.327,30.500,-0.615
+P27652,U3TIM6,renilla_type,copepod,cross-family,19.091,38.000,0.507
+P27652,H3JS17,renilla_type,copepod,cross-family,3.571,38.000,0.446
+P27652,H3JS19,renilla_type,copepod,cross-family,18.049,29.500,-1.109
+P27652,H3JS13,renilla_type,copepod,cross-family,20.179,34.000,0.213
+P27652,O77206,renilla_type,dinoflagellate,cross-family,23.473,53.000,0.032
+P27652,Q8W210,renilla_type,dinoflagellate,cross-family,11.254,49.500,-0.421
+P27652,Q5UAZ5,renilla_type,dinoflagellate,cross-family,20.900,43.500,-1.144
+P27652,Q5UAZ4,renilla_type,dinoflagellate,cross-family,22.186,42.000,-1.435
+P27652,Q5UAZ6,renilla_type,dinoflagellate,cross-family,21.865,44.000,-0.853
+P27652,Q5UAZ7,renilla_type,dinoflagellate,cross-family,22.830,46.000,-0.647
+P27652,Q5UAZ3,renilla_type,dinoflagellate,cross-family,21.543,45.000,-0.300
+P27652,F5CV94,renilla_type,dinoflagellate,cross-family,23.794,48.000,-0.509
+P27652,P17554,renilla_type,ostracod,cross-family,17.685,45.500,0.597
+P27652,BAD08210.1,renilla_type,ostracod,cross-family,22.508,38.500,-0.186
+P27652,QOS14273.1,renilla_type,ostracod,cross-family,19.614,56.000,1.724
+Q9BLZ3,XRP75328.1,renilla_type,renilla_type,same family,43.730,741.500,81.752
+Q9BLZ3,D4Z2G1,renilla_type,renilla_type,luciferase vs own control,39.865,553.500,78.836
+Q9BLZ3,P0A3G2,renilla_type,renilla_type,luciferase vs own control,35.495,447.500,31.510
+Q9BLZ3,XRP75329.1,renilla_type,renilla_type,luciferase vs own control,47.267,816.500,97.907
+Q9BLZ3,P19907,renilla_type,bacterial_luxa,cross-family,9.968,45.500,1.014
+Q9BLZ3,P09140,renilla_type,bacterial_luxa,cross-family,10.289,48.000,0.595
+Q9BLZ3,P29238,renilla_type,bacterial_luxa,cross-family,11.897,50.000,0.689
+Q9BLZ3,P24113,renilla_type,bacterial_luxa,cross-family,9.003,40.500,-0.389
+Q9BLZ3,P07740,renilla_type,bacterial_luxa,cross-family,23.794,41.000,-0.142
+Q9BLZ3,P23146,renilla_type,bacterial_luxa,cross-family,21.222,36.000,-1.352
+Q9BLZ3,P18299,renilla_type,bacterial_luxa,cross-family,14.148,46.500,0.061
+Q9BLZ3,S3DID0,renilla_type,bacterial_luxa,cross-family,13.505,45.000,0.498
+Q9BLZ3,G0XZS5,renilla_type,bacterial_luxa,cross-family,11.254,48.500,1.144
+Q9BLZ3,B2XS47,renilla_type,bacterial_luxa,cross-family,9.646,35.000,-1.436
+Q9BLZ3,P80645,renilla_type,bacterial_luxa,cross-family (control),23.151,49.000,1.662
+Q9BLZ3,A0A3G9JYH7,renilla_type,fungal_luz,cross-family,11.236,40.500,-0.087
+Q9BLZ3,A0A2H3E985,renilla_type,fungal_luz,cross-family,15.789,34.000,-0.745
+Q9BLZ3,A0A3G9JTR4,renilla_type,fungal_luz,cross-family,5.639,31.500,-1.340
+Q9BLZ3,A0A3G9K5D8,renilla_type,fungal_luz,cross-family,5.578,44.500,0.161
+Q9BLZ3,A0A3G9JTL4,renilla_type,fungal_luz,cross-family,13.027,38.500,-0.130
+Q9BLZ3,A0A3G9JTL9,renilla_type,fungal_luz,cross-family,20.482,49.000,0.975
+Q9BLZ3,A0A3G9K9H1,renilla_type,fungal_luz,cross-family,14.773,44.500,1.245
+Q9BLZ3,A0A3G9JTQ0,renilla_type,fungal_luz,cross-family,16.667,45.000,0.574
+Q9BLZ3,BCK50966.1,renilla_type,fungal_luz,cross-family,13.655,37.500,-0.395
+Q9BLZ3,A0A0D7AKP7,renilla_type,fungal_luz,cross-family (control),13.074,45.500,1.189
+Q9BLZ3,Q9BLZ2,renilla_type,copepod,cross-family,25.405,32.000,-0.233
+Q9BLZ3,Q6UQE3,renilla_type,copepod,cross-family,12.329,32.000,-0.138
+Q9BLZ3,I7GGY2,renilla_type,copepod,cross-family,20.952,27.000,-1.586
+Q9BLZ3,H3JS09,renilla_type,copepod,cross-family,3.687,31.000,-0.447
+Q9BLZ3,U3TKG7,renilla_type,copepod,cross-family,6.283,28.000,-0.975
+Q9BLZ3,H3JS11,renilla_type,copepod,cross-family,15.166,29.000,-0.857
+Q9BLZ3,U3TIM6,renilla_type,copepod,cross-family,21.364,32.000,-0.615
+Q9BLZ3,H3JS17,renilla_type,copepod,cross-family,3.571,38.000,1.299
+Q9BLZ3,H3JS19,renilla_type,copepod,cross-family,3.902,29.500,-0.766
+Q9BLZ3,H3JS13,renilla_type,copepod,cross-family,19.283,34.000,-0.158
+Q9BLZ3,O77206,renilla_type,dinoflagellate,cross-family,24.759,48.000,-0.383
+Q9BLZ3,Q8W210,renilla_type,dinoflagellate,cross-family,21.543,47.000,-0.554
+Q9BLZ3,Q5UAZ5,renilla_type,dinoflagellate,cross-family,21.865,54.000,0.311
+Q9BLZ3,Q5UAZ4,renilla_type,dinoflagellate,cross-family,20.579,49.500,-0.198
+Q9BLZ3,Q5UAZ6,renilla_type,dinoflagellate,cross-family,20.900,46.000,-0.531
+Q9BLZ3,Q5UAZ7,renilla_type,dinoflagellate,cross-family,22.830,47.500,-0.567
+Q9BLZ3,Q5UAZ3,renilla_type,dinoflagellate,cross-family,15.756,47.500,-0.375
+Q9BLZ3,F5CV94,renilla_type,dinoflagellate,cross-family,24.759,48.000,-0.557
+Q9BLZ3,P17554,renilla_type,ostracod,cross-family,18.006,45.000,0.543
+Q9BLZ3,BAD08210.1,renilla_type,ostracod,cross-family,21.543,32.000,-1.559
+Q9BLZ3,QOS14273.1,renilla_type,ostracod,cross-family,21.222,60.000,2.833
+XRP75328.1,D4Z2G1,renilla_type,renilla_type,luciferase vs own control,42.568,593.500,71.991
+XRP75328.1,P0A3G2,renilla_type,renilla_type,luciferase vs own control,36.519,504.500,74.026
+XRP75328.1,XRP75329.1,renilla_type,renilla_type,luciferase vs own control,61.465,1097.000,116.925
+XRP75328.1,P19907,renilla_type,bacterial_luxa,cross-family,11.491,53.500,1.290
+XRP75328.1,P09140,renilla_type,bacterial_luxa,cross-family,14.596,52.500,1.387
+XRP75328.1,P29238,renilla_type,bacterial_luxa,cross-family,14.907,44.500,-0.007
+XRP75328.1,P24113,renilla_type,bacterial_luxa,cross-family,20.186,49.000,0.823
+XRP75328.1,P07740,renilla_type,bacterial_luxa,cross-family,1.863,37.500,-0.499
+XRP75328.1,P23146,renilla_type,bacterial_luxa,cross-family,21.118,34.500,-1.034
+XRP75328.1,P18299,renilla_type,bacterial_luxa,cross-family,4.037,33.000,-1.373
+XRP75328.1,S3DID0,renilla_type,bacterial_luxa,cross-family,11.801,42.500,-0.048
+XRP75328.1,G0XZS5,renilla_type,bacterial_luxa,cross-family,17.081,35.000,-0.737
+XRP75328.1,B2XS47,renilla_type,bacterial_luxa,cross-family,2.174,35.500,-1.023
+XRP75328.1,P80645,renilla_type,bacterial_luxa,cross-family (control),18.944,44.500,0.604
+XRP75328.1,A0A3G9JYH7,renilla_type,fungal_luz,cross-family,20.225,46.500,0.761
+XRP75328.1,A0A2H3E985,renilla_type,fungal_luz,cross-family,18.045,45.500,0.643
+XRP75328.1,A0A3G9JTR4,renilla_type,fungal_luz,cross-family,22.180,44.500,0.289
+XRP75328.1,A0A3G9K5D8,renilla_type,fungal_luz,cross-family,23.108,42.000,0.318
+XRP75328.1,A0A3G9JTL4,renilla_type,fungal_luz,cross-family,16.858,42.000,-0.195
+XRP75328.1,A0A3G9JTL9,renilla_type,fungal_luz,cross-family,23.293,43.000,0.385
+XRP75328.1,A0A3G9K9H1,renilla_type,fungal_luz,cross-family,20.076,45.500,0.470
+XRP75328.1,A0A3G9JTQ0,renilla_type,fungal_luz,cross-family,19.919,40.000,0.112
+XRP75328.1,BCK50966.1,renilla_type,fungal_luz,cross-family,22.490,59.500,1.608
+XRP75328.1,A0A0D7AKP7,renilla_type,fungal_luz,cross-family (control),18.021,45.000,0.527
+XRP75328.1,Q9BLZ2,renilla_type,copepod,cross-family,4.865,30.000,-0.440
+XRP75328.1,Q6UQE3,renilla_type,copepod,cross-family,22.831,31.000,-0.231
+XRP75328.1,I7GGY2,renilla_type,copepod,cross-family,18.095,32.000,-0.519
+XRP75328.1,H3JS09,renilla_type,copepod,cross-family,21.198,30.000,-0.548
+XRP75328.1,U3TKG7,renilla_type,copepod,cross-family,1.571,29.000,-0.228
+XRP75328.1,H3JS11,renilla_type,copepod,cross-family,0.948,26.000,-1.088
+XRP75328.1,U3TIM6,renilla_type,copepod,cross-family,25.455,34.000,-0.025
+XRP75328.1,H3JS17,renilla_type,copepod,cross-family,21.939,40.500,0.995
+XRP75328.1,H3JS19,renilla_type,copepod,cross-family,20.976,30.500,-1.158
+XRP75328.1,H3JS13,renilla_type,copepod,cross-family,17.040,32.500,-0.032
+XRP75328.1,O77206,renilla_type,dinoflagellate,cross-family,18.323,56.000,0.788
+XRP75328.1,Q8W210,renilla_type,dinoflagellate,cross-family,25.466,64.000,0.988
+XRP75328.1,Q5UAZ5,renilla_type,dinoflagellate,cross-family,27.640,75.000,3.870
+XRP75328.1,Q5UAZ4,renilla_type,dinoflagellate,cross-family,26.708,63.000,1.682
+XRP75328.1,Q5UAZ6,renilla_type,dinoflagellate,cross-family,25.776,74.500,3.084
+XRP75328.1,Q5UAZ7,renilla_type,dinoflagellate,cross-family,25.776,55.000,1.111
+XRP75328.1,Q5UAZ3,renilla_type,dinoflagellate,cross-family,24.534,72.500,3.774
+XRP75328.1,F5CV94,renilla_type,dinoflagellate,cross-family,12.733,61.000,0.604
+XRP75328.1,P17554,renilla_type,ostracod,cross-family,16.149,34.000,-1.159
+XRP75328.1,BAD08210.1,renilla_type,ostracod,cross-family,19.876,48.000,0.640
+XRP75328.1,QOS14273.1,renilla_type,ostracod,cross-family,20.807,36.000,-1.426
+D4Z2G1,P0A3G2,renilla_type,renilla_type,control vs control,49.147,672.500,70.715
+D4Z2G1,XRP75329.1,renilla_type,renilla_type,control vs control,45.608,683.000,86.789
+D4Z2G1,P19907,renilla_type,bacterial_luxa,cross-family (control),14.189,34.000,-0.745
+D4Z2G1,P09140,renilla_type,bacterial_luxa,cross-family (control),19.257,42.000,0.224
+D4Z2G1,P29238,renilla_type,bacterial_luxa,cross-family (control),12.162,45.000,0.714
+D4Z2G1,P24113,renilla_type,bacterial_luxa,cross-family (control),2.365,34.000,-0.699
+D4Z2G1,P07740,renilla_type,bacterial_luxa,cross-family (control),16.892,44.000,0.499
+D4Z2G1,P23146,renilla_type,bacterial_luxa,cross-family (control),14.865,34.500,-0.476
+D4Z2G1,P18299,renilla_type,bacterial_luxa,cross-family (control),13.176,46.000,1.303
+D4Z2G1,S3DID0,renilla_type,bacterial_luxa,cross-family (control),18.243,54.000,2.168
+D4Z2G1,G0XZS5,renilla_type,bacterial_luxa,cross-family (control),22.297,41.500,0.435
+D4Z2G1,B2XS47,renilla_type,bacterial_luxa,cross-family (control),13.851,46.000,1.828
+D4Z2G1,P80645,renilla_type,bacterial_luxa,cross-family (control),15.878,39.500,-0.797
+D4Z2G1,A0A3G9JYH7,renilla_type,fungal_luz,cross-family (control),17.603,43.000,0.602
+D4Z2G1,A0A2H3E985,renilla_type,fungal_luz,cross-family (control),18.045,40.500,-0.331
+D4Z2G1,A0A3G9JTR4,renilla_type,fungal_luz,cross-family (control),23.684,43.500,0.639
+D4Z2G1,A0A3G9K5D8,renilla_type,fungal_luz,cross-family (control),19.124,41.500,-0.266
+D4Z2G1,A0A3G9JTL4,renilla_type,fungal_luz,cross-family (control),17.241,38.000,-0.603
+D4Z2G1,A0A3G9JTL9,renilla_type,fungal_luz,cross-family (control),9.639,38.500,-0.119
+D4Z2G1,A0A3G9K9H1,renilla_type,fungal_luz,cross-family (control),18.561,40.000,-0.171
+D4Z2G1,A0A3G9JTQ0,renilla_type,fungal_luz,cross-family (control),19.919,40.000,-0.382
+D4Z2G1,BCK50966.1,renilla_type,fungal_luz,cross-family (control),23.293,43.500,-0.219
+D4Z2G1,A0A0D7AKP7,renilla_type,fungal_luz,cross-family (control),20.141,46.500,0.427
+D4Z2G1,Q9BLZ2,renilla_type,copepod,cross-family (control),16.757,43.000,1.755
+D4Z2G1,Q6UQE3,renilla_type,copepod,cross-family (control),11.416,28.000,-0.836
+D4Z2G1,I7GGY2,renilla_type,copepod,cross-family (control),12.381,28.000,-0.978
+D4Z2G1,H3JS09,renilla_type,copepod,cross-family (control),16.590,26.000,-1.366
+D4Z2G1,U3TKG7,renilla_type,copepod,cross-family (control),14.660,26.000,-1.374
+D4Z2G1,H3JS11,renilla_type,copepod,cross-family (control),12.796,37.000,0.672
+D4Z2G1,U3TIM6,renilla_type,copepod,cross-family (control),23.636,44.000,1.656
+D4Z2G1,H3JS17,renilla_type,copepod,cross-family (control),19.388,36.000,0.343
+D4Z2G1,H3JS19,renilla_type,copepod,cross-family (control),18.537,40.000,1.208
+D4Z2G1,H3JS13,renilla_type,copepod,cross-family (control),9.417,31.000,-1.001
+D4Z2G1,O77206,renilla_type,dinoflagellate,cross-family (control),23.986,46.000,-0.576
+D4Z2G1,Q8W210,renilla_type,dinoflagellate,cross-family (control),20.946,50.500,-0.140
+D4Z2G1,Q5UAZ5,renilla_type,dinoflagellate,cross-family (control),20.608,51.000,-0.209
+D4Z2G1,Q5UAZ4,renilla_type,dinoflagellate,cross-family (control),11.486,47.500,-0.408
+D4Z2G1,Q5UAZ6,renilla_type,dinoflagellate,cross-family (control),24.662,47.000,-0.687
+D4Z2G1,Q5UAZ7,renilla_type,dinoflagellate,cross-family (control),24.662,51.500,0.003
+D4Z2G1,Q5UAZ3,renilla_type,dinoflagellate,cross-family (control),23.311,61.000,0.978
+D4Z2G1,F5CV94,renilla_type,dinoflagellate,cross-family (control),21.622,57.500,0.893
+D4Z2G1,P17554,renilla_type,ostracod,cross-family (control),3.378,33.500,-0.944
+D4Z2G1,BAD08210.1,renilla_type,ostracod,cross-family (control),7.770,34.000,-1.104
+D4Z2G1,QOS14273.1,renilla_type,ostracod,cross-family (control),12.838,51.500,2.066
+P0A3G2,XRP75329.1,renilla_type,renilla_type,control vs control,42.662,607.000,42.461
+P0A3G2,P19907,renilla_type,bacterial_luxa,cross-family (control),17.065,48.000,1.686
+P0A3G2,P09140,renilla_type,bacterial_luxa,cross-family (control),10.922,46.000,0.799
+P0A3G2,P29238,renilla_type,bacterial_luxa,cross-family (control),10.922,44.000,0.277
+P0A3G2,P24113,renilla_type,bacterial_luxa,cross-family (control),2.389,43.000,1.203
+P0A3G2,P07740,renilla_type,bacterial_luxa,cross-family (control),17.747,44.500,1.348
+P0A3G2,P23146,renilla_type,bacterial_luxa,cross-family (control),18.089,48.000,2.587
+P0A3G2,P18299,renilla_type,bacterial_luxa,cross-family (control),11.945,52.000,1.723
+P0A3G2,S3DID0,renilla_type,bacterial_luxa,cross-family (control),17.406,46.500,1.027
+P0A3G2,G0XZS5,renilla_type,bacterial_luxa,cross-family (control),10.239,48.000,1.972
+P0A3G2,B2XS47,renilla_type,bacterial_luxa,cross-family (control),17.065,45.000,0.673
+P0A3G2,P80645,renilla_type,bacterial_luxa,cross-family (control),17.406,41.500,-0.401
+P0A3G2,A0A3G9JYH7,renilla_type,fungal_luz,cross-family (control),21.348,48.000,2.074
+P0A3G2,A0A2H3E985,renilla_type,fungal_luz,cross-family (control),21.053,46.000,0.051
+P0A3G2,A0A3G9JTR4,renilla_type,fungal_luz,cross-family (control),20.677,40.500,-1.043
+P0A3G2,A0A3G9K5D8,renilla_type,fungal_luz,cross-family (control),21.116,47.000,0.546
+P0A3G2,A0A3G9JTL4,renilla_type,fungal_luz,cross-family (control),21.839,54.000,2.126
+P0A3G2,A0A3G9JTL9,renilla_type,fungal_luz,cross-family (control),18.876,34.500,-0.925
+P0A3G2,A0A3G9K9H1,renilla_type,fungal_luz,cross-family (control),19.697,47.000,0.900
+P0A3G2,A0A3G9JTQ0,renilla_type,fungal_luz,cross-family (control),19.106,51.000,0.599
+P0A3G2,BCK50966.1,renilla_type,fungal_luz,cross-family (control),20.080,41.500,0.254
+P0A3G2,A0A0D7AKP7,renilla_type,fungal_luz,cross-family (control),19.788,36.500,-0.744
+P0A3G2,Q9BLZ2,renilla_type,copepod,cross-family (control),2.162,26.000,-1.412
+P0A3G2,Q6UQE3,renilla_type,copepod,cross-family (control),1.826,28.000,-1.006
+P0A3G2,I7GGY2,renilla_type,copepod,cross-family (control),1.905,29.000,-0.905
+P0A3G2,H3JS09,renilla_type,copepod,cross-family (control),2.304,34.500,-0.039
+P0A3G2,U3TKG7,renilla_type,copepod,cross-family (control),8.901,30.500,-0.604
+P0A3G2,H3JS11,renilla_type,copepod,cross-family (control),18.957,30.500,-0.123
+P0A3G2,U3TIM6,renilla_type,copepod,cross-family (control),2.727,27.000,-1.280
+P0A3G2,H3JS17,renilla_type,copepod,cross-family (control),11.224,29.500,-0.739
+P0A3G2,H3JS19,renilla_type,copepod,cross-family (control),10.244,25.500,-2.125
+P0A3G2,H3JS13,renilla_type,copepod,cross-family (control),14.798,34.000,-0.117
+P0A3G2,O77206,renilla_type,dinoflagellate,cross-family (control),22.526,38.000,-1.925
+P0A3G2,Q8W210,renilla_type,dinoflagellate,cross-family (control),18.430,61.500,1.011
+P0A3G2,Q5UAZ5,renilla_type,dinoflagellate,cross-family (control),23.891,43.500,-1.250
+P0A3G2,Q5UAZ4,renilla_type,dinoflagellate,cross-family (control),23.549,53.000,0.363
+P0A3G2,Q5UAZ6,renilla_type,dinoflagellate,cross-family (control),24.915,46.000,-0.768
+P0A3G2,Q5UAZ7,renilla_type,dinoflagellate,cross-family (control),19.454,49.000,-0.152
+P0A3G2,Q5UAZ3,renilla_type,dinoflagellate,cross-family (control),20.819,46.000,-0.550
+P0A3G2,F5CV94,renilla_type,dinoflagellate,cross-family (control),21.502,51.000,0.687
+P0A3G2,P17554,renilla_type,ostracod,cross-family (control),6.485,29.000,-2.358
+P0A3G2,BAD08210.1,renilla_type,ostracod,cross-family (control),21.843,42.000,-0.183
+P0A3G2,QOS14273.1,renilla_type,ostracod,cross-family (control),24.573,54.000,2.493
+XRP75329.1,P19907,renilla_type,bacterial_luxa,cross-family (control),13.694,35.500,-0.718
+XRP75329.1,P09140,renilla_type,bacterial_luxa,cross-family (control),12.102,44.500,0.043
+XRP75329.1,P29238,renilla_type,bacterial_luxa,cross-family (control),20.064,57.500,1.942
+XRP75329.1,P24113,renilla_type,bacterial_luxa,cross-family (control),20.064,45.000,0.716
+XRP75329.1,P07740,renilla_type,bacterial_luxa,cross-family (control),14.650,39.500,-0.296
+XRP75329.1,P23146,renilla_type,bacterial_luxa,cross-family (control),1.911,33.500,-0.832
+XRP75329.1,P18299,renilla_type,bacterial_luxa,cross-family (control),14.968,43.500,-0.082
+XRP75329.1,S3DID0,renilla_type,bacterial_luxa,cross-family (control),13.376,36.500,-1.095
+XRP75329.1,G0XZS5,renilla_type,bacterial_luxa,cross-family (control),13.057,41.500,0.064
+XRP75329.1,B2XS47,renilla_type,bacterial_luxa,cross-family (control),14.650,50.500,0.564
+XRP75329.1,P80645,renilla_type,bacterial_luxa,cross-family (control),23.567,50.500,1.542
+XRP75329.1,A0A3G9JYH7,renilla_type,fungal_luz,cross-family (control),23.596,62.000,2.478
+XRP75329.1,A0A2H3E985,renilla_type,fungal_luz,cross-family (control),23.308,44.500,0.577
+XRP75329.1,A0A3G9JTR4,renilla_type,fungal_luz,cross-family (control),22.932,48.000,0.556
+XRP75329.1,A0A3G9K5D8,renilla_type,fungal_luz,cross-family (control),18.725,39.000,-0.476
+XRP75329.1,A0A3G9JTL4,renilla_type,fungal_luz,cross-family (control),23.755,62.000,2.615
+XRP75329.1,A0A3G9JTL9,renilla_type,fungal_luz,cross-family (control),21.285,49.000,0.712
+XRP75329.1,A0A3G9K9H1,renilla_type,fungal_luz,cross-family (control),23.864,67.000,5.383
+XRP75329.1,A0A3G9JTQ0,renilla_type,fungal_luz,cross-family (control),22.358,52.500,1.736
+XRP75329.1,BCK50966.1,renilla_type,fungal_luz,cross-family (control),24.900,67.500,5.204
+XRP75329.1,A0A0D7AKP7,renilla_type,fungal_luz,cross-family (control),19.081,40.000,-0.025
+XRP75329.1,Q9BLZ2,renilla_type,copepod,cross-family (control),4.865,29.000,-0.799
+XRP75329.1,Q6UQE3,renilla_type,copepod,cross-family (control),7.763,35.000,0.202
+XRP75329.1,I7GGY2,renilla_type,copepod,cross-family (control),15.238,26.000,-1.381
+XRP75329.1,H3JS09,renilla_type,copepod,cross-family (control),12.903,30.000,-0.617
+XRP75329.1,U3TKG7,renilla_type,copepod,cross-family (control),3.141,34.000,1.054
+XRP75329.1,H3JS11,renilla_type,copepod,cross-family (control),13.744,26.500,-0.640
+XRP75329.1,U3TIM6,renilla_type,copepod,cross-family (control),13.636,30.500,-0.515
+XRP75329.1,H3JS17,renilla_type,copepod,cross-family (control),10.714,30.000,-0.468
+XRP75329.1,H3JS19,renilla_type,copepod,cross-family (control),3.902,28.000,-1.328
+XRP75329.1,H3JS13,renilla_type,copepod,cross-family (control),12.108,28.500,-1.104
+XRP75329.1,O77206,renilla_type,dinoflagellate,cross-family (control),19.108,50.000,-0.274
+XRP75329.1,Q8W210,renilla_type,dinoflagellate,cross-family (control),19.427,55.000,0.066
+XRP75329.1,Q5UAZ5,renilla_type,dinoflagellate,cross-family (control),19.108,47.500,-1.074
+XRP75329.1,Q5UAZ4,renilla_type,dinoflagellate,cross-family (control),18.153,42.500,-1.197
+XRP75329.1,Q5UAZ6,renilla_type,dinoflagellate,cross-family (control),20.701,61.500,1.085
+XRP75329.1,Q5UAZ7,renilla_type,dinoflagellate,cross-family (control),19.427,51.000,-0.176
+XRP75329.1,Q5UAZ3,renilla_type,dinoflagellate,cross-family (control),20.701,58.000,0.809
+XRP75329.1,F5CV94,renilla_type,dinoflagellate,cross-family (control),23.885,53.500,0.211
+XRP75329.1,P17554,renilla_type,ostracod,cross-family (control),7.325,36.000,-0.477
+XRP75329.1,BAD08210.1,renilla_type,ostracod,cross-family (control),24.522,61.000,3.486
+XRP75329.1,QOS14273.1,renilla_type,ostracod,cross-family (control),21.338,43.500,0.549
+P19907,P09140,bacterial_luxa,bacterial_luxa,same family,74.294,1452.000,155.493
+P19907,P29238,bacterial_luxa,bacterial_luxa,same family,62.994,1245.000,121.019
+P19907,P24113,bacterial_luxa,bacterial_luxa,same family,75.145,1291.000,188.276
+P19907,P07740,bacterial_luxa,bacterial_luxa,same family,63.277,1220.000,139.702
+P19907,P23146,bacterial_luxa,bacterial_luxa,same family,64.407,1216.000,157.855
+P19907,P18299,bacterial_luxa,bacterial_luxa,same family,63.559,1211.000,136.863
+P19907,S3DID0,bacterial_luxa,bacterial_luxa,same family,64.124,1219.000,107.906
+P19907,G0XZS5,bacterial_luxa,bacterial_luxa,same family,82.768,1565.000,174.282
+P19907,B2XS47,bacterial_luxa,bacterial_luxa,same family,63.559,1209.000,142.567
+P19907,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,23.446,93.500,7.311
+P19907,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,4.869,28.000,-1.262
+P19907,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,12.406,28.000,-1.569
+P19907,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,4.135,28.000,-1.226
+P19907,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,3.586,30.000,-0.847
+P19907,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,0.766,32.000,-1.249
+P19907,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,10.442,31.500,-0.657
+P19907,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,4.545,27.500,-1.188
+P19907,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,11.382,37.000,-0.132
+P19907,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,3.213,27.000,-2.058
+P19907,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),17.668,42.000,0.461
+P19907,Q9BLZ2,bacterial_luxa,copepod,cross-family,23.243,36.500,0.415
+P19907,Q6UQE3,bacterial_luxa,copepod,cross-family,24.658,45.000,2.025
+P19907,I7GGY2,bacterial_luxa,copepod,cross-family,23.810,41.000,0.507
+P19907,H3JS09,bacterial_luxa,copepod,cross-family,20.737,39.500,0.907
+P19907,U3TKG7,bacterial_luxa,copepod,cross-family,20.942,37.000,0.115
+P19907,H3JS11,bacterial_luxa,copepod,cross-family,21.801,35.000,-0.111
+P19907,U3TIM6,bacterial_luxa,copepod,cross-family,14.545,36.500,-0.301
+P19907,H3JS17,bacterial_luxa,copepod,cross-family,15.816,34.000,0.200
+P19907,H3JS19,bacterial_luxa,copepod,cross-family,19.024,50.500,1.992
+P19907,H3JS13,bacterial_luxa,copepod,cross-family,17.937,34.500,-0.172
+P19907,O77206,bacterial_luxa,dinoflagellate,cross-family,22.034,69.000,2.117
+P19907,Q8W210,bacterial_luxa,dinoflagellate,cross-family,10.452,59.000,0.706
+P19907,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,10.734,55.500,0.485
+P19907,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,11.017,57.000,1.332
+P19907,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,19.209,63.500,1.461
+P19907,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,19.209,61.000,1.388
+P19907,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,20.056,51.000,-0.386
+P19907,F5CV94,bacterial_luxa,dinoflagellate,cross-family,14.124,44.500,-1.007
+P19907,P17554,bacterial_luxa,ostracod,cross-family,21.469,51.000,1.420
+P19907,BAD08210.1,bacterial_luxa,ostracod,cross-family,18.644,51.500,0.489
+P19907,QOS14273.1,bacterial_luxa,ostracod,cross-family,14.689,57.000,2.201
+P09140,P29238,bacterial_luxa,bacterial_luxa,same family,77.119,1496.000,172.950
+P09140,P24113,bacterial_luxa,bacterial_luxa,same family,88.150,1540.000,160.002
+P09140,P07740,bacterial_luxa,bacterial_luxa,same family,61.299,1186.000,118.972
+P09140,P23146,bacterial_luxa,bacterial_luxa,same family,61.017,1172.000,103.180
+P09140,P18299,bacterial_luxa,bacterial_luxa,same family,62.147,1201.000,155.063
+P09140,S3DID0,bacterial_luxa,bacterial_luxa,same family,61.864,1207.000,153.265
+P09140,G0XZS5,bacterial_luxa,bacterial_luxa,same family,78.531,1533.000,113.191
+P09140,B2XS47,bacterial_luxa,bacterial_luxa,same family,62.147,1188.000,98.324
+P09140,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,24.011,95.000,5.592
+P09140,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,20.225,31.000,-1.060
+P09140,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,11.654,29.500,-0.940
+P09140,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,12.030,31.000,-1.024
+P09140,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,9.960,33.000,-0.545
+P09140,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,3.448,31.000,-0.761
+P09140,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,11.245,33.500,-0.334
+P09140,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,14.015,29.500,-0.975
+P09140,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,11.789,31.000,-1.301
+P09140,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,2.811,30.000,-1.518
+P09140,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),16.608,46.500,2.148
+P09140,Q9BLZ2,bacterial_luxa,copepod,cross-family,12.432,35.500,0.275
+P09140,Q6UQE3,bacterial_luxa,copepod,cross-family,17.808,51.000,3.042
+P09140,I7GGY2,bacterial_luxa,copepod,cross-family,21.429,39.000,0.337
+P09140,H3JS09,bacterial_luxa,copepod,cross-family,23.963,43.500,0.800
+P09140,U3TKG7,bacterial_luxa,copepod,cross-family,23.560,49.500,3.219
+P09140,H3JS11,bacterial_luxa,copepod,cross-family,24.171,46.000,1.403
+P09140,U3TIM6,bacterial_luxa,copepod,cross-family,13.182,39.500,1.180
+P09140,H3JS17,bacterial_luxa,copepod,cross-family,13.265,28.500,-0.880
+P09140,H3JS19,bacterial_luxa,copepod,cross-family,17.561,34.000,-0.242
+P09140,H3JS13,bacterial_luxa,copepod,cross-family,21.076,36.000,0.372
+P09140,O77206,bacterial_luxa,dinoflagellate,cross-family,22.034,53.500,0.777
+P09140,Q8W210,bacterial_luxa,dinoflagellate,cross-family,25.424,61.000,0.739
+P09140,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,24.859,52.000,0.203
+P09140,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,12.994,45.500,-0.931
+P09140,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,23.446,44.500,-0.893
+P09140,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,22.881,54.000,0.347
+P09140,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,24.859,44.500,-1.138
+P09140,F5CV94,bacterial_luxa,dinoflagellate,cross-family,11.582,53.500,-0.174
+P09140,P17554,bacterial_luxa,ostracod,cross-family,22.034,52.000,0.808
+P09140,BAD08210.1,bacterial_luxa,ostracod,cross-family,11.017,47.500,0.261
+P09140,QOS14273.1,bacterial_luxa,ostracod,cross-family,15.254,54.000,1.345
+P29238,P24113,bacterial_luxa,bacterial_luxa,same family,71.098,1237.000,123.240
+P29238,P07740,bacterial_luxa,bacterial_luxa,same family,54.237,1035.000,123.124
+P29238,P23146,bacterial_luxa,bacterial_luxa,same family,54.237,1018.000,87.675
+P29238,P18299,bacterial_luxa,bacterial_luxa,same family,54.237,1048.000,149.145
+P29238,S3DID0,bacterial_luxa,bacterial_luxa,same family,54.237,1047.000,124.009
+P29238,G0XZS5,bacterial_luxa,bacterial_luxa,same family,65.254,1295.000,159.728
+P29238,B2XS47,bacterial_luxa,bacterial_luxa,same family,55.650,1055.000,106.415
+P29238,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,23.164,85.000,6.407
+P29238,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,23.970,36.000,-0.370
+P29238,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,12.406,33.500,-0.818
+P29238,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,3.008,33.500,-1.446
+P29238,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,3.187,35.000,-0.298
+P29238,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,3.448,33.000,-0.858
+P29238,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,4.418,37.000,-0.807
+P29238,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,4.167,33.000,-0.852
+P29238,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,3.252,34.000,-0.873
+P29238,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,4.016,34.500,-0.707
+P29238,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),16.961,53.500,1.431
+P29238,Q9BLZ2,bacterial_luxa,copepod,cross-family,12.973,34.000,0.323
+P29238,Q6UQE3,bacterial_luxa,copepod,cross-family,17.808,40.500,1.048
+P29238,I7GGY2,bacterial_luxa,copepod,cross-family,18.571,38.500,0.952
+P29238,H3JS09,bacterial_luxa,copepod,cross-family,20.276,39.500,0.552
+P29238,U3TKG7,bacterial_luxa,copepod,cross-family,18.325,36.000,0.433
+P29238,H3JS11,bacterial_luxa,copepod,cross-family,25.592,46.000,1.784
+P29238,U3TIM6,bacterial_luxa,copepod,cross-family,10.455,40.000,0.509
+P29238,H3JS17,bacterial_luxa,copepod,cross-family,12.755,30.000,-0.631
+P29238,H3JS19,bacterial_luxa,copepod,cross-family,18.049,35.500,0.013
+P29238,H3JS13,bacterial_luxa,copepod,cross-family,12.556,36.000,0.604
+P29238,O77206,bacterial_luxa,dinoflagellate,cross-family,3.672,44.500,-1.224
+P29238,Q8W210,bacterial_luxa,dinoflagellate,cross-family,22.881,49.500,-0.511
+P29238,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,19.209,41.500,-1.400
+P29238,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,15.819,45.000,-1.038
+P29238,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,6.215,45.000,-1.252
+P29238,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,4.802,49.000,-1.079
+P29238,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,3.672,41.000,-1.721
+P29238,F5CV94,bacterial_luxa,dinoflagellate,cross-family,11.299,53.000,-0.196
+P29238,P17554,bacterial_luxa,ostracod,cross-family,24.294,36.000,-1.183
+P29238,BAD08210.1,bacterial_luxa,ostracod,cross-family,23.164,51.500,0.569
+P29238,QOS14273.1,bacterial_luxa,ostracod,cross-family,12.712,47.500,0.517
+P24113,P07740,bacterial_luxa,bacterial_luxa,same family,61.561,1033.000,139.613
+P24113,P23146,bacterial_luxa,bacterial_luxa,same family,61.272,1017.000,183.842
+P24113,P18299,bacterial_luxa,bacterial_luxa,same family,59.538,1014.000,118.656
+P24113,S3DID0,bacterial_luxa,bacterial_luxa,same family,60.116,1021.000,143.794
+P24113,G0XZS5,bacterial_luxa,bacterial_luxa,same family,78.324,1368.000,164.940
+P24113,B2XS47,bacterial_luxa,bacterial_luxa,same family,60.694,1018.000,99.077
+P24113,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,21.676,71.000,3.022
+P24113,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,13.109,31.000,-1.050
+P24113,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,12.406,35.500,-0.318
+P24113,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,13.158,33.500,-0.410
+P24113,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,3.586,33.000,-1.067
+P24113,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,3.448,32.500,-0.842
+P24113,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,2.811,39.500,0.208
+P24113,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,14.015,31.500,-1.273
+P24113,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,1.220,31.000,-0.973
+P24113,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,2.811,30.000,-1.500
+P24113,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),20.848,41.000,0.554
+P24113,Q9BLZ2,bacterial_luxa,copepod,cross-family,27.568,33.500,0.084
+P24113,Q6UQE3,bacterial_luxa,copepod,cross-family,20.548,51.000,2.412
+P24113,I7GGY2,bacterial_luxa,copepod,cross-family,23.810,43.500,0.823
+P24113,H3JS09,bacterial_luxa,copepod,cross-family,20.737,40.500,0.458
+P24113,U3TKG7,bacterial_luxa,copepod,cross-family,23.560,42.500,1.958
+P24113,H3JS11,bacterial_luxa,copepod,cross-family,22.275,46.000,1.739
+P24113,U3TIM6,bacterial_luxa,copepod,cross-family,19.091,41.000,0.799
+P24113,H3JS17,bacterial_luxa,copepod,cross-family,12.755,32.500,-0.435
+P24113,H3JS19,bacterial_luxa,copepod,cross-family,19.512,50.000,2.054
+P24113,H3JS13,bacterial_luxa,copepod,cross-family,19.731,39.000,0.818
+P24113,O77206,bacterial_luxa,dinoflagellate,cross-family,24.277,54.500,-0.261
+P24113,Q8W210,bacterial_luxa,dinoflagellate,cross-family,19.653,48.500,-1.050
+P24113,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,21.965,53.500,-0.146
+P24113,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,21.676,46.500,-0.655
+P24113,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,22.832,51.000,-0.295
+P24113,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,20.231,54.500,-0.066
+P24113,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,26.590,55.000,0.094
+P24113,F5CV94,bacterial_luxa,dinoflagellate,cross-family,10.405,42.000,-1.518
+P24113,P17554,bacterial_luxa,ostracod,cross-family,20.809,43.500,-0.404
+P24113,BAD08210.1,bacterial_luxa,ostracod,cross-family,13.295,44.500,-0.126
+P24113,QOS14273.1,bacterial_luxa,ostracod,cross-family,14.451,44.500,-0.311
+P07740,P23146,bacterial_luxa,bacterial_luxa,same family,83.380,1635.000,213.069
+P07740,P18299,bacterial_luxa,bacterial_luxa,same family,83.662,1646.000,195.937
+P07740,S3DID0,bacterial_luxa,bacterial_luxa,same family,81.690,1627.000,192.416
+P07740,G0XZS5,bacterial_luxa,bacterial_luxa,same family,62.994,1234.000,98.573
+P07740,B2XS47,bacterial_luxa,bacterial_luxa,same family,84.507,1660.000,185.646
+P07740,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,24.225,111.500,13.188
+P07740,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,3.371,25.500,-1.303
+P07740,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,19.925,31.500,-0.872
+P07740,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,19.549,34.000,-0.388
+P07740,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,19.522,41.000,0.450
+P07740,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,12.644,35.000,-0.286
+P07740,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,5.221,28.500,-1.238
+P07740,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,3.409,32.000,-0.701
+P07740,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,19.919,35.000,-1.091
+P07740,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,2.811,26.000,-1.975
+P07740,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),19.788,43.000,0.648
+P07740,Q9BLZ2,bacterial_luxa,copepod,cross-family,25.405,49.000,2.587
+P07740,Q6UQE3,bacterial_luxa,copepod,cross-family,21.005,33.500,-0.840
+P07740,I7GGY2,bacterial_luxa,copepod,cross-family,21.429,39.000,0.042
+P07740,H3JS09,bacterial_luxa,copepod,cross-family,24.885,41.500,0.513
+P07740,U3TKG7,bacterial_luxa,copepod,cross-family,27.225,47.000,2.464
+P07740,H3JS11,bacterial_luxa,copepod,cross-family,21.801,40.000,0.429
+P07740,U3TIM6,bacterial_luxa,copepod,cross-family,14.091,36.000,-0.127
+P07740,H3JS17,bacterial_luxa,copepod,cross-family,20.918,38.000,0.470
+P07740,H3JS19,bacterial_luxa,copepod,cross-family,19.512,59.500,2.515
+P07740,H3JS13,bacterial_luxa,copepod,cross-family,18.834,30.500,-0.962
+P07740,O77206,bacterial_luxa,dinoflagellate,cross-family,24.225,46.500,-0.825
+P07740,Q8W210,bacterial_luxa,dinoflagellate,cross-family,23.662,59.500,0.605
+P07740,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,22.535,66.500,0.888
+P07740,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,23.099,60.000,0.581
+P07740,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,20.563,52.000,-0.222
+P07740,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,21.972,59.500,-0.114
+P07740,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,19.437,49.000,-0.878
+P07740,F5CV94,bacterial_luxa,dinoflagellate,cross-family,20.563,54.000,0.339
+P07740,P17554,bacterial_luxa,ostracod,cross-family,23.099,48.500,0.154
+P07740,BAD08210.1,bacterial_luxa,ostracod,cross-family,19.155,40.500,-1.259
+P07740,QOS14273.1,bacterial_luxa,ostracod,cross-family,19.155,36.000,-2.303
+P23146,P18299,bacterial_luxa,bacterial_luxa,same family,79.272,1573.000,164.725
+P23146,S3DID0,bacterial_luxa,bacterial_luxa,same family,78.333,1555.000,212.729
+P23146,G0XZS5,bacterial_luxa,bacterial_luxa,same family,64.124,1228.000,110.789
+P23146,B2XS47,bacterial_luxa,bacterial_luxa,same family,80.563,1576.000,185.475
+P23146,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,20.718,103.500,10.002
+P23146,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,4.120,27.500,-1.384
+P23146,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,4.887,31.500,-0.931
+P23146,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,4.135,24.500,-3.081
+P23146,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,4.382,31.000,-1.221
+P23146,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,6.897,31.500,-1.008
+P23146,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,2.410,25.500,-2.071
+P23146,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,3.030,29.500,-1.142
+P23146,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,0.407,30.000,-1.634
+P23146,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,4.016,26.500,-1.787
+P23146,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),19.081,40.000,0.856
+P23146,Q9BLZ2,bacterial_luxa,copepod,cross-family,25.946,38.000,0.908
+P23146,Q6UQE3,bacterial_luxa,copepod,cross-family,22.374,31.000,-1.013
+P23146,I7GGY2,bacterial_luxa,copepod,cross-family,21.429,33.500,-0.600
+P23146,H3JS09,bacterial_luxa,copepod,cross-family,17.972,33.500,-0.661
+P23146,U3TKG7,bacterial_luxa,copepod,cross-family,25.654,33.500,-0.678
+P23146,H3JS11,bacterial_luxa,copepod,cross-family,25.592,38.500,0.549
+P23146,U3TIM6,bacterial_luxa,copepod,cross-family,15.909,34.000,-0.549
+P23146,H3JS17,bacterial_luxa,copepod,cross-family,20.918,33.000,-0.583
+P23146,H3JS19,bacterial_luxa,copepod,cross-family,18.537,48.500,2.664
+P23146,H3JS13,bacterial_luxa,copepod,cross-family,19.731,30.000,-1.272
+P23146,O77206,bacterial_luxa,dinoflagellate,cross-family,20.718,48.500,-0.418
+P23146,Q8W210,bacterial_luxa,dinoflagellate,cross-family,19.890,54.000,0.240
+P23146,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,8.840,51.500,-0.054
+P23146,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,20.718,51.500,-0.036
+P23146,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,21.271,62.000,1.175
+P23146,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,22.652,68.000,1.129
+P23146,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,21.547,57.000,0.362
+P23146,F5CV94,bacterial_luxa,dinoflagellate,cross-family,18.508,54.500,0.207
+P23146,P17554,bacterial_luxa,ostracod,cross-family,25.691,63.500,1.571
+P23146,BAD08210.1,bacterial_luxa,ostracod,cross-family,22.376,51.000,1.228
+P23146,QOS14273.1,bacterial_luxa,ostracod,cross-family,14.917,47.500,-0.253
+P18299,S3DID0,bacterial_luxa,bacterial_luxa,same family,85.994,1687.000,185.971
+P18299,G0XZS5,bacterial_luxa,bacterial_luxa,same family,63.842,1240.000,129.610
+P18299,B2XS47,bacterial_luxa,bacterial_luxa,same family,82.535,1621.000,189.606
+P18299,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,22.129,93.500,8.562
+P18299,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,14.232,30.000,-1.300
+P18299,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,4.887,30.000,-1.823
+P18299,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,4.511,30.000,-1.274
+P18299,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,3.187,33.000,-0.723
+P18299,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,13.027,30.500,-0.879
+P18299,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,18.474,30.500,-0.909
+P18299,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,3.030,30.500,-1.594
+P18299,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,6.911,32.500,-0.793
+P18299,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,15.261,25.500,-1.849
+P18299,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),7.420,43.000,0.600
+P18299,Q9BLZ2,bacterial_luxa,copepod,cross-family,23.243,38.500,0.794
+P18299,Q6UQE3,bacterial_luxa,copepod,cross-family,20.548,43.000,0.888
+P18299,I7GGY2,bacterial_luxa,copepod,cross-family,23.810,41.500,0.948
+P18299,H3JS09,bacterial_luxa,copepod,cross-family,22.120,46.000,1.455
+P18299,U3TKG7,bacterial_luxa,copepod,cross-family,23.560,34.000,0.157
+P18299,H3JS11,bacterial_luxa,copepod,cross-family,21.801,34.000,-0.204
+P18299,U3TIM6,bacterial_luxa,copepod,cross-family,15.000,37.500,0.296
+P18299,H3JS17,bacterial_luxa,copepod,cross-family,18.878,36.000,0.174
+P18299,H3JS19,bacterial_luxa,copepod,cross-family,18.049,53.000,4.155
+P18299,H3JS13,bacterial_luxa,copepod,cross-family,14.798,30.000,-1.280
+P18299,O77206,bacterial_luxa,dinoflagellate,cross-family,21.289,63.000,1.557
+P18299,Q8W210,bacterial_luxa,dinoflagellate,cross-family,20.168,80.000,2.234
+P18299,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,18.768,63.000,1.275
+P18299,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,19.328,64.000,2.574
+P18299,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,20.728,65.500,1.875
+P18299,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,22.129,70.000,2.969
+P18299,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,22.129,76.000,2.381
+P18299,F5CV94,bacterial_luxa,dinoflagellate,cross-family,20.728,56.000,0.048
+P18299,P17554,bacterial_luxa,ostracod,cross-family,19.048,39.500,-0.768
+P18299,BAD08210.1,bacterial_luxa,ostracod,cross-family,17.927,46.000,-0.010
+P18299,QOS14273.1,bacterial_luxa,ostracod,cross-family,20.448,40.500,-0.954
+S3DID0,G0XZS5,bacterial_luxa,bacterial_luxa,same family,62.994,1230.000,171.833
+S3DID0,B2XS47,bacterial_luxa,bacterial_luxa,same family,80.282,1589.000,134.323
+S3DID0,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,22.500,88.000,6.925
+S3DID0,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,7.116,27.000,-1.703
+S3DID0,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,3.759,27.500,-1.741
+S3DID0,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,3.383,26.000,-1.800
+S3DID0,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,3.586,30.000,-0.902
+S3DID0,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,15.326,30.500,-1.143
+S3DID0,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,5.622,30.500,-1.499
+S3DID0,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,3.030,30.000,-0.964
+S3DID0,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,18.293,34.000,-0.675
+S3DID0,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,4.418,27.500,-1.657
+S3DID0,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),7.420,41.000,0.426
+S3DID0,Q9BLZ2,bacterial_luxa,copepod,cross-family,25.405,49.000,2.323
+S3DID0,Q6UQE3,bacterial_luxa,copepod,cross-family,20.548,39.000,0.357
+S3DID0,I7GGY2,bacterial_luxa,copepod,cross-family,20.476,41.500,0.830
+S3DID0,H3JS09,bacterial_luxa,copepod,cross-family,7.834,37.500,-0.080
+S3DID0,U3TKG7,bacterial_luxa,copepod,cross-family,25.131,39.500,1.025
+S3DID0,H3JS11,bacterial_luxa,copepod,cross-family,22.275,34.500,-0.338
+S3DID0,U3TIM6,bacterial_luxa,copepod,cross-family,16.364,32.000,-0.941
+S3DID0,H3JS17,bacterial_luxa,copepod,cross-family,19.388,33.000,-0.659
+S3DID0,H3JS19,bacterial_luxa,copepod,cross-family,17.561,50.000,1.970
+S3DID0,H3JS13,bacterial_luxa,copepod,cross-family,17.040,30.500,-1.184
+S3DID0,O77206,bacterial_luxa,dinoflagellate,cross-family,20.833,60.500,0.672
+S3DID0,Q8W210,bacterial_luxa,dinoflagellate,cross-family,19.722,58.000,0.782
+S3DID0,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,12.778,59.000,0.365
+S3DID0,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,19.722,58.500,0.498
+S3DID0,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,21.667,70.000,1.581
+S3DID0,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,20.556,67.000,2.025
+S3DID0,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,19.444,62.000,0.955
+S3DID0,F5CV94,bacterial_luxa,dinoflagellate,cross-family,14.722,52.000,-0.270
+S3DID0,P17554,bacterial_luxa,ostracod,cross-family,25.556,63.000,1.588
+S3DID0,BAD08210.1,bacterial_luxa,ostracod,cross-family,24.444,55.000,0.677
+S3DID0,QOS14273.1,bacterial_luxa,ostracod,cross-family,8.333,38.000,-2.276
+G0XZS5,B2XS47,bacterial_luxa,bacterial_luxa,same family,64.124,1237.000,158.290
+G0XZS5,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,23.164,93.000,5.995
+G0XZS5,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,17.603,37.500,-0.142
+G0XZS5,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,16.541,42.500,1.361
+G0XZS5,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,16.541,40.500,0.445
+G0XZS5,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,3.984,33.000,-0.686
+G0XZS5,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,7.280,32.000,-0.937
+G0XZS5,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,12.450,33.500,-1.148
+G0XZS5,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,17.424,39.500,1.705
+G0XZS5,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,15.447,31.000,-1.243
+G0XZS5,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,15.663,34.000,-0.556
+G0XZS5,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),20.495,44.500,0.543
+G0XZS5,Q9BLZ2,bacterial_luxa,copepod,cross-family,23.784,28.000,-1.123
+G0XZS5,Q6UQE3,bacterial_luxa,copepod,cross-family,19.178,35.500,0.132
+G0XZS5,I7GGY2,bacterial_luxa,copepod,cross-family,18.571,31.500,-0.628
+G0XZS5,H3JS09,bacterial_luxa,copepod,cross-family,22.581,31.500,-0.673
+G0XZS5,U3TKG7,bacterial_luxa,copepod,cross-family,21.466,38.500,1.424
+G0XZS5,H3JS11,bacterial_luxa,copepod,cross-family,21.801,31.000,-0.597
+G0XZS5,U3TIM6,bacterial_luxa,copepod,cross-family,12.727,31.500,-0.769
+G0XZS5,H3JS17,bacterial_luxa,copepod,cross-family,7.653,33.000,-0.593
+G0XZS5,H3JS19,bacterial_luxa,copepod,cross-family,16.098,39.000,0.248
+G0XZS5,H3JS13,bacterial_luxa,copepod,cross-family,16.592,45.500,1.033
+G0XZS5,O77206,bacterial_luxa,dinoflagellate,cross-family,3.672,39.500,-1.207
+G0XZS5,Q8W210,bacterial_luxa,dinoflagellate,cross-family,22.599,47.000,-1.181
+G0XZS5,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,23.729,49.500,-0.546
+G0XZS5,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,19.774,45.500,-1.045
+G0XZS5,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,3.672,44.500,-1.016
+G0XZS5,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,22.881,42.500,-2.095
+G0XZS5,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,3.390,41.000,-1.331
+G0XZS5,F5CV94,bacterial_luxa,dinoflagellate,cross-family,18.362,45.500,-0.686
+G0XZS5,P17554,bacterial_luxa,ostracod,cross-family,21.469,48.000,-0.027
+G0XZS5,BAD08210.1,bacterial_luxa,ostracod,cross-family,20.339,49.500,0.206
+G0XZS5,QOS14273.1,bacterial_luxa,ostracod,cross-family,13.559,43.500,-0.764
+B2XS47,P80645,bacterial_luxa,bacterial_luxa,luciferase vs own control,23.944,107.000,10.760
+B2XS47,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family,26.592,38.000,-0.524
+B2XS47,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family,2.632,31.000,-1.126
+B2XS47,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family,21.429,30.000,-1.244
+B2XS47,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family,17.928,35.500,-0.242
+B2XS47,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family,24.904,41.000,0.503
+B2XS47,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family,20.482,30.500,-1.435
+B2XS47,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family,25.758,37.500,-0.539
+B2XS47,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family,19.919,27.500,-1.598
+B2XS47,BCK50966.1,bacterial_luxa,fungal_luz,cross-family,4.016,30.000,-1.155
+B2XS47,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),25.442,40.000,0.421
+B2XS47,Q9BLZ2,bacterial_luxa,copepod,cross-family,23.784,42.000,2.265
+B2XS47,Q6UQE3,bacterial_luxa,copepod,cross-family,24.201,34.000,-0.143
+B2XS47,I7GGY2,bacterial_luxa,copepod,cross-family,24.286,32.000,-0.560
+B2XS47,H3JS09,bacterial_luxa,copepod,cross-family,22.581,38.000,0.311
+B2XS47,U3TKG7,bacterial_luxa,copepod,cross-family,21.466,40.500,2.017
+B2XS47,H3JS11,bacterial_luxa,copepod,cross-family,24.171,39.500,0.921
+B2XS47,U3TIM6,bacterial_luxa,copepod,cross-family,14.091,38.500,0.036
+B2XS47,H3JS17,bacterial_luxa,copepod,cross-family,16.327,39.000,1.124
+B2XS47,H3JS19,bacterial_luxa,copepod,cross-family,18.537,50.500,2.249
+B2XS47,H3JS13,bacterial_luxa,copepod,cross-family,2.242,30.500,-1.084
+B2XS47,O77206,bacterial_luxa,dinoflagellate,cross-family,8.732,45.500,-0.573
+B2XS47,Q8W210,bacterial_luxa,dinoflagellate,cross-family,10.423,49.500,-0.097
+B2XS47,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family,11.268,48.500,-0.545
+B2XS47,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family,11.549,48.500,-0.435
+B2XS47,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family,3.662,47.000,-0.712
+B2XS47,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family,24.225,46.000,-0.450
+B2XS47,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family,20.282,49.000,-0.376
+B2XS47,F5CV94,bacterial_luxa,dinoflagellate,cross-family,23.099,51.500,-0.244
+B2XS47,P17554,bacterial_luxa,ostracod,cross-family,1.690,46.000,0.176
+B2XS47,BAD08210.1,bacterial_luxa,ostracod,cross-family,23.944,39.000,-1.001
+B2XS47,QOS14273.1,bacterial_luxa,ostracod,cross-family,1.127,34.000,-2.487
+P80645,A0A3G9JYH7,bacterial_luxa,fungal_luz,cross-family (control),23.970,48.000,0.640
+P80645,A0A2H3E985,bacterial_luxa,fungal_luz,cross-family (control),19.925,37.000,-0.806
+P80645,A0A3G9JTR4,bacterial_luxa,fungal_luz,cross-family (control),20.301,45.000,0.396
+P80645,A0A3G9K5D8,bacterial_luxa,fungal_luz,cross-family (control),21.912,45.500,0.036
+P80645,A0A3G9JTL4,bacterial_luxa,fungal_luz,cross-family (control),18.391,45.000,0.033
+P80645,A0A3G9JTL9,bacterial_luxa,fungal_luz,cross-family (control),21.687,51.000,0.829
+P80645,A0A3G9K9H1,bacterial_luxa,fungal_luz,cross-family (control),20.076,42.000,-0.124
+P80645,A0A3G9JTQ0,bacterial_luxa,fungal_luz,cross-family (control),21.545,53.500,1.885
+P80645,BCK50966.1,bacterial_luxa,fungal_luz,cross-family (control),9.639,36.000,-0.933
+P80645,A0A0D7AKP7,bacterial_luxa,fungal_luz,cross-family (control),12.014,37.000,-0.902
+P80645,Q9BLZ2,bacterial_luxa,copepod,cross-family (control),18.919,42.000,1.031
+P80645,Q6UQE3,bacterial_luxa,copepod,cross-family (control),19.178,37.000,0.760
+P80645,I7GGY2,bacterial_luxa,copepod,cross-family (control),12.381,31.000,-0.945
+P80645,H3JS09,bacterial_luxa,copepod,cross-family (control),12.442,32.000,-0.335
+P80645,U3TKG7,bacterial_luxa,copepod,cross-family (control),6.806,33.500,-0.489
+P80645,H3JS11,bacterial_luxa,copepod,cross-family (control),10.427,33.500,-0.177
+P80645,U3TIM6,bacterial_luxa,copepod,cross-family (control),10.000,38.000,0.334
+P80645,H3JS17,bacterial_luxa,copepod,cross-family (control),18.367,39.500,0.556
+P80645,H3JS19,bacterial_luxa,copepod,cross-family (control),7.317,35.500,-0.058
+P80645,H3JS13,bacterial_luxa,copepod,cross-family (control),16.592,38.000,0.481
+P80645,O77206,bacterial_luxa,dinoflagellate,cross-family (control),23.622,54.500,0.643
+P80645,Q8W210,bacterial_luxa,dinoflagellate,cross-family (control),20.997,49.500,-0.750
+P80645,Q5UAZ5,bacterial_luxa,dinoflagellate,cross-family (control),24.147,48.500,-0.809
+P80645,Q5UAZ4,bacterial_luxa,dinoflagellate,cross-family (control),20.472,59.500,0.505
+P80645,Q5UAZ6,bacterial_luxa,dinoflagellate,cross-family (control),22.047,51.500,-0.408
+P80645,Q5UAZ7,bacterial_luxa,dinoflagellate,cross-family (control),21.260,51.500,-0.306
+P80645,Q5UAZ3,bacterial_luxa,dinoflagellate,cross-family (control),14.698,42.000,-1.540
+P80645,F5CV94,bacterial_luxa,dinoflagellate,cross-family (control),21.785,61.500,0.645
+P80645,P17554,bacterial_luxa,ostracod,cross-family (control),16.010,48.000,2.581
+P80645,BAD08210.1,bacterial_luxa,ostracod,cross-family (control),14.436,36.500,-0.574
+P80645,QOS14273.1,bacterial_luxa,ostracod,cross-family (control),14.173,36.000,-0.594
+A0A3G9JYH7,A0A2H3E985,fungal_luz,fungal_luz,same family,74.436,1034.000,128.978
+A0A3G9JYH7,A0A3G9JTR4,fungal_luz,fungal_luz,same family,75.940,1056.000,97.541
+A0A3G9JYH7,A0A3G9K5D8,fungal_luz,fungal_luz,same family,72.510,924.500,139.249
+A0A3G9JYH7,A0A3G9JTL4,fungal_luz,fungal_luz,same family,82.759,1146.000,119.778
+A0A3G9JYH7,A0A3G9JTL9,fungal_luz,fungal_luz,same family,69.478,900.500,94.955
+A0A3G9JYH7,A0A3G9K9H1,fungal_luz,fungal_luz,same family,89.394,1253.000,137.792
+A0A3G9JYH7,A0A3G9JTQ0,fungal_luz,fungal_luz,same family,67.073,857.500,117.338
+A0A3G9JYH7,BCK50966.1,fungal_luz,fungal_luz,same family,75.100,959.000,114.468
+A0A3G9JYH7,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,39.700,479.000,61.149
+A0A3G9JYH7,Q9BLZ2,fungal_luz,copepod,cross-family,23.784,32.500,1.155
+A0A3G9JYH7,Q6UQE3,fungal_luz,copepod,cross-family,3.653,27.000,-0.860
+A0A3G9JYH7,I7GGY2,fungal_luz,copepod,cross-family,6.190,30.500,-0.437
+A0A3G9JYH7,H3JS09,fungal_luz,copepod,cross-family,4.608,30.500,-0.664
+A0A3G9JYH7,U3TKG7,fungal_luz,copepod,cross-family,1.047,26.000,-0.922
+A0A3G9JYH7,H3JS11,fungal_luz,copepod,cross-family,3.791,33.500,0.909
+A0A3G9JYH7,U3TIM6,fungal_luz,copepod,cross-family,22.273,56.000,2.724
+A0A3G9JYH7,H3JS17,fungal_luz,copepod,cross-family,13.265,25.500,-0.906
+A0A3G9JYH7,H3JS19,fungal_luz,copepod,cross-family,6.341,32.000,-0.454
+A0A3G9JYH7,H3JS13,fungal_luz,copepod,cross-family,16.592,38.500,1.319
+A0A3G9JYH7,O77206,fungal_luz,dinoflagellate,cross-family,22.097,52.000,0.584
+A0A3G9JYH7,Q8W210,fungal_luz,dinoflagellate,cross-family,20.225,54.500,0.895
+A0A3G9JYH7,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,20.599,49.000,0.567
+A0A3G9JYH7,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,22.846,50.000,0.620
+A0A3G9JYH7,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,20.599,52.000,0.365
+A0A3G9JYH7,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,20.599,49.000,1.086
+A0A3G9JYH7,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,23.970,65.500,3.092
+A0A3G9JYH7,F5CV94,fungal_luz,dinoflagellate,cross-family,1.498,36.000,-1.496
+A0A3G9JYH7,P17554,fungal_luz,ostracod,cross-family,23.970,35.000,-0.492
+A0A3G9JYH7,BAD08210.1,fungal_luz,ostracod,cross-family,7.865,33.000,-0.612
+A0A3G9JYH7,QOS14273.1,fungal_luz,ostracod,cross-family,2.622,39.000,0.390
+A0A2H3E985,A0A3G9JTR4,fungal_luz,fungal_luz,same family,95.113,1340.000,188.224
+A0A2H3E985,A0A3G9K5D8,fungal_luz,fungal_luz,same family,74.104,984.000,104.775
+A0A2H3E985,A0A3G9JTL4,fungal_luz,fungal_luz,same family,71.264,1007.000,126.424
+A0A2H3E985,A0A3G9JTL9,fungal_luz,fungal_luz,same family,69.880,946.500,142.658
+A0A2H3E985,A0A3G9K9H1,fungal_luz,fungal_luz,same family,76.136,1051.000,129.645
+A0A2H3E985,A0A3G9JTQ0,fungal_luz,fungal_luz,same family,70.325,906.500,96.671
+A0A2H3E985,BCK50966.1,fungal_luz,fungal_luz,same family,75.904,1000.500,144.860
+A0A2H3E985,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,42.481,510.500,66.327
+A0A2H3E985,Q9BLZ2,fungal_luz,copepod,cross-family,16.216,34.000,0.457
+A0A2H3E985,Q6UQE3,fungal_luz,copepod,cross-family,13.242,35.000,0.602
+A0A2H3E985,I7GGY2,fungal_luz,copepod,cross-family,3.333,35.000,1.106
+A0A2H3E985,H3JS09,fungal_luz,copepod,cross-family,2.765,35.000,0.236
+A0A2H3E985,U3TKG7,fungal_luz,copepod,cross-family,2.618,34.000,0.989
+A0A2H3E985,H3JS11,fungal_luz,copepod,cross-family,18.483,41.500,2.298
+A0A2H3E985,U3TIM6,fungal_luz,copepod,cross-family,20.455,47.000,4.505
+A0A2H3E985,H3JS17,fungal_luz,copepod,cross-family,19.898,43.000,2.668
+A0A2H3E985,H3JS19,fungal_luz,copepod,cross-family,2.439,33.500,0.026
+A0A2H3E985,H3JS13,fungal_luz,copepod,cross-family,13.004,38.500,1.256
+A0A2H3E985,O77206,fungal_luz,dinoflagellate,cross-family,23.684,62.500,2.849
+A0A2H3E985,Q8W210,fungal_luz,dinoflagellate,cross-family,24.436,49.500,0.057
+A0A2H3E985,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,18.421,44.000,-0.222
+A0A2H3E985,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,24.812,48.500,0.711
+A0A2H3E985,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,26.316,59.500,1.367
+A0A2H3E985,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,22.556,55.000,1.737
+A0A2H3E985,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,22.556,58.500,1.225
+A0A2H3E985,F5CV94,fungal_luz,dinoflagellate,cross-family,19.173,31.000,-1.689
+A0A2H3E985,P17554,fungal_luz,ostracod,cross-family,1.504,32.500,-0.738
+A0A2H3E985,BAD08210.1,fungal_luz,ostracod,cross-family,20.301,31.000,-0.953
+A0A2H3E985,QOS14273.1,fungal_luz,ostracod,cross-family,22.180,42.500,1.195
+A0A3G9JTR4,A0A3G9K5D8,fungal_luz,fungal_luz,same family,74.104,973.000,124.491
+A0A3G9JTR4,A0A3G9JTL4,fungal_luz,fungal_luz,same family,72.414,1016.000,142.366
+A0A3G9JTR4,A0A3G9JTL9,fungal_luz,fungal_luz,same family,69.478,944.000,109.343
+A0A3G9JTR4,A0A3G9K9H1,fungal_luz,fungal_luz,same family,76.894,1066.000,187.230
+A0A3G9JTR4,A0A3G9JTQ0,fungal_luz,fungal_luz,same family,67.886,896.500,71.681
+A0A3G9JTR4,BCK50966.1,fungal_luz,fungal_luz,same family,75.502,987.500,84.766
+A0A3G9JTR4,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,43.609,519.000,52.603
+A0A3G9JTR4,Q9BLZ2,fungal_luz,copepod,cross-family,24.865,33.000,0.177
+A0A3G9JTR4,Q6UQE3,fungal_luz,copepod,cross-family,13.699,35.000,0.464
+A0A3G9JTR4,I7GGY2,fungal_luz,copepod,cross-family,3.333,35.000,1.205
+A0A3G9JTR4,H3JS09,fungal_luz,copepod,cross-family,2.765,35.000,1.382
+A0A3G9JTR4,U3TKG7,fungal_luz,copepod,cross-family,3.141,35.000,0.924
+A0A3G9JTR4,H3JS11,fungal_luz,copepod,cross-family,20.853,40.500,1.665
+A0A3G9JTR4,U3TIM6,fungal_luz,copepod,cross-family,20.455,47.000,2.529
+A0A3G9JTR4,H3JS17,fungal_luz,copepod,cross-family,20.408,43.500,1.947
+A0A3G9JTR4,H3JS19,fungal_luz,copepod,cross-family,15.122,33.500,0.624
+A0A3G9JTR4,H3JS13,fungal_luz,copepod,cross-family,13.901,41.000,1.304
+A0A3G9JTR4,O77206,fungal_luz,dinoflagellate,cross-family,22.556,76.000,5.350
+A0A3G9JTR4,Q8W210,fungal_luz,dinoflagellate,cross-family,24.060,59.000,1.690
+A0A3G9JTR4,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,23.308,47.000,0.076
+A0A3G9JTR4,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,22.556,49.000,0.003
+A0A3G9JTR4,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,23.684,71.500,3.895
+A0A3G9JTR4,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,23.684,66.000,2.114
+A0A3G9JTR4,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,22.932,68.500,4.840
+A0A3G9JTR4,F5CV94,fungal_luz,dinoflagellate,cross-family,8.647,35.000,-1.201
+A0A3G9JTR4,P17554,fungal_luz,ostracod,cross-family,22.556,34.000,-0.445
+A0A3G9JTR4,BAD08210.1,fungal_luz,ostracod,cross-family,21.429,30.500,-1.130
+A0A3G9JTR4,QOS14273.1,fungal_luz,ostracod,cross-family,24.436,44.500,0.552
+A0A3G9K5D8,A0A3G9JTL4,fungal_luz,fungal_luz,same family,70.916,917.000,138.130
+A0A3G9K5D8,A0A3G9JTL9,fungal_luz,fungal_luz,same family,72.691,970.000,121.778
+A0A3G9K5D8,A0A3G9K9H1,fungal_luz,fungal_luz,same family,73.307,937.500,140.927
+A0A3G9K5D8,A0A3G9JTQ0,fungal_luz,fungal_luz,same family,65.447,855.500,133.563
+A0A3G9K5D8,BCK50966.1,fungal_luz,fungal_luz,same family,73.494,972.000,93.614
+A0A3G9K5D8,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,39.841,473.500,57.094
+A0A3G9K5D8,Q9BLZ2,fungal_luz,copepod,cross-family,11.351,39.000,1.006
+A0A3G9K5D8,Q6UQE3,fungal_luz,copepod,cross-family,3.653,33.000,0.341
+A0A3G9K5D8,I7GGY2,fungal_luz,copepod,cross-family,9.524,35.000,0.446
+A0A3G9K5D8,H3JS09,fungal_luz,copepod,cross-family,9.217,35.000,0.932
+A0A3G9K5D8,U3TKG7,fungal_luz,copepod,cross-family,12.565,36.000,1.510
+A0A3G9K5D8,H3JS11,fungal_luz,copepod,cross-family,9.005,33.500,2.046
+A0A3G9K5D8,U3TIM6,fungal_luz,copepod,cross-family,25.000,34.500,0.895
+A0A3G9K5D8,H3JS17,fungal_luz,copepod,cross-family,24.490,35.000,0.601
+A0A3G9K5D8,H3JS19,fungal_luz,copepod,cross-family,2.927,29.500,-0.504
+A0A3G9K5D8,H3JS13,fungal_luz,copepod,cross-family,17.489,37.000,0.882
+A0A3G9K5D8,O77206,fungal_luz,dinoflagellate,cross-family,22.311,48.500,0.233
+A0A3G9K5D8,Q8W210,fungal_luz,dinoflagellate,cross-family,20.717,52.000,0.292
+A0A3G9K5D8,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,25.896,51.500,0.777
+A0A3G9K5D8,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,22.709,46.000,-0.653
+A0A3G9K5D8,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,21.116,44.500,-0.221
+A0A3G9K5D8,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,20.319,47.000,-0.021
+A0A3G9K5D8,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,25.100,48.500,1.037
+A0A3G9K5D8,F5CV94,fungal_luz,dinoflagellate,cross-family,23.904,41.000,-0.523
+A0A3G9K5D8,P17554,fungal_luz,ostracod,cross-family,3.187,28.000,-1.530
+A0A3G9K5D8,BAD08210.1,fungal_luz,ostracod,cross-family,1.992,28.000,-1.007
+A0A3G9K5D8,QOS14273.1,fungal_luz,ostracod,cross-family,22.311,38.000,0.942
+A0A3G9JTL4,A0A3G9JTL9,fungal_luz,fungal_luz,same family,69.076,902.000,124.605
+A0A3G9JTL4,A0A3G9K9H1,fungal_luz,fungal_luz,same family,83.142,1173.500,163.975
+A0A3G9JTL4,A0A3G9JTQ0,fungal_luz,fungal_luz,same family,65.041,833.500,96.030
+A0A3G9JTL4,BCK50966.1,fungal_luz,fungal_luz,same family,70.683,939.000,119.173
+A0A3G9JTL4,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,39.847,482.500,62.545
+A0A3G9JTL4,Q9BLZ2,fungal_luz,copepod,cross-family,24.324,32.000,0.646
+A0A3G9JTL4,Q6UQE3,fungal_luz,copepod,cross-family,3.196,23.000,-1.585
+A0A3G9JTL4,I7GGY2,fungal_luz,copepod,cross-family,2.381,32.000,0.074
+A0A3G9JTL4,H3JS09,fungal_luz,copepod,cross-family,4.608,24.000,-1.539
+A0A3G9JTL4,U3TKG7,fungal_luz,copepod,cross-family,3.141,29.000,-0.451
+A0A3G9JTL4,H3JS11,fungal_luz,copepod,cross-family,1.896,29.500,-0.324
+A0A3G9JTL4,U3TIM6,fungal_luz,copepod,cross-family,21.818,40.000,1.203
+A0A3G9JTL4,H3JS17,fungal_luz,copepod,cross-family,3.061,25.500,-1.438
+A0A3G9JTL4,H3JS19,fungal_luz,copepod,cross-family,2.927,31.000,-0.336
+A0A3G9JTL4,H3JS13,fungal_luz,copepod,cross-family,18.386,41.500,1.057
+A0A3G9JTL4,O77206,fungal_luz,dinoflagellate,cross-family,20.307,57.000,2.641
+A0A3G9JTL4,Q8W210,fungal_luz,dinoflagellate,cross-family,21.073,56.000,0.788
+A0A3G9JTL4,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,19.540,50.500,0.965
+A0A3G9JTL4,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,22.222,51.500,1.443
+A0A3G9JTL4,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,23.755,56.500,1.460
+A0A3G9JTL4,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,23.372,55.000,0.364
+A0A3G9JTL4,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,21.839,59.000,0.627
+A0A3G9JTL4,F5CV94,fungal_luz,dinoflagellate,cross-family,12.644,43.500,-0.293
+A0A3G9JTL4,P17554,fungal_luz,ostracod,cross-family,4.598,29.000,-1.899
+A0A3G9JTL4,BAD08210.1,fungal_luz,ostracod,cross-family,2.299,30.000,-1.250
+A0A3G9JTL4,QOS14273.1,fungal_luz,ostracod,cross-family,26.054,36.000,-0.294
+A0A3G9JTL9,A0A3G9K9H1,fungal_luz,fungal_luz,same family,71.084,935.000,119.656
+A0A3G9JTL9,A0A3G9JTQ0,fungal_luz,fungal_luz,same family,67.073,887.500,130.946
+A0A3G9JTL9,BCK50966.1,fungal_luz,fungal_luz,same family,78.715,1058.000,145.470
+A0A3G9JTL9,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,39.357,479.000,82.119
+A0A3G9JTL9,Q9BLZ2,fungal_luz,copepod,cross-family,25.405,33.000,0.731
+A0A3G9JTL9,Q6UQE3,fungal_luz,copepod,cross-family,4.566,32.000,-0.061
+A0A3G9JTL9,I7GGY2,fungal_luz,copepod,cross-family,2.857,24.000,-1.177
+A0A3G9JTL9,H3JS09,fungal_luz,copepod,cross-family,2.304,28.500,-0.802
+A0A3G9JTL9,U3TKG7,fungal_luz,copepod,cross-family,2.618,25.000,-1.379
+A0A3G9JTL9,H3JS11,fungal_luz,copepod,cross-family,7.109,32.500,0.336
+A0A3G9JTL9,U3TIM6,fungal_luz,copepod,cross-family,15.455,31.500,-0.145
+A0A3G9JTL9,H3JS17,fungal_luz,copepod,cross-family,13.265,33.000,0.174
+A0A3G9JTL9,H3JS19,fungal_luz,copepod,cross-family,12.195,33.000,-0.029
+A0A3G9JTL9,H3JS13,fungal_luz,copepod,cross-family,20.628,42.000,1.943
+A0A3G9JTL9,O77206,fungal_luz,dinoflagellate,cross-family,25.703,42.500,-0.566
+A0A3G9JTL9,Q8W210,fungal_luz,dinoflagellate,cross-family,22.490,43.000,-0.745
+A0A3G9JTL9,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,22.490,48.000,0.036
+A0A3G9JTL9,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,27.309,46.500,-0.076
+A0A3G9JTL9,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,20.482,40.500,-1.132
+A0A3G9JTL9,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,21.285,41.000,-0.654
+A0A3G9JTL9,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,20.884,45.500,0.000
+A0A3G9JTL9,F5CV94,fungal_luz,dinoflagellate,cross-family,17.671,50.000,0.930
+A0A3G9JTL9,P17554,fungal_luz,ostracod,cross-family,3.213,30.500,-1.278
+A0A3G9JTL9,BAD08210.1,fungal_luz,ostracod,cross-family,12.048,31.000,-1.131
+A0A3G9JTL9,QOS14273.1,fungal_luz,ostracod,cross-family,12.048,34.000,-0.382
+A0A3G9K9H1,A0A3G9JTQ0,fungal_luz,fungal_luz,same family,66.667,865.500,178.031
+A0A3G9K9H1,BCK50966.1,fungal_luz,fungal_luz,same family,74.699,972.000,132.875
+A0A3G9K9H1,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,42.803,504.000,76.543
+A0A3G9K9H1,Q9BLZ2,fungal_luz,copepod,cross-family,7.027,31.500,0.250
+A0A3G9K9H1,Q6UQE3,fungal_luz,copepod,cross-family,3.653,28.000,-0.976
+A0A3G9K9H1,I7GGY2,fungal_luz,copepod,cross-family,13.333,32.000,0.121
+A0A3G9K9H1,H3JS09,fungal_luz,copepod,cross-family,2.765,25.500,-1.345
+A0A3G9K9H1,U3TKG7,fungal_luz,copepod,cross-family,2.094,33.000,0.052
+A0A3G9K9H1,H3JS11,fungal_luz,copepod,cross-family,3.318,30.000,0.140
+A0A3G9K9H1,U3TIM6,fungal_luz,copepod,cross-family,21.818,54.000,4.831
+A0A3G9K9H1,H3JS17,fungal_luz,copepod,cross-family,11.735,23.000,-1.342
+A0A3G9K9H1,H3JS19,fungal_luz,copepod,cross-family,7.317,34.000,0.301
+A0A3G9K9H1,H3JS13,fungal_luz,copepod,cross-family,17.489,36.000,0.527
+A0A3G9K9H1,O77206,fungal_luz,dinoflagellate,cross-family,19.697,49.500,0.558
+A0A3G9K9H1,Q8W210,fungal_luz,dinoflagellate,cross-family,21.591,52.500,1.217
+A0A3G9K9H1,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,23.106,44.000,-0.333
+A0A3G9K9H1,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,22.727,55.000,1.597
+A0A3G9K9H1,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,20.076,49.000,0.096
+A0A3G9K9H1,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,25.000,46.000,-0.308
+A0A3G9K9H1,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,20.833,54.500,1.153
+A0A3G9K9H1,F5CV94,fungal_luz,dinoflagellate,cross-family,24.242,38.000,-1.059
+A0A3G9K9H1,P17554,fungal_luz,ostracod,cross-family,2.273,32.000,-1.087
+A0A3G9K9H1,BAD08210.1,fungal_luz,ostracod,cross-family,7.955,30.500,-1.534
+A0A3G9K9H1,QOS14273.1,fungal_luz,ostracod,cross-family,2.652,38.500,0.075
+A0A3G9JTQ0,BCK50966.1,fungal_luz,fungal_luz,same family,69.512,914.500,100.480
+A0A3G9JTQ0,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,41.463,477.500,55.149
+A0A3G9JTQ0,Q9BLZ2,fungal_luz,copepod,cross-family,24.865,35.500,1.125
+A0A3G9JTQ0,Q6UQE3,fungal_luz,copepod,cross-family,2.283,25.000,-1.344
+A0A3G9JTQ0,I7GGY2,fungal_luz,copepod,cross-family,0.952,26.000,-0.635
+A0A3G9JTQ0,H3JS09,fungal_luz,copepod,cross-family,2.765,26.000,-0.707
+A0A3G9JTQ0,U3TKG7,fungal_luz,copepod,cross-family,2.618,28.000,-0.273
+A0A3G9JTQ0,H3JS11,fungal_luz,copepod,cross-family,0.948,30.500,0.488
+A0A3G9JTQ0,U3TIM6,fungal_luz,copepod,cross-family,3.636,25.000,-1.121
+A0A3G9JTQ0,H3JS17,fungal_luz,copepod,cross-family,13.265,30.000,-0.552
+A0A3G9JTQ0,H3JS19,fungal_luz,copepod,cross-family,19.512,33.000,0.566
+A0A3G9JTQ0,H3JS13,fungal_luz,copepod,cross-family,15.695,33.000,0.581
+A0A3G9JTQ0,O77206,fungal_luz,dinoflagellate,cross-family,21.138,50.500,0.116
+A0A3G9JTQ0,Q8W210,fungal_luz,dinoflagellate,cross-family,23.577,48.000,-0.697
+A0A3G9JTQ0,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,25.203,55.500,1.293
+A0A3G9JTQ0,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,24.797,59.500,0.781
+A0A3G9JTQ0,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,25.203,60.000,1.578
+A0A3G9JTQ0,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,23.984,54.000,0.499
+A0A3G9JTQ0,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,24.797,64.500,2.138
+A0A3G9JTQ0,F5CV94,fungal_luz,dinoflagellate,cross-family,19.919,39.500,-0.779
+A0A3G9JTQ0,P17554,fungal_luz,ostracod,cross-family,12.602,29.500,-0.879
+A0A3G9JTQ0,BAD08210.1,fungal_luz,ostracod,cross-family,1.626,33.000,-0.682
+A0A3G9JTQ0,QOS14273.1,fungal_luz,ostracod,cross-family,13.415,33.500,-0.350
+BCK50966.1,A0A0D7AKP7,fungal_luz,fungal_luz,luciferase vs own control,41.365,482.000,67.636
+BCK50966.1,Q9BLZ2,fungal_luz,copepod,cross-family,12.432,34.000,0.837
+BCK50966.1,Q6UQE3,fungal_luz,copepod,cross-family,2.283,31.000,0.428
+BCK50966.1,I7GGY2,fungal_luz,copepod,cross-family,12.381,31.000,0.199
+BCK50966.1,H3JS09,fungal_luz,copepod,cross-family,5.530,33.000,0.268
+BCK50966.1,U3TKG7,fungal_luz,copepod,cross-family,17.801,35.500,0.917
+BCK50966.1,H3JS11,fungal_luz,copepod,cross-family,3.791,31.000,0.276
+BCK50966.1,U3TIM6,fungal_luz,copepod,cross-family,8.636,35.500,0.557
+BCK50966.1,H3JS17,fungal_luz,copepod,cross-family,6.122,29.000,-0.640
+BCK50966.1,H3JS19,fungal_luz,copepod,cross-family,5.854,31.000,-0.546
+BCK50966.1,H3JS13,fungal_luz,copepod,cross-family,20.179,46.000,3.974
+BCK50966.1,O77206,fungal_luz,dinoflagellate,cross-family,21.687,55.000,1.015
+BCK50966.1,Q8W210,fungal_luz,dinoflagellate,cross-family,24.096,49.000,-0.312
+BCK50966.1,Q5UAZ5,fungal_luz,dinoflagellate,cross-family,22.490,50.000,0.577
+BCK50966.1,Q5UAZ4,fungal_luz,dinoflagellate,cross-family,20.080,50.000,0.647
+BCK50966.1,Q5UAZ6,fungal_luz,dinoflagellate,cross-family,19.679,57.500,2.107
+BCK50966.1,Q5UAZ7,fungal_luz,dinoflagellate,cross-family,20.482,65.500,1.709
+BCK50966.1,Q5UAZ3,fungal_luz,dinoflagellate,cross-family,21.285,71.500,3.664
+BCK50966.1,F5CV94,fungal_luz,dinoflagellate,cross-family,20.884,38.500,-0.614
+BCK50966.1,P17554,fungal_luz,ostracod,cross-family,1.606,28.000,-1.835
+BCK50966.1,BAD08210.1,fungal_luz,ostracod,cross-family,8.434,32.500,-0.420
+BCK50966.1,QOS14273.1,fungal_luz,ostracod,cross-family,2.410,36.500,0.198
+A0A0D7AKP7,Q9BLZ2,fungal_luz,copepod,cross-family (control),14.054,43.000,2.034
+A0A0D7AKP7,Q6UQE3,fungal_luz,copepod,cross-family (control),12.329,45.000,2.246
+A0A0D7AKP7,I7GGY2,fungal_luz,copepod,cross-family (control),12.381,37.000,0.649
+A0A0D7AKP7,H3JS09,fungal_luz,copepod,cross-family (control),11.982,35.000,0.315
+A0A0D7AKP7,U3TKG7,fungal_luz,copepod,cross-family (control),13.613,39.000,2.225
+A0A0D7AKP7,H3JS11,fungal_luz,copepod,cross-family (control),12.796,52.500,4.187
+A0A0D7AKP7,U3TIM6,fungal_luz,copepod,cross-family (control),12.273,52.000,4.104
+A0A0D7AKP7,H3JS17,fungal_luz,copepod,cross-family (control),12.245,36.000,-0.046
+A0A0D7AKP7,H3JS19,fungal_luz,copepod,cross-family (control),8.780,46.500,3.038
+A0A0D7AKP7,H3JS13,fungal_luz,copepod,cross-family (control),20.628,34.500,0.021
+A0A0D7AKP7,O77206,fungal_luz,dinoflagellate,cross-family (control),16.961,35.000,-1.880
+A0A0D7AKP7,Q8W210,fungal_luz,dinoflagellate,cross-family (control),21.201,35.500,-1.778
+A0A0D7AKP7,Q5UAZ5,fungal_luz,dinoflagellate,cross-family (control),26.148,38.000,-1.000
+A0A0D7AKP7,Q5UAZ4,fungal_luz,dinoflagellate,cross-family (control),6.360,36.500,-1.483
+A0A0D7AKP7,Q5UAZ6,fungal_luz,dinoflagellate,cross-family (control),6.360,42.000,-0.850
+A0A0D7AKP7,Q5UAZ7,fungal_luz,dinoflagellate,cross-family (control),6.360,35.000,-2.067
+A0A0D7AKP7,Q5UAZ3,fungal_luz,dinoflagellate,cross-family (control),19.081,39.500,-0.741
+A0A0D7AKP7,F5CV94,fungal_luz,dinoflagellate,cross-family (control),24.382,54.000,0.695
+A0A0D7AKP7,P17554,fungal_luz,ostracod,cross-family (control),11.307,32.000,-1.409
+A0A0D7AKP7,BAD08210.1,fungal_luz,ostracod,cross-family (control),10.954,31.500,-1.522
+A0A0D7AKP7,QOS14273.1,fungal_luz,ostracod,cross-family (control),19.081,32.000,-1.661
+Q9BLZ2,Q6UQE3,copepod,copepod,same family,68.108,649.000,101.559
+Q9BLZ2,I7GGY2,copepod,copepod,same family,75.676,728.000,80.147
+Q9BLZ2,H3JS09,copepod,copepod,same family,71.892,677.000,73.755
+Q9BLZ2,U3TKG7,copepod,copepod,same family,72.432,707.000,71.350
+Q9BLZ2,H3JS11,copepod,copepod,same family,70.270,662.000,81.716
+Q9BLZ2,U3TIM6,copepod,copepod,same family,72.973,689.500,61.590
+Q9BLZ2,H3JS17,copepod,copepod,same family,52.432,449.000,51.622
+Q9BLZ2,H3JS19,copepod,copepod,same family,46.486,380.500,40.440
+Q9BLZ2,H3JS13,copepod,copepod,same family,55.135,491.000,47.264
+Q9BLZ2,O77206,copepod,dinoflagellate,cross-family,25.946,46.000,0.372
+Q9BLZ2,Q8W210,copepod,dinoflagellate,cross-family,25.946,39.000,-1.233
+Q9BLZ2,Q5UAZ5,copepod,dinoflagellate,cross-family,25.405,35.500,-1.131
+Q9BLZ2,Q5UAZ4,copepod,dinoflagellate,cross-family,24.324,37.000,-1.250
+Q9BLZ2,Q5UAZ6,copepod,dinoflagellate,cross-family,23.243,61.500,1.737
+Q9BLZ2,Q5UAZ7,copepod,dinoflagellate,cross-family,23.243,50.500,0.430
+Q9BLZ2,Q5UAZ3,copepod,dinoflagellate,cross-family,23.784,48.500,0.467
+Q9BLZ2,F5CV94,copepod,dinoflagellate,cross-family,26.486,37.000,-0.606
+Q9BLZ2,P17554,copepod,ostracod,cross-family,24.865,46.500,0.360
+Q9BLZ2,BAD08210.1,copepod,ostracod,cross-family,30.270,47.000,0.060
+Q9BLZ2,QOS14273.1,copepod,ostracod,cross-family,21.622,48.000,0.450
+Q6UQE3,I7GGY2,copepod,copepod,same family,80.952,868.000,89.826
+Q6UQE3,H3JS09,copepod,copepod,same family,81.106,902.500,83.891
+Q6UQE3,U3TKG7,copepod,copepod,same family,64.398,614.000,55.002
+Q6UQE3,H3JS11,copepod,copepod,same family,61.611,621.500,126.583
+Q6UQE3,U3TIM6,copepod,copepod,same family,62.100,671.000,124.949
+Q6UQE3,H3JS17,copepod,copepod,same family,47.449,421.500,60.584
+Q6UQE3,H3JS19,copepod,copepod,same family,47.317,405.000,45.924
+Q6UQE3,H3JS13,copepod,copepod,same family,43.836,426.000,44.567
+Q6UQE3,O77206,copepod,dinoflagellate,cross-family,8.676,57.500,1.688
+Q6UQE3,Q8W210,copepod,dinoflagellate,cross-family,27.854,62.000,3.014
+Q6UQE3,Q5UAZ5,copepod,dinoflagellate,cross-family,22.374,50.000,1.028
+Q6UQE3,Q5UAZ4,copepod,dinoflagellate,cross-family,25.114,57.000,1.925
+Q6UQE3,Q5UAZ6,copepod,dinoflagellate,cross-family,22.831,60.000,1.887
+Q6UQE3,Q5UAZ7,copepod,dinoflagellate,cross-family,24.201,54.000,1.345
+Q6UQE3,Q5UAZ3,copepod,dinoflagellate,cross-family,25.571,64.500,2.332
+Q6UQE3,F5CV94,copepod,dinoflagellate,cross-family,19.635,34.500,-1.208
+Q6UQE3,P17554,copepod,ostracod,cross-family,21.461,41.000,-0.594
+Q6UQE3,BAD08210.1,copepod,ostracod,cross-family,21.005,36.000,-1.368
+Q6UQE3,QOS14273.1,copepod,ostracod,cross-family,16.895,37.000,-1.240
+I7GGY2,H3JS09,copepod,copepod,same family,88.571,957.500,178.060
+I7GGY2,U3TKG7,copepod,copepod,same family,68.063,651.000,62.802
+I7GGY2,H3JS11,copepod,copepod,same family,68.095,695.000,93.088
+I7GGY2,U3TIM6,copepod,copepod,same family,68.095,716.500,80.554
+I7GGY2,H3JS17,copepod,copepod,same family,48.980,437.500,49.279
+I7GGY2,H3JS19,copepod,copepod,same family,43.902,390.000,62.128
+I7GGY2,H3JS13,copepod,copepod,same family,46.667,450.500,43.528
+I7GGY2,O77206,copepod,dinoflagellate,cross-family,20.952,44.500,-0.238
+I7GGY2,Q8W210,copepod,dinoflagellate,cross-family,22.381,47.500,0.016
+I7GGY2,Q5UAZ5,copepod,dinoflagellate,cross-family,24.286,44.000,0.148
+I7GGY2,Q5UAZ4,copepod,dinoflagellate,cross-family,20.476,46.500,0.296
+I7GGY2,Q5UAZ6,copepod,dinoflagellate,cross-family,18.571,51.000,0.981
+I7GGY2,Q5UAZ7,copepod,dinoflagellate,cross-family,22.381,43.500,-0.383
+I7GGY2,Q5UAZ3,copepod,dinoflagellate,cross-family,24.286,54.000,1.841
+I7GGY2,F5CV94,copepod,dinoflagellate,cross-family,20.000,44.500,0.426
+I7GGY2,P17554,copepod,ostracod,cross-family,23.810,42.000,-0.482
+I7GGY2,BAD08210.1,copepod,ostracod,cross-family,24.286,50.000,0.881
+I7GGY2,QOS14273.1,copepod,ostracod,cross-family,19.524,43.000,-0.839
+H3JS09,U3TKG7,copepod,copepod,same family,65.969,640.500,93.107
+H3JS09,H3JS11,copepod,copepod,same family,64.929,656.000,62.947
+H3JS09,U3TIM6,copepod,copepod,same family,65.438,686.000,73.093
+H3JS09,H3JS17,copepod,copepod,same family,46.939,427.500,65.445
+H3JS09,H3JS19,copepod,copepod,same family,45.854,399.000,59.036
+H3JS09,H3JS13,copepod,copepod,same family,46.083,457.500,62.455
+H3JS09,O77206,copepod,dinoflagellate,cross-family,23.502,56.500,2.076
+H3JS09,Q8W210,copepod,dinoflagellate,cross-family,21.198,54.000,1.044
+H3JS09,Q5UAZ5,copepod,dinoflagellate,cross-family,21.659,50.000,1.061
+H3JS09,Q5UAZ4,copepod,dinoflagellate,cross-family,20.276,55.000,1.645
+H3JS09,Q5UAZ6,copepod,dinoflagellate,cross-family,18.894,47.000,-0.008
+H3JS09,Q5UAZ7,copepod,dinoflagellate,cross-family,24.424,40.000,-1.306
+H3JS09,Q5UAZ3,copepod,dinoflagellate,cross-family,26.728,61.000,1.178
+H3JS09,F5CV94,copepod,dinoflagellate,cross-family,21.198,38.000,-0.708
+H3JS09,P17554,copepod,ostracod,cross-family,21.659,38.000,-1.393
+H3JS09,BAD08210.1,copepod,ostracod,cross-family,20.737,42.000,-0.413
+H3JS09,QOS14273.1,copepod,ostracod,cross-family,17.051,42.500,-0.253
+U3TKG7,H3JS11,copepod,copepod,same family,64.398,585.500,130.224
+U3TKG7,U3TIM6,copepod,copepod,same family,64.398,591.000,76.044
+U3TKG7,H3JS17,copepod,copepod,same family,48.168,435.000,62.647
+U3TKG7,H3JS19,copepod,copepod,same family,48.168,382.000,42.999
+U3TKG7,H3JS13,copepod,copepod,same family,51.832,471.000,60.397
+U3TKG7,O77206,copepod,dinoflagellate,cross-family,24.084,51.500,0.483
+U3TKG7,Q8W210,copepod,dinoflagellate,cross-family,28.272,51.500,0.899
+U3TKG7,Q5UAZ5,copepod,dinoflagellate,cross-family,23.560,39.500,-1.135
+U3TKG7,Q5UAZ4,copepod,dinoflagellate,cross-family,21.466,38.000,-0.893
+U3TKG7,Q5UAZ6,copepod,dinoflagellate,cross-family,20.942,48.000,0.501
+U3TKG7,Q5UAZ7,copepod,dinoflagellate,cross-family,20.419,43.500,-0.560
+U3TKG7,Q5UAZ3,copepod,dinoflagellate,cross-family,23.560,53.500,1.297
+U3TKG7,F5CV94,copepod,dinoflagellate,cross-family,4.188,38.500,-0.137
+U3TKG7,P17554,copepod,ostracod,cross-family,12.042,32.000,-1.672
+U3TKG7,BAD08210.1,copepod,ostracod,cross-family,21.466,34.000,-1.220
+U3TKG7,QOS14273.1,copepod,ostracod,cross-family,19.372,45.000,-0.335
+H3JS11,U3TIM6,copepod,copepod,same family,71.090,737.500,126.422
+H3JS11,H3JS17,copepod,copepod,same family,44.388,395.500,42.321
+H3JS11,H3JS19,copepod,copepod,same family,44.878,380.000,43.164
+H3JS11,H3JS13,copepod,copepod,same family,47.867,472.000,56.024
+H3JS11,O77206,copepod,dinoflagellate,cross-family,22.275,55.500,1.592
+H3JS11,Q8W210,copepod,dinoflagellate,cross-family,22.749,50.000,0.712
+H3JS11,Q5UAZ5,copepod,dinoflagellate,cross-family,24.171,61.500,1.895
+H3JS11,Q5UAZ4,copepod,dinoflagellate,cross-family,24.171,63.500,1.263
+H3JS11,Q5UAZ6,copepod,dinoflagellate,cross-family,21.327,58.000,2.696
+H3JS11,Q5UAZ7,copepod,dinoflagellate,cross-family,21.327,51.500,0.247
+H3JS11,Q5UAZ3,copepod,dinoflagellate,cross-family,21.801,55.500,0.875
+H3JS11,F5CV94,copepod,dinoflagellate,cross-family,9.953,42.500,0.460
+H3JS11,P17554,copepod,ostracod,cross-family,27.014,59.000,1.187
+H3JS11,BAD08210.1,copepod,ostracod,cross-family,24.171,47.500,-0.200
+H3JS11,QOS14273.1,copepod,ostracod,cross-family,23.223,48.500,0.297
+U3TIM6,H3JS17,copepod,copepod,same family,50.510,424.000,50.753
+U3TIM6,H3JS19,copepod,copepod,same family,45.366,392.500,55.441
+U3TIM6,H3JS13,copepod,copepod,same family,45.455,486.000,57.248
+U3TIM6,O77206,copepod,dinoflagellate,cross-family,23.636,49.000,0.818
+U3TIM6,Q8W210,copepod,dinoflagellate,cross-family,24.545,47.000,0.520
+U3TIM6,Q5UAZ5,copepod,dinoflagellate,cross-family,29.091,38.000,-1.203
+U3TIM6,Q5UAZ4,copepod,dinoflagellate,cross-family,21.364,44.000,-0.547
+U3TIM6,Q5UAZ6,copepod,dinoflagellate,cross-family,17.273,46.000,0.426
+U3TIM6,Q5UAZ7,copepod,dinoflagellate,cross-family,23.182,41.500,-0.705
+U3TIM6,Q5UAZ3,copepod,dinoflagellate,cross-family,19.545,39.000,-1.176
+U3TIM6,F5CV94,copepod,dinoflagellate,cross-family,21.364,61.000,2.175
+U3TIM6,P17554,copepod,ostracod,cross-family,23.182,50.500,0.395
+U3TIM6,BAD08210.1,copepod,ostracod,cross-family,25.000,48.500,0.054
+U3TIM6,QOS14273.1,copepod,ostracod,cross-family,28.182,42.500,-0.292
+H3JS17,H3JS19,copepod,copepod,same family,61.735,601.000,73.980
+H3JS17,H3JS13,copepod,copepod,same family,43.878,374.000,36.396
+H3JS17,O77206,copepod,dinoflagellate,cross-family,28.571,43.500,-0.776
+H3JS17,Q8W210,copepod,dinoflagellate,cross-family,22.959,47.500,0.064
+H3JS17,Q5UAZ5,copepod,dinoflagellate,cross-family,21.939,45.000,-0.150
+H3JS17,Q5UAZ4,copepod,dinoflagellate,cross-family,19.388,38.000,-1.359
+H3JS17,Q5UAZ6,copepod,dinoflagellate,cross-family,20.408,46.000,-0.385
+H3JS17,Q5UAZ7,copepod,dinoflagellate,cross-family,27.551,43.000,-0.743
+H3JS17,Q5UAZ3,copepod,dinoflagellate,cross-family,28.571,48.500,-0.105
+H3JS17,F5CV94,copepod,dinoflagellate,cross-family,9.694,38.000,-0.612
+H3JS17,P17554,copepod,ostracod,cross-family,11.224,49.500,1.602
+H3JS17,BAD08210.1,copepod,ostracod,cross-family,15.306,44.500,-0.111
+H3JS17,QOS14273.1,copepod,ostracod,cross-family,21.429,37.000,-0.499
+H3JS19,H3JS13,copepod,copepod,same family,40.976,339.000,67.631
+H3JS19,O77206,copepod,dinoflagellate,cross-family,26.829,37.500,-1.326
+H3JS19,Q8W210,copepod,dinoflagellate,cross-family,13.171,41.000,-0.814
+H3JS19,Q5UAZ5,copepod,dinoflagellate,cross-family,23.902,54.000,1.422
+H3JS19,Q5UAZ4,copepod,dinoflagellate,cross-family,22.927,36.500,-1.424
+H3JS19,Q5UAZ6,copepod,dinoflagellate,cross-family,8.780,36.500,-1.240
+H3JS19,Q5UAZ7,copepod,dinoflagellate,cross-family,30.732,38.500,-1.525
+H3JS19,Q5UAZ3,copepod,dinoflagellate,cross-family,10.244,38.000,-1.587
+H3JS19,F5CV94,copepod,dinoflagellate,cross-family,19.512,33.000,-1.367
+H3JS19,P17554,copepod,ostracod,cross-family,14.634,36.000,-0.774
+H3JS19,BAD08210.1,copepod,ostracod,cross-family,12.683,32.500,-1.272
+H3JS19,QOS14273.1,copepod,ostracod,cross-family,16.585,44.500,0.499
+H3JS13,O77206,copepod,dinoflagellate,cross-family,30.045,54.500,1.169
+H3JS13,Q8W210,copepod,dinoflagellate,cross-family,29.596,46.500,-0.131
+H3JS13,Q5UAZ5,copepod,dinoflagellate,cross-family,26.457,54.500,1.294
+H3JS13,Q5UAZ4,copepod,dinoflagellate,cross-family,26.009,50.500,0.258
+H3JS13,Q5UAZ6,copepod,dinoflagellate,cross-family,25.112,49.000,-0.355
+H3JS13,Q5UAZ7,copepod,dinoflagellate,cross-family,26.906,44.500,-0.224
+H3JS13,Q5UAZ3,copepod,dinoflagellate,cross-family,24.664,58.500,1.549
+H3JS13,F5CV94,copepod,dinoflagellate,cross-family,18.834,34.500,-1.626
+H3JS13,P17554,copepod,ostracod,cross-family,30.045,54.000,0.554
+H3JS13,BAD08210.1,copepod,ostracod,cross-family,25.561,59.500,0.355
+H3JS13,QOS14273.1,copepod,ostracod,cross-family,27.354,41.000,-1.253
+O77206,Q8W210,dinoflagellate,dinoflagellate,same family,79.951,5433.500,273.614
+O77206,Q5UAZ5,dinoflagellate,dinoflagellate,same family,79.533,5433.000,244.974
+O77206,Q5UAZ4,dinoflagellate,dinoflagellate,same family,78.751,5387.500,419.620
+O77206,Q5UAZ6,dinoflagellate,dinoflagellate,same family,78.335,5405.500,248.839
+O77206,Q5UAZ7,dinoflagellate,dinoflagellate,same family,78.820,5459.000,349.550
+O77206,Q5UAZ3,dinoflagellate,dinoflagellate,same family,78.173,5371.500,313.206
+O77206,F5CV94,dinoflagellate,dinoflagellate,same family,23.195,1143.500,102.812
+O77206,P17554,dinoflagellate,ostracod,cross-family,24.144,63.000,0.240
+O77206,BAD08210.1,dinoflagellate,ostracod,cross-family,27.486,81.000,2.518
+O77206,QOS14273.1,dinoflagellate,ostracod,cross-family,12.500,60.000,-0.075
+Q8W210,Q5UAZ5,dinoflagellate,dinoflagellate,same family,86.742,5912.500,397.304
+Q8W210,Q5UAZ4,dinoflagellate,dinoflagellate,same family,86.050,5861.500,349.541
+Q8W210,Q5UAZ6,dinoflagellate,dinoflagellate,same family,77.850,5381.000,276.382
+Q8W210,Q5UAZ7,dinoflagellate,dinoflagellate,same family,78.496,5432.500,380.179
+Q8W210,Q5UAZ3,dinoflagellate,dinoflagellate,same family,77.607,5346.000,304.239
+Q8W210,F5CV94,dinoflagellate,dinoflagellate,same family,37.637,1145.000,101.221
+Q8W210,P17554,dinoflagellate,ostracod,cross-family,23.964,62.500,0.165
+Q8W210,BAD08210.1,dinoflagellate,ostracod,cross-family,19.711,83.000,2.607
+Q8W210,QOS14273.1,dinoflagellate,ostracod,cross-family,23.913,53.500,-0.780
+Q5UAZ5,Q5UAZ4,dinoflagellate,dinoflagellate,same family,91.971,6240.000,341.939
+Q5UAZ5,Q5UAZ6,dinoflagellate,dinoflagellate,same family,76.960,5282.500,296.126
+Q5UAZ5,Q5UAZ7,dinoflagellate,dinoflagellate,same family,77.607,5350.000,341.580
+Q5UAZ5,Q5UAZ3,dinoflagellate,dinoflagellate,same family,77.526,5308.500,331.077
+Q5UAZ5,F5CV94,dinoflagellate,dinoflagellate,same family,36.761,1135.000,85.616
+Q5UAZ5,P17554,dinoflagellate,ostracod,cross-family,20.721,74.000,0.661
+Q5UAZ5,BAD08210.1,dinoflagellate,ostracod,cross-family,20.796,88.000,4.185
+Q5UAZ5,QOS14273.1,dinoflagellate,ostracod,cross-family,19.565,62.500,0.175
+Q5UAZ4,Q5UAZ6,dinoflagellate,dinoflagellate,same family,76.642,5296.500,268.082
+Q5UAZ4,Q5UAZ7,dinoflagellate,dinoflagellate,same family,77.453,5354.500,374.851
+Q5UAZ4,Q5UAZ3,dinoflagellate,dinoflagellate,same family,77.129,5314.500,284.302
+Q5UAZ4,F5CV94,dinoflagellate,dinoflagellate,same family,37.309,1144.500,105.289
+Q5UAZ4,P17554,dinoflagellate,ostracod,cross-family,22.883,52.000,-0.706
+Q5UAZ4,BAD08210.1,dinoflagellate,ostracod,cross-family,18.987,85.000,1.755
+Q5UAZ4,QOS14273.1,dinoflagellate,ostracod,cross-family,23.913,68.000,0.275
+Q5UAZ6,Q5UAZ7,dinoflagellate,dinoflagellate,same family,94.745,6436.000,392.806
+Q5UAZ6,Q5UAZ3,dinoflagellate,dinoflagellate,same family,91.188,6205.000,410.445
+Q5UAZ6,F5CV94,dinoflagellate,dinoflagellate,same family,31.291,1143.500,69.762
+Q5UAZ6,P17554,dinoflagellate,ostracod,cross-family,25.586,71.500,0.936
+Q5UAZ6,BAD08210.1,dinoflagellate,ostracod,cross-family,28.210,77.000,1.159
+Q5UAZ6,QOS14273.1,dinoflagellate,ostracod,cross-family,20.109,54.500,-0.753
+Q5UAZ7,Q5UAZ3,dinoflagellate,dinoflagellate,same family,91.916,6256.000,507.420
+Q5UAZ7,F5CV94,dinoflagellate,dinoflagellate,same family,31.947,1155.500,77.190
+Q5UAZ7,P17554,dinoflagellate,ostracod,cross-family,23.423,70.000,0.576
+Q5UAZ7,BAD08210.1,dinoflagellate,ostracod,cross-family,28.571,83.500,0.930
+Q5UAZ7,QOS14273.1,dinoflagellate,ostracod,cross-family,19.928,68.000,0.904
+Q5UAZ3,F5CV94,dinoflagellate,dinoflagellate,same family,31.400,1132.000,90.103
+Q5UAZ3,P17554,dinoflagellate,ostracod,cross-family,26.306,67.000,0.244
+Q5UAZ3,BAD08210.1,dinoflagellate,ostracod,cross-family,27.848,82.500,1.666
+Q5UAZ3,QOS14273.1,dinoflagellate,ostracod,cross-family,19.022,67.500,0.998
+F5CV94,P17554,dinoflagellate,ostracod,cross-family,3.243,67.000,1.811
+F5CV94,BAD08210.1,dinoflagellate,ostracod,cross-family,22.061,83.000,5.312
+F5CV94,QOS14273.1,dinoflagellate,ostracod,cross-family,22.283,47.500,-0.520
+P17554,BAD08210.1,ostracod,ostracod,same family,84.087,2581.500,206.613
+P17554,QOS14273.1,ostracod,ostracod,same family,48.551,1487.500,94.902
+BAD08210.1,QOS14273.1,ostracod,ostracod,same family,49.275,1488.000,127.179
