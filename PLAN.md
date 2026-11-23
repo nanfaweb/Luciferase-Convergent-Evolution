@@ -2,11 +2,13 @@
 
 **Goal:** Test whether independently evolved luciferases share protein-sequence or physicochemical features, as an undergraduate course project.
 
-**Status:** Dataset and protein properties done; analysis in progress.
+**Status:** Complete. Results and conclusions are in `docs/PROJECT_REPORT.md`.
 
 ## Next
 
-- [ ] M7 Conclusions in `docs/PROJECT_REPORT.md`
+- [ ] Optional follow-up: compare 3D structures (e.g. AlphaFold) for active-site convergence
+- [ ] Optional: rename the folder to lowercase-with-dashes (`bio-proj`)
+
 
 ## Done
 
@@ -19,6 +21,7 @@
 - [x] M4 Within-family trees (`src/phylo.py`)
 - [x] M5 Clustering and statistics (`src/analysis.py`)
 - [x] M6 Analysis notebook (`notebooks/01_analysis.ipynb`) — executes end to end
+- [x] M7 Conclusions in `docs/PROJECT_REPORT.md`
 - [x] Workspace layout: `PLAN.md`, `CLAUDE.md`, notes in `docs/`
 
 ## Decisions

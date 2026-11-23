@@ -33,3 +33,18 @@ Rebuild with `python -m src.features`. Values are calculated by Biopython
 - **Small groups:** `renilla_type` and `ostracod` have 3 luciferases each,
   and some controls are a single protein. Medians here describe the data;
   they are not statistical tests.
+
+## Analysis outputs
+
+| File | Made by | Contents |
+|---|---|---|
+| `pairwise.csv` | `src.align` | Every protein pair: global identity %, local score, z-score vs shuffles |
+| `identity_matrix.csv` | `src.align` | 58 x 58 global identity matrix |
+| `similarity_summary.csv` | `src.align` | Identity and z-score by pair type |
+| `example_alignments.txt` | `src.align` | NW and SW alignments for a same-family pair and a cross-family pair |
+| `blast_all_vs_all.tsv` | `src.blast` | All BLAST hits at E < 0.001 |
+| `blast_summary.csv` | `src.blast` | Same-family and cross-family hit counts per protein |
+| `trees/<family>.nwk` | `src.phylo` | Within-family trees (Newick format) |
+| `stats.csv` | `src.analysis` | Clustering ARI, Kruskal-Wallis and sign tests |
+| `control_comparison.csv` | `src.analysis` | Luciferase vs control medians per family |
+| `figures/` | all | Heatmap, dot plots, trees, PCA and boxplots |

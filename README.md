@@ -43,13 +43,13 @@ See [`PLAN.md`](PLAN.md) for scope, syllabus mapping, and execution phases. Back
 | Week | Topic | Where it appears |
 |---|---|---|
 | W3 | Biological databases, GO | UniProt downloads, `manifest.csv`, InterPro/GO notes |
-| W6 | Similarity / homology | Pairwise identity matrix (Phase 2) |
-| W7–W8 | Global/local alignment, DP | Needleman–Wunsch / Smith–Waterman (Phase 2) |
-| W9 | DotPlots | Within- vs across-family DotPlots (Phase 2) |
-| W10 | Phylogeny | Within-family trees only (Phase 2) |
-| W11 | Clustering | Physicochemical feature clustering (Phase 2) |
-| W12 | BLAST | BLASTP against curated set (Phase 2) |
-| W14 | Proteomics | ProtParam features (Phase 2) |
+| W6 | Similarity / homology | `src/align.py`, `results/figures/identity_heatmap.png` |
+| W7–W8 | Global/local alignment, DP | `src/align.py`, `results/example_alignments.txt` |
+| W9 | DotPlots | `src/dotplot.py`, `results/figures/dotplots.png` |
+| W10 | Phylogeny | `src/phylo.py`, `results/figures/trees.png` |
+| W11 | Clustering | `src/analysis.py`, `results/figures/pca_features.png` |
+| W12 | BLAST | `src/blast.py`, `results/blast_summary.csv` |
+| W14 | Proteomics | `src/features.py`, `results/features.csv` |
 
 W1–W2 (intro/motifs via InterPro), W13 (HMMs as Pfam/InterPro profiles), and W15 (deep learning) are mentioned in presentation notes only.
 

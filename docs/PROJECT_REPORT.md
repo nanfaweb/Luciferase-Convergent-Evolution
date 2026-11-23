@@ -1,19 +1,19 @@
 # Project Report: Comparing Independently Evolved Luciferases
 
 A plain-language record of what we are doing, why, how, and what we found.
-It is updated after every phase. Last updated: 2026-11-04.
+It is updated after every phase. Last updated: 2026-11-23. **Project complete.**
 
 | Phase | Status |
 |---|---|
 | 1. Build the dataset | Done |
 | 2. Set up BLAST | Done |
 | 3. Calculate protein properties | Done |
-| 4. Alignment and similarity heatmap | Not started |
-| 5. Dot plots | Not started |
-| 6. BLAST searches | Not started |
-| 7. Family trees | Not started |
-| 8. Clustering and control comparison | Not started |
-| 9. Notebook, conclusions, presentation | Not started |
+| 4. Alignment and similarity heatmap | Done |
+| 5. Dot plots | Done |
+| 6. BLAST searches | Done |
+| 7. Family trees | Done |
+| 8. Clustering and control comparison | Done |
+| 9. Notebook, conclusions, presentation | Done |
 
 ---
 
@@ -188,17 +188,165 @@ explains each column.
 
 ---
 
-## What comes next
+## Phase 4: Alignment and similarity (done)
 
-- **Alignment and heatmap:** measure how similar every pair of proteins is. We
-  expect high similarity within families and very little between them.
-- **Dot plots:** show similarity between two proteins as a picture.
-- **BLAST searches:** confirm that luciferases find only their own relatives.
-- **Family trees:** show relationships within each family. We will not build
-  one tree of all families, because unrelated proteins cannot be fairly
-  aligned together.
-- **Clustering and control comparison:** check whether proteins group by family
-  or by light production, and test the hydrophobicity pattern properly.
+**Purpose.** Measure how similar every pair of proteins is.
+
+**Why.** If luciferases from different families shared real sequence
+similarity, it would show up here.
+
+**How.** `src/align.py` aligned all 1,653 pairs two ways:
+- **Global alignment (Needleman–Wunsch)** lines up whole sequences end to end
+  and gives a percent identity.
+- **Local alignment (Smith–Waterman)** finds the best-matching stretch. Its
+  score was compared with the scores of 20 shuffled copies of the sequence.
+  This gives a **z-score**: about 0 means "no better than random", and a
+  large number means real similarity.
+
+**Results.**
+
+| Pair type | Number of pairs | Median identity | Median z-score |
+|---|---|---|---|
+| Same family | 188 | 68% | 131 |
+| Luciferase vs its own control | 44 | 41% | 70 |
+| Different families | 1,087 | 20% | about 0 (chance) |
+
+**Observations.**
+- Two unrelated proteins still reach about 20% identity by chance alone, so
+  20% means "unrelated".
+- Same-family pairs can drop as low as 23% identity, yet their z-scores stay
+  at 36 or more. The z-score separates true relatives from chance better
+  than identity alone does.
+- 18 of the 1,087 cross-family pairs had a z-score above 3, the highest 5.4.
+  With this many pairs and only 20 shuffles, a few high values are expected
+  by chance, and BLAST (Phase 6) confirmed none of them.
+
+**Files.** `results/pairwise.csv`, `results/identity_matrix.csv`,
+`results/similarity_summary.csv`, `results/example_alignments.txt`,
+`results/figures/identity_heatmap.png`.
+
+---
+
+## Phase 5: Dot plots (done)
+
+**Purpose.** Show similarity between two proteins as a picture.
+
+**How.** `src/dotplot.py` places a dot wherever a 10-residue stretch of one
+protein closely matches a stretch of the other.
+
+**Results.**
+- Two fireflies give one clear diagonal line (479 dots).
+- A firefly luciferase against its non-luminous control gives a broken
+  diagonal (334 dots): related, but less closely.
+- A firefly luciferase against bacterial LuxA gives only 6 scattered dots, no
+  line: unrelated.
+
+**File.** `results/figures/dotplots.png`.
+
+---
+
+## Phase 6: BLAST searches (done)
+
+**Purpose.** Confirm the alignment results with the standard search tool.
+
+**How.** `src/blast.py` searched every protein against all 58 with local
+BLAST+, keeping matches with an E-value below 0.001 (very unlikely by chance).
+
+**Results.** There were 458 significant matches, **all within the same
+family**. Not one luciferase found a luciferase from another family. Each
+control found its own family's luciferases, which confirms that the controls
+are true relatives.
+
+**Files.** `results/blast_all_vs_all.tsv`, `results/blast_summary.csv`.
+
+---
+
+## Phase 7: Family trees (done)
+
+**Purpose.** Show how the proteins within each family are related.
+
+**How.** `src/phylo.py` turned the identity scores into evolutionary
+distances and built a neighbour-joining tree for each family, rooted on that
+family's control where it has one. No tree mixes families, because unrelated
+proteins cannot be fairly aligned together.
+
+**Observations.**
+- The trees follow known biology. Fireflies split by subfamily. *Vibrio* and
+  *Photobacterium* LuxA form separate groups. *Armillaria* Luz proteins sit
+  together.
+- **Key finding in the *Renilla*-type family:** the brittle-star luciferase
+  groups with the brittle star's own non-luminous dehalogenase, not with
+  *Renilla* luciferase. This fits the published idea that the brittle star and
+  the sea pansy turned a dehalogenase into a luciferase **separately**. That
+  is convergent evolution inside one protein family.
+
+**Files.** `results/trees/*.nwk`, `results/figures/trees.png`.
+
+---
+
+## Phase 8: Clustering and control comparison (done)
+
+**Purpose.** Test the main question directly with the protein properties.
+
+**How.** `src/analysis.py` ran three checks:
+1. **Clustering:** grouped the 51 luciferases by their composition properties
+   alone, then compared the groups with the real families. The adjusted Rand
+   index (ARI) scores the match: 1 is perfect, 0 is chance.
+2. **Kruskal–Wallis test:** do the 7 families differ in each property?
+3. **Luciferase vs control:** in the 4 families with controls, does the
+   luciferase differ from its control in the **same direction** every time?
+
+**Results.**
+
+| Check | Result | Meaning |
+|---|---|---|
+| Clustering vs family | ARI = 0.97 | Proteins group almost perfectly by family |
+| Families differ (GRAVY, pI, aromaticity, cysteine) | all p < 0.00001 | Each family has its own distinct profile |
+| Luciferase less hydrophobic than control | 4 of 4 families, p = 0.125 | Suggestive, but not significant |
+| Aromaticity higher than control | 3 of 4, p = 0.63 | No consistent pattern |
+| pI and cysteine | 2 of 4 each, p = 1.0 | No pattern |
+
+**Files.** `results/stats.csv`, `results/control_comparison.csv`,
+`results/figures/pca_features.png`, `results/figures/feature_boxplots.png`.
+
+---
+
+## Phase 9: Notebook (done)
+
+`notebooks/01_analysis.ipynb` reruns the whole analysis from the curated data,
+step by step, with every figure. It runs end to end without errors.
+
+---
+
+## Conclusions
+
+1. **No shared sequence.** Luciferases from different families share no
+   detectable sequence similarity. All three methods agree: alignment z-scores
+   are at chance, dot plots show no line, and BLAST finds no hits.
+2. **No shared property signature.** The proteins group by family, not by
+   "makes light". What a protein is made of reflects its ancestry far more
+   than its light-producing function.
+3. **One hint worth following up.** Luciferases are less hydrophobic than their
+   non-luminous relatives in all 4 families that could be tested. With only 4
+   families this is not statistically significant (p = 0.125), so it is a
+   hypothesis, not a finding.
+4. **Convergence can even happen within one protein family.** The brittle star
+   and the sea pansy independently turned the same kind of enzyme into a
+   luciferase.
+
+**Answer to the question.** Independently evolved luciferases converged in
+**function** (making light), not in **sequence** or overall protein
+properties. Nature found many different protein solutions to the same
+problem.
+
+**Limits.**
+- 7 families, and only 4 of them have controls, so statistical power is low.
+- Some groups are small: 3 sequences for *Renilla*-type and ostracod.
+- Simple whole-protein properties cannot detect convergence at the level of
+  individual active-site residues or 3D structure. That would be the natural
+  next step, for example comparing AlphaFold structures.
+- Properties are calculated on deposited sequences, which for secreted
+  luciferases include their signal peptide.
 
 ---
 
@@ -217,3 +365,6 @@ explains each column.
 | Alignment | Lining up two sequences to see where they match |
 | BLAST | A tool that finds sequences similar to a query |
 | Median | The middle value; less affected by extreme values than the average |
+| z-score | How many standard deviations a score is above random; about 0 means chance |
+| E-value (BLAST) | Expected number of matches this good by chance; tiny means real |
+| p-value | Probability of a result at least this strong if there were no real effect |
