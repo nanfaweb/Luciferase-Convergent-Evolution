@@ -6,7 +6,6 @@
 
 ## Next
 
-- [ ] M6 Analysis notebook (`notebooks/01_analysis.ipynb`)
 - [ ] M7 Conclusions in `docs/PROJECT_REPORT.md`
 
 ## Done
@@ -19,6 +18,7 @@
 - [x] M3 Local BLAST all-vs-all (`src/blast.py`)
 - [x] M4 Within-family trees (`src/phylo.py`)
 - [x] M5 Clustering and statistics (`src/analysis.py`)
+- [x] M6 Analysis notebook (`notebooks/01_analysis.ipynb`) — executes end to end
 - [x] Workspace layout: `PLAN.md`, `CLAUDE.md`, notes in `docs/`
 
 ## Decisions
