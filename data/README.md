@@ -1,8 +1,10 @@
 # Dataset
 
-58 protein sequences: 51 luciferases from seven luciferase families (eight
-independent origins, counting the brittle star), plus 7 non-luminous
-homologs used as controls. Sources are UniProtKB (53) and NCBI Protein (5).
+67 protein sequences: 55 luciferases from eight luciferase families (nine
+independent origins, counting the brittle star and the click beetles), plus 12
+non-luminous homologs used as controls. Sources are UniProtKB (62) and NCBI
+Protein (5). Click beetles and 5 extra controls were added on 2026-11-23; see
+`seeds.csv` for the reason each one was included.
 Retrieved 2026-11-03.
 
 The analysis compares **protein** sequences, not DNA. The question is

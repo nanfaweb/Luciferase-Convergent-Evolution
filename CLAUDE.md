@@ -1,6 +1,6 @@
 # Luciferase convergent evolution
 
-Compares luciferase proteins from 7 independently evolved families (plus non-luminous controls) for shared sequence-level or physicochemical features.
+Compares luciferase proteins from 8 luciferase families (9 independent origins) (plus non-luminous controls) for shared sequence-level or physicochemical features.
 
 Read `PLAN.md` first.
 
@@ -19,6 +19,7 @@ Run from the project root, in this order:
 - BLAST: `python -m src.blast`
 - Trees: `python -m src.phylo` (needs `src.align` output)
 - Clustering and stats: `python -m src.analysis` (needs `src.features` output)
+- Motifs + GO: `python -m src.motifs`; trypsin digest: `python -m src.digest`; AlphaFold: `python -m src.structure`
 - Notebook: `jupyter nbconvert --to notebook --execute --inplace notebooks/01_analysis.ipynb`
 
 ## Project notes

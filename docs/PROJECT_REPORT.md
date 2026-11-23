@@ -350,6 +350,21 @@ problem.
 
 ---
 
+## Update 2026-11-23: bigger dataset and more course topics
+
+**What changed.**
+- **Click beetles added.** We added 4 click-beetle luciferases. They come from the same enzyme family as firefly luciferase but evolved light separately.
+- **More controls.** Five more non-luminous controls were added. The dataset is now 67 proteins: 55 luciferases in 8 families, 12 controls, and 9 independent origins of light.
+- **New analyses.** A motif scan (Weeks 2 and 12), GO terms (Week 3), a trypsin digest (Weeks 5 and 14), a hand-made dynamic-programming table (Week 8) and AlphaFold structure confidence (Week 15).
+
+**What we found.**
+- Still no shared sequence, motif or peptide between independent families. The one exception is firefly with click beetle, which are related enzymes.
+- With 5 families that have controls, luciferases are less hydrophobic **and** more aromatic than their controls in **all 5** (p = 0.0625 each). This is a consistent hint, but still not proof.
+
+The numbers in the phase sections above are from the earlier 58-protein run. The updated numbers are in `docs/FINAL_REPORT.md`.
+
+---
+
 ## Glossary
 
 | Term | Meaning |

@@ -32,7 +32,9 @@ python -m src.verify_data --live
 python -m src.features
 ```
 
-`python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (51 luciferases from 7 families, 7 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
+Then run the analysis modules listed in `CLAUDE.md`, or the notebook `notebooks/01_analysis.ipynb`. The full write-up is [`docs/FINAL_REPORT.md`](docs/FINAL_REPORT.md).
+
+`python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (55 luciferases from 8 families, 12 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
 
 For a plain-language account of methods and results so far, read [`docs/PROJECT_REPORT.md`](docs/PROJECT_REPORT.md).
 

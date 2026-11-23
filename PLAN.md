@@ -2,7 +2,7 @@
 
 **Goal:** Test whether independently evolved luciferases share protein-sequence or physicochemical features, as an undergraduate course project.
 
-**Status:** Complete. Results and conclusions are in `docs/PROJECT_REPORT.md`.
+**Status:** Complete. Formal write-up: `docs/FINAL_REPORT.md`; plain-language log: `docs/PROJECT_REPORT.md`.
 
 ## Next
 
@@ -22,6 +22,8 @@
 - [x] M5 Clustering and statistics (`src/analysis.py`)
 - [x] M6 Analysis notebook (`notebooks/01_analysis.ipynb`) — executes end to end
 - [x] M7 Conclusions in `docs/PROJECT_REPORT.md`
+- [x] Click-beetle family + extra controls (67 proteins); motif, digest, AlphaFold, DP additions
+- [x] Final report (`docs/FINAL_REPORT.md`)
 - [x] Workspace layout: `PLAN.md`, `CLAUDE.md`, notes in `docs/`
 
 ## Decisions
