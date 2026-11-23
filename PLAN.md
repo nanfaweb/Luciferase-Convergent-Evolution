@@ -6,11 +6,6 @@
 
 ## Next
 
-- [ ] M1 Pairwise similarity: NW/SW alignment, identity heatmap (`src/align.py`)
-- [ ] M2 Dot plots (`src/dotplot.py`)
-- [ ] M3 Local BLAST all-vs-all (`src/blast.py`)
-- [ ] M4 Within-family trees (`src/phylo.py`)
-- [ ] M5 Clustering and statistics (`src/analysis.py`)
 - [ ] M6 Analysis notebook (`notebooks/01_analysis.ipynb`)
 - [ ] M7 Conclusions in `docs/PROJECT_REPORT.md`
 
@@ -19,6 +14,11 @@
 - [x] Dataset: 51 luciferases in 7 families plus 7 controls (`data/`)
 - [x] BLAST+ 2.17.0 installed locally
 - [x] Protein properties (`src/features.py`, `results/features.csv`)
+- [x] M1 Pairwise similarity: NW/SW alignment, identity heatmap (`src/align.py`)
+- [x] M2 Dot plots (`src/dotplot.py`)
+- [x] M3 Local BLAST all-vs-all (`src/blast.py`)
+- [x] M4 Within-family trees (`src/phylo.py`)
+- [x] M5 Clustering and statistics (`src/analysis.py`)
 - [x] Workspace layout: `PLAN.md`, `CLAUDE.md`, notes in `docs/`
 
 ## Decisions
