@@ -1,0 +1,20 @@
+Needleman-Wunsch DP table: HEAGAWGHEE vs PAWHEAE (BLOSUM62, linear gap -8)
+
+      -    P    A    W    H    E    A    E
+ -    0   -8  -16  -24  -32  -40  -48  -56
+ H   -8   -2  -10  -18  -16  -24  -32  -40
+ E  -16   -9   -3  -11  -18  -11  -19  -27
+ A  -24  -17   -5   -6  -13  -19   -7  -15
+ G  -32  -25  -13   -7   -8  -15  -15   -9
+ A  -40  -33  -21  -15   -9   -9  -11  -16
+ W  -48  -41  -29  -10  -17  -12  -12  -14
+ G  -56  -49  -37  -18  -12  -19  -12  -14
+ H  -64  -57  -45  -26  -10  -12  -20  -12
+ E  -72  -65  -53  -34  -18   -5  -13  -15
+ E  -80  -73  -61  -42  -26  -13   -6   -8
+
+Optimal alignment (score -8):
+HEAGAWGHEE
+--P-AWHEAE
+
+Biopython score for the same settings: -8 (matches the hand-written DP)

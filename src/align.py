@@ -151,8 +151,50 @@ def write_examples(proteins: pd.DataFrame) -> None:
     (RESULTS_DIR / "example_alignments.txt").write_text("\n".join(out), encoding="utf-8", newline="\n")
 
 
+DP_EXAMPLE = ("HEAGAWGHEE", "PAWHEAE")  # the classic textbook pair (Durbin et al.)
+DP_GAP = -8
+
+
+def needleman_wunsch_dp(a: str, b: str, gap: int = DP_GAP) -> tuple[np.ndarray, str, str]:
+    """Textbook dynamic programming: fill the score table, then trace back."""
+    blosum = substitution_matrices.load("BLOSUM62")
+    table = np.zeros((len(a) + 1, len(b) + 1), dtype=int)
+    table[:, 0] = gap * np.arange(len(a) + 1)
+    table[0, :] = gap * np.arange(len(b) + 1)
+    for i in range(1, len(a) + 1):
+        for j in range(1, len(b) + 1):
+            table[i, j] = max(table[i - 1, j - 1] + blosum[a[i - 1], b[j - 1]],
+                              table[i - 1, j] + gap, table[i, j - 1] + gap)
+    top, bottom, i, j = [], [], len(a), len(b)
+    while i or j:
+        if i and j and table[i, j] == table[i - 1, j - 1] + blosum[a[i - 1], b[j - 1]]:
+            top.append(a[i - 1]); bottom.append(b[j - 1]); i, j = i - 1, j - 1
+        elif i and table[i, j] == table[i - 1, j] + gap:
+            top.append(a[i - 1]); bottom.append("-"); i -= 1
+        else:
+            top.append("-"); bottom.append(b[j - 1]); j -= 1
+    return table, "".join(reversed(top)), "".join(reversed(bottom))
+
+
+def write_dp_example() -> None:
+    a, b = DP_EXAMPLE
+    table, top, bottom = needleman_wunsch_dp(a, b)
+    check = PairwiseAligner(mode="global", substitution_matrix=substitution_matrices.load("BLOSUM62"),
+                            open_gap_score=DP_GAP, extend_gap_score=DP_GAP).score(a, b)
+    header = "      -" + "".join(f"{c:>5}" for c in b)
+    lines = [f"Needleman-Wunsch DP table: {a} vs {b} (BLOSUM62, linear gap {DP_GAP})", "", header]
+    for i, row in enumerate(table):
+        lines.append(f"{('-' + a)[i]:>2}" + "".join(f"{v:>5}" for v in row))
+    lines += ["", f"Optimal alignment (score {table[-1, -1]}):", top, bottom, "",
+              f"Biopython score for the same settings: {check:.0f} "
+              f"({'matches' if check == table[-1, -1] else 'DOES NOT match'} the hand-written DP)"]
+    (RESULTS_DIR / "dp_example.txt").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+    print("\n".join(lines[-4:]))
+
+
 def run() -> pd.DataFrame:
     (RESULTS_DIR / "figures").mkdir(parents=True, exist_ok=True)
+    write_dp_example()
     proteins = load_proteins()
     pairs = pairwise_table(proteins)
     pairs.to_csv(RESULTS_DIR / "pairwise.csv", index=False, float_format="%.3f", lineterminator="\n")
