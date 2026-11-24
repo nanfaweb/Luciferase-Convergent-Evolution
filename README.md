@@ -36,6 +36,8 @@ Then run the analysis modules listed in `CLAUDE.md`, or the notebook `notebooks/
 
 `python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (55 luciferases from 8 families, 12 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
 
+For a full hand-over of the project (decisions, numbers, pitfalls), read [`CONTEXT.md`](CONTEXT.md).
+
 For a plain-language account of methods and results so far, read [`docs/PROJECT_REPORT.md`](docs/PROJECT_REPORT.md).
 
 See [`PLAN.md`](PLAN.md) for scope, syllabus mapping, and execution phases. Background context is in [`docs/bioinformatics_project_handoff.md`](docs/bioinformatics_project_handoff.md).

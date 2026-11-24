@@ -2,7 +2,7 @@
 
 **Goal:** Test whether independently evolved luciferases share protein-sequence or physicochemical features, as an undergraduate course project.
 
-**Status:** Complete. Formal write-up: `docs/FINAL_REPORT.md`; plain-language log: `docs/PROJECT_REPORT.md`.
+**Status:** Complete. Full project context for a new agent: `CONTEXT.md`. Formal write-up: `docs/FINAL_REPORT.md`; plain-language log: `docs/PROJECT_REPORT.md`.
 
 ## Next
 
@@ -12,7 +12,7 @@
 
 ## Done
 
-- [x] Dataset: 51 luciferases in 7 families plus 7 controls (`data/`)
+- [x] Dataset: 51 luciferases in 7 families plus 7 controls (`data/`), later grown to 67 proteins
 - [x] BLAST+ 2.17.0 installed locally
 - [x] Protein properties (`src/features.py`, `results/features.csv`)
 - [x] M1 Pairwise similarity: NW/SW alignment, identity heatmap (`src/align.py`)
@@ -29,7 +29,7 @@
 ## Decisions
 
 - Protein-level comparison, not DNA.
-- One non-luminous control per original family; the 3 added families have none.
+- 1–3 non-luminous controls for each of 5 families (firefly, click beetle, Renilla-type, LuxA, Luz); copepod, dinoflagellate and ostracod have none.
 - Composition features, not length or weight, are used for cross-family comparison.
 - No tree that mixes families; within-family trees only.
 
