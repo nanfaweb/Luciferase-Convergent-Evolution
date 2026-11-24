@@ -18,7 +18,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER
+from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import cm
@@ -37,19 +37,20 @@ NAMES = {"firefly": "Firefly", "renilla_type": "Renilla-type", "bacterial_luxa":
          "fungal_luz": "Fungal Luz", "copepod": "Copepod", "dinoflagellate": "Dinoflagellate",
          "ostracod": "Ostracod", "click_beetle": "Click beetle",
          "photoprotein": "Photoprotein", "decapod_shrimp": "Oplophorus shrimp"}
-ACCENT = colors.HexColor("#1f4e79")
+ACCENT = colors.black  # all text and rules black (report style)
+HEADER_BG = colors.HexColor("#d9d9d9")
 
 # ---------------------------------------------------------------- fonts / styles
 FONT_DIR = Path("C:/Windows/Fonts")
-if (FONT_DIR / "arial.ttf").exists():
-    for name, file in [("Body", "arial.ttf"), ("Body-Bold", "arialbd.ttf"),
-                       ("Body-Italic", "ariali.ttf"), ("Body-BoldItalic", "arialbi.ttf")]:
+if (FONT_DIR / "times.ttf").exists():  # Times New Roman
+    for name, file in [("Body", "times.ttf"), ("Body-Bold", "timesbd.ttf"),
+                       ("Body-Italic", "timesi.ttf"), ("Body-BoldItalic", "timesbi.ttf")]:
         pdfmetrics.registerFont(TTFont(name, str(FONT_DIR / file)))
     pdfmetrics.registerFontFamily("Body", normal="Body", bold="Body-Bold",
                                   italic="Body-Italic", boldItalic="Body-BoldItalic")
     BODY, BOLD = "Body", "Body-Bold"
 else:  # fallback: built-in fonts (no Unicode minus etc.)
-    BODY, BOLD = "Helvetica", "Helvetica-Bold"
+    BODY, BOLD = "Times-Roman", "Times-Bold"
 
 ss = getSampleStyleSheet()
 S = {
@@ -58,14 +59,15 @@ S = {
     "h1": ParagraphStyle("h1", parent=ss["Heading1"], fontName=BOLD, fontSize=15, textColor=ACCENT, spaceBefore=10, spaceAfter=6),
     "h2": ParagraphStyle("h2", parent=ss["Heading2"], fontName=BOLD, fontSize=12, textColor=ACCENT, spaceBefore=8, spaceAfter=4),
     "h3": ParagraphStyle("h3", parent=ss["Heading3"], fontName=BOLD, fontSize=10.5, spaceBefore=6, spaceAfter=2),
-    "p": ParagraphStyle("p", parent=ss["Normal"], fontName=BODY, fontSize=9.8, leading=13.5, spaceAfter=5),
-    "cell": ParagraphStyle("c", parent=ss["Normal"], fontName=BODY, fontSize=8.3, leading=10.3),
-    "cellb": ParagraphStyle("cb", parent=ss["Normal"], fontName=BOLD, fontSize=8.3, leading=10.3, textColor=colors.white),
+    "p": ParagraphStyle("p", parent=ss["Normal"], fontName=BODY, fontSize=11, leading=14.5, spaceAfter=5, alignment=TA_JUSTIFY,
+                        bulletFontName=BODY),
+    "cell": ParagraphStyle("c", parent=ss["Normal"], fontName=BODY, fontSize=9, leading=11),
+    "cellb": ParagraphStyle("cb", parent=ss["Normal"], fontName=BOLD, fontSize=9, leading=11, textColor=colors.black),
     "cap": ParagraphStyle("cap", parent=ss["Normal"], fontName=BODY, fontSize=8.5, leading=11,
-                          textColor=colors.HexColor("#444444"), spaceAfter=8, alignment=TA_CENTER),
-    "ref": ParagraphStyle("r", parent=ss["Normal"], fontName=BODY, fontSize=8.6, leading=11.2, spaceAfter=3,
-                          leftIndent=14, firstLineIndent=-14),
-    "box": ParagraphStyle("box", parent=ss["Normal"], fontName=BODY, fontSize=8.6, leading=10.8, alignment=TA_CENTER),
+                          textColor=colors.black, spaceAfter=8, alignment=TA_CENTER),
+    "ref": ParagraphStyle("r", parent=ss["Normal"], fontName=BODY, fontSize=10, leading=12.5, spaceAfter=3,
+                          leftIndent=14, firstLineIndent=-14, alignment=TA_JUSTIFY),
+    "box": ParagraphStyle("box", parent=ss["Normal"], fontName=BODY, fontSize=9.5, leading=11.5, alignment=TA_CENTER),
 }
 
 
@@ -81,13 +83,13 @@ def table(rows: list[list], widths: list[float], bold_last: bool = False) -> Tab
     data = [[Paragraph(str(c), S["cellb"]) for c in rows[0]]]
     data += [[Paragraph(str(c), S["cell"]) for c in r] for r in rows[1:]]
     t = Table(data, colWidths=[w * cm for w in widths], repeatRows=1)
-    style = [("BACKGROUND", (0, 0), (-1, 0), ACCENT),
-             ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#eef3f8")]),
-             ("GRID", (0, 0), (-1, -1), 0.3, colors.HexColor("#b0b8c4")),
+    style = [("BACKGROUND", (0, 0), (-1, 0), HEADER_BG),
+             ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f2f2f2")]),
+             ("GRID", (0, 0), (-1, -1), 0.3, colors.HexColor("#808080")),
              ("VALIGN", (0, 0), (-1, -1), "TOP"),
              ("TOPPADDING", (0, 0), (-1, -1), 3), ("BOTTOMPADDING", (0, 0), (-1, -1), 3)]
     if bold_last:
-        style.append(("BACKGROUND", (0, -1), (-1, -1), colors.HexColor("#d6e2ef")))
+        style.append(("BACKGROUND", (0, -1), (-1, -1), colors.HexColor("#e6e6e6")))
     t.setStyle(TableStyle(style))
     return t
 
@@ -293,8 +295,8 @@ def build(d: dict) -> list:
     # 3 methodology
     s += [PageBreak(), P("3. Proposed solution: methodology and framework", "h1"),
           P("The framework is a pipeline from public databases to family-level statistics (Figure 1). Every "
-            "step is a Python module in <font face='Courier'>src/</font> and the whole pipeline re-runs from "
-            "the notebook <font face='Courier'>notebooks/01_analysis.ipynb</font>.")]
+            "step is a Python module in <i>src/</i> and the whole pipeline re-runs from "
+            "the notebook <i>notebooks/01_analysis.ipynb</i>.")]
     box = lambda t: Paragraph(t, S["box"])
     arrow = Paragraph("▼", S["box"])
     stages = [
@@ -309,18 +311,18 @@ def build(d: dict) -> list:
     flow = [[box(stages[0])], [arrow], [box(stages[1])], [arrow]]
     t1 = Table(flow, colWidths=[16 * cm])
     t1.setStyle(TableStyle([("BOX", (0, 0), (0, 0), 0.8, ACCENT), ("BOX", (0, 2), (0, 2), 0.8, ACCENT),
-                            ("BACKGROUND", (0, 0), (0, 0), colors.HexColor("#eef3f8")),
-                            ("BACKGROUND", (0, 2), (0, 2), colors.HexColor("#eef3f8"))]))
+                            ("BACKGROUND", (0, 0), (0, 0), colors.HexColor("#f2f2f2")),
+                            ("BACKGROUND", (0, 2), (0, 2), colors.HexColor("#f2f2f2"))]))
     t2 = Table([[box(b) for b in branches[0]]], colWidths=[3.2 * cm] * 5)
     t2.setStyle(TableStyle([("GRID", (0, 0), (-1, -1), 0.8, ACCENT), ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-                            ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#f7f9fc"))]))
+                            ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#fafafa"))]))
     t3 = Table([[arrow], [box("<b>3. Comparison and statistics</b><br/>PCA · Ward clustering vs family (ARI) · "
                               "Kruskal–Wallis · luciferase-vs-own-control sign test (unit = family)")],
                 [arrow], [box("<b>4. Answer</b>: shared sequence? shared property shift?")]],
                colWidths=[16 * cm])
     t3.setStyle(TableStyle([("BOX", (0, 1), (0, 1), 0.8, ACCENT), ("BOX", (0, 3), (0, 3), 0.8, ACCENT),
-                            ("BACKGROUND", (0, 1), (0, 1), colors.HexColor("#eef3f8")),
-                            ("BACKGROUND", (0, 3), (0, 3), colors.HexColor("#d6e2ef"))]))
+                            ("BACKGROUND", (0, 1), (0, 1), colors.HexColor("#f2f2f2")),
+                            ("BACKGROUND", (0, 3), (0, 3), colors.HexColor("#e6e6e6"))]))
     s += [KeepTogether([t1, t2, t3, P("Figure 1. Analysis framework.", "cap")]),
           P("3.1 Key design choices", "h2")]
     s += bullets(["<b>Matched controls.</b> Each of 7 families has 1–4 non-luminous homologs from the same protein "
@@ -373,8 +375,8 @@ def build(d: dict) -> list:
         ("Biological databases and Gene Ontology (Week 3)",
          "Sequences, metadata and annotations were fetched programmatically from UniProtKB and NCBI Protein. "
          "Each record's evidence level, reviewed status, InterPro/Pfam domains and GO terms were stored in "
-         "<font face='Courier'>data/curated/manifest.csv</font>. GO molecular-function terms were then summarised "
-         "per family and role (<font face='Courier'>results/go_by_family.csv</font>) to confirm that each "
+         "<i>data/curated/manifest.csv</i>. GO molecular-function terms were then summarised "
+         "per family and role (<i>results/go_by_family.csv</i>) to confirm that each "
          "luciferase carries a luciferase/monooxygenase activity while its controls carry the ancestral activity."),
         ("Proteomics: physicochemical properties (Week 14) — E1",
          "Biopython's ProtParam (the ExPASy method [13]) computed length, molecular weight, isoelectric point, "
@@ -470,7 +472,7 @@ def build(d: dict) -> list:
           P("The hand-written table reaches the same optimal score as Biopython for identical settings, "
             "confirming the implementation."),
           Preformatted(dp, ParagraphStyle("pre", fontName="Courier", fontSize=7.6, leading=9.2,
-                                          backColor=colors.HexColor("#f4f6f8"), borderPadding=5,
+                                          backColor=colors.HexColor("#f5f5f5"), borderPadding=5,
                                           leftIndent=5, spaceAfter=8))])]
 
     s += [P("5.3 Phylogenetic trees (E6)", "h2"),
@@ -703,7 +705,7 @@ def build(d: dict) -> list:
     for i, ref in enumerate(refs, 1):
         ref = ref.replace("&", "&amp;")
         ref = __import__("re").sub(r"\*([^*]+)\*", r"<i>\1</i>", ref)
-        ref = __import__("re").sub(r"(https://doi\.org/\S+)", r"<link href='\1' color='#1f4e79'>\1</link>", ref)
+        ref = __import__("re").sub(r"(https://doi\.org/\S+)", r"<link href='\1' color='black'>\1</link>", ref)
         s.append(P(f"[{i}] {ref}", "ref"))
     s.append(P("<i>All references were checked against their Crossref records (authors, title, journal, volume, "
                "pages, year and DOI).</i>", "cap"))
@@ -713,7 +715,7 @@ def build(d: dict) -> list:
 def footer(canvas, doc) -> None:
     canvas.saveState()
     canvas.setFont(BODY, 8)
-    canvas.setFillColor(colors.grey)
+    canvas.setFillColor(colors.black)
     if doc.page > 1:
         canvas.drawString(2 * cm, 1.2 * cm, "Convergent evolution of luciferases — final report")
         canvas.drawRightString(A4[0] - 2 * cm, 1.2 * cm, str(doc.page))

@@ -49,6 +49,7 @@ Whatever the outcome, it is reported. A failed replication is a result.
 - [x] N2 `src/convergence.py`: **pre-registered replication FAILED** (Oplophorus GRAVY higher; photoprotein aromaticity slightly lower). All 7 families: GRAVY not supported (perm p 0.55); **aromaticity higher in 6/7, family-stratified permutation p = 0.010 (Holm 0.021)**, robust except leave-out-LuxA (0.07). Cys % two-sided p = 0.013 (not predicted). Calibration 4% false positives. Substrate convergence rejected: coelenterazine families are not closer (exact p = 0.995)
 - [x] N3 `src/pockets.py` (exploratory): the aromatic excess sits on **exposed** residues (higher in 6/7 families incl. both new; perm p = 0.0001), not buried ones (p = 0.70)
 - [x] N4 Novelty write-up: `docs/FINAL_REPORT.md` (+ refs 21-24), PDF §5.8, `CONTEXT.md` 5b, `docs/PROJECT_REPORT.md`, notebook
+- [x] Final PDF restyled: Times New Roman, justified, black text (2026-11-24); whole pipeline and notebook re-checked, no failures
 - [x] Workspace layout: `PLAN.md`, `CLAUDE.md`, notes in `docs/`
 
 ## Decisions

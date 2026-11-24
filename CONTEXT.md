@@ -462,7 +462,7 @@ evidence of a mechanism.
 | `results/README.md` | What each output file is |
 | `docs/PROJECT_REPORT.md` | Plain-language, phase-by-phase log for students and instructors. Phase numbers are from the 58-protein run, followed by a 2026-11-23 update section. |
 | `docs/FINAL_REPORT.md` | Formal report, in the structure the user requires: problem formulation, existing solutions, proposed methodology/framework, implementation/experiments, results, conclusion, references |
-| `docs/FINAL_REPORT.pdf` | The same report as a 16-page PDF: 8 figures, 9 tables, one subsection per course topic (4.3.x) |
+| `docs/FINAL_REPORT.pdf` | The same report as a 23-page PDF built by `src/report_pdf.py`: 11 figures, 12 tables, one subsection per course topic (4.3.x), novelty results in §5.8. Style, as the user requires: Times New Roman, justified body text, all text black. Only the DP score grid is in Courier, to keep its columns aligned. |
 
 **References.** There are 20. All were verified on 2026-11-23 against
 Crossref, and each has a DOI. If you change them, edit
