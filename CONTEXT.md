@@ -1,7 +1,8 @@
 # CONTEXT: everything an agent needs to pick up this project
 
 This file explains the whole project from start to finish: what it is, how
-it was built, what was decided and why, what was found, and how to work on
+it was built, what was decided and why, what was found and what it means, how
+it compares with the literature (novelty), and how to work on
 it. Read it first, then `PLAN.md` for the current to-do list.
 
 Last updated: 2026-11-24. State: **complete**. The analysis, notebook and
@@ -140,45 +141,193 @@ Run everything from the project root. **The order matters.**
 - HMMs: used only through Pfam/InterPro domains during curation. No HMM was
   trained, because unrelated luciferases cannot be aligned into one profile.
 
-## 5. Key numbers (67-protein run)
+## 5. Results and what they mean (67-protein run)
 
-**Pairwise alignment**
+Each result gives the number, then **what it means** and **why it came out
+that way**. Figures are in `results/figures/`; the PDF report numbers its
+figures and tables.
+
+### 5.1 Pairwise alignment (E2): the headline result
 
 | Pair type | Pairs | Median identity | Median SW z |
 |---|---|---|---|
 | Same family | 194 | 68% | 136 |
 | Luciferase vs own control | 86 | 36% | 47 |
 | Firefly vs click beetle | 32 | 49% | 126 |
-| Other cross-family | 1,259 | 20% | 0.0 (36 pairs above z = 3, max 6.9, none backed by BLAST) |
+| Other cross-family | 1,259 | 20% | 0.0 |
 
-**BLAST, motifs and peptides**
-- **BLAST:** 630 hits. The only cross-family hits are firefly ↔ click
-  beetle.
-- **Motifs:** 2 PROSITE patterns. AMP_BINDING occurs in firefly and
-  click-beetle luciferases **and** their controls. The
-  BACTERIAL_LUCIFERASE signature occurs in all LuxA proteins and in no SsuD
-  control.
-- **Peptides:** 1,806 tryptic peptides. Only 2 occur in more than one
-  family (firefly and click beetle).
+- **Meaning.**
+  - Same-family pairs are clearly homologous.
+  - Luciferases are still clearly related to their non-luminous controls,
+    because both come from the same ancestral enzyme.
+  - Luciferases from independent origins look like **random sequences**: a
+    z-score of 0 means a real score no better than shuffled copies.
+- **Why around 20% and not 0%.** Any two proteins of normal composition,
+  aligned with gaps, reach about 15–25% identity by chance. That is why
+  identity alone is not trusted, and the shuffle z-score is the real test.
+- **Weak hits.** 36 of the 1,259 pairs reached z > 3 (maximum 6.9). With
+  more than 1,000 tests and only 20 shuffles, some false positives are
+  expected, and BLAST confirmed none of them. These are treated as noise.
+- **Firefly vs click beetle** is the one cross-family exception. Both
+  recruited a luciferase from the acyl-CoA synthetase (ACS) family, so they
+  share **ancestry**, not convergence.
 
-**Properties and structure**
-- **ARI:** 0.80.
-- **Sign tests (5 families):**
+### 5.2 Dot plots (E4)
 
-  | Property | Result | p |
-  |---|---|---|
-  | GRAVY | lower in 5/5 | 0.0625 |
-  | Aromaticity | higher in 5/5 | 0.0625 |
-  | Cys % | higher in 4/5 | 0.375 |
-  | pI | higher in 2/5 | 1.0 |
+479, 334 and 6 dots for same family, luciferase vs control, and firefly vs
+LuxA. A continuous diagonal means similarity along the whole protein; a
+broken diagonal means a related but diverged protein; scattered dots mean
+no similarity. This is the visual version of 5.1.
 
-- **AlphaFold:** 62 of 67 proteins have models. Median pLDDT is about 90 or
-  higher for the beetle, bacterial, fungal and *Renilla* families, 86 for
-  dinoflagellates and 56 for copepods.
-- **Trees:** the brittle-star luciferase groups with its own DafA control,
-  not with *Renilla*.
-- **Dot plots:** 479 dots for same family, 334 for luciferase vs control
-  and 6 for firefly vs LuxA.
+### 5.3 BLAST (E5)
+
+630 significant hits (E < 10⁻³). The only cross-family hits are firefly ↔
+click beetle, with E so small it is reported as 0. BLAST is the most
+sensitive standard homology test in the course. Its silence between
+independent families is strong evidence for H1.
+
+### 5.4 Hand-written dynamic programming (E3)
+
+The hand-written NW table for HEAGAWGHEE/PAWHEAE gives a score of −8,
+matching Biopython. This shows the alignment method is understood, not only
+called from a library.
+
+### 5.5 Trees (E6)
+
+- The trees reproduce known biology: firefly subfamilies, *Vibrio* vs
+  *Photobacterium* LuxA, and the *Armillaria* Luz cluster. This shows the
+  data and the distances behave sensibly.
+- **Key observation:** the brittle-star luciferase groups with the brittle
+  star's **own non-luminous dehalogenase (DafA)**, not with *Renilla*
+  luciferase. Our data independently reproduce Lau et al. (2025): the same
+  enzyme family was turned into a luciferase twice. This is convergence
+  **within** a protein family.
+
+### 5.6 Motifs and GO (E7)
+
+- **AMP_BINDING** occurs in firefly and click-beetle luciferases **and**
+  their controls, so it marks the ACS family, not light production.
+- **BACTERIAL_LUCIFERASE** occurs in all 10 LuxA proteins and in no SsuD
+  control. It is specific to bacterial luciferase, but only within that
+  family.
+- No motif crosses independent families.
+- GO terms confirm the roles: luciferases carry luciferin-monooxygenase
+  activities, and controls carry the ancestral activities (CoA ligase,
+  dehalogenase, alkanesulfonate monooxygenase).
+
+### 5.7 Trypsin digest (E8)
+
+Of 1,806 peptides, only 2 occur in more than one family, and both are
+firefly/click beetle. Each independent family has a unique peptide-mass
+fingerprint. If the families shared sequence, they would share peptides;
+they do not. As a side result, mass spectrometry could tell the families
+apart.
+
+### 5.8 Properties, clustering, statistics (E1, E9)
+
+- **ARI 0.80.** Unsupervised clustering on composition alone recovers the
+  families almost perfectly. Most of the mismatch is fireflies and click
+  beetles mixing, as expected for relatives.
+- **Family differences.** Kruskal–Wallis p < 1e-5 for every property. Each
+  family has a distinct composition.
+- **Meaning.** A protein's physicochemical profile is determined mainly by
+  **which family it descends from**, not by whether it makes light. This
+  supports H0 at the global level.
+
+### 5.9 Luciferase vs own control (H2): the subtle result
+
+| Property | Luciferase vs control (5 families) | Sign test p |
+|---|---|---|
+| GRAVY | lower in 5/5 | 0.0625 |
+| Aromaticity | higher in 5/5 | 0.0625 |
+| Cys % | higher in 4/5 | 0.375 |
+| pI | higher in 2/5, lower in 3/5 | 1.0 |
+
+- **Meaning.** In every testable family, the luciferase is less
+  hydrophobic and more aromatic than its non-luminous relative. The
+  direction is perfectly consistent.
+- **Why it is not significant.** 5/5 is the most extreme outcome possible,
+  but with only 5 families the sign test cannot go below p = 0.0625.
+- **Further cautions.** The result also does not survive correction for
+  testing 4 properties, and firefly and click beetle share the ACS family,
+  so they are not fully independent.
+- **Possible interpretation, not tested.** Aromatic residues often line
+  binding pockets for flat, ring-shaped substrates, and luciferins are such
+  molecules. This is a hypothesis for future work only. **Do not claim
+  causation.**
+
+### 5.10 AlphaFold (E10)
+
+- 62 of 67 proteins have models; the other 5 are the NCBI-only entries.
+- Median pLDDT is about 90 or higher for the beetle, bacterial, fungal and
+  *Renilla* families: their structures are predicted with very high
+  confidence.
+- It is 86 for dinoflagellates and about 56 for copepods. Copepod
+  luciferases are small, secreted and disulfide-rich, and have few relatives
+  in structure databases, which makes them hard to predict.
+- **Meaning.** Structure-level comparison (future work) is feasible for
+  most families, but copepod models would be unreliable.
+
+### 5.11 Overall verdict
+
+| Hypothesis | Verdict |
+|---|---|
+| H1 (no shared sequence) | **Supported** by six independent methods: alignment, dot plots, BLAST, motifs, peptides and trees |
+| H2 (consistent property shift) | **Suggestive, not proven** |
+| Global properties | Follow ancestry |
+
+Luciferases converged in **function, not sequence**.
+
+## 5a. Literature review and novelty
+
+**What the literature already established**
+
+| Ref. | Paper | Contribution | How this project relates |
+|---|---|---|---|
+| [1] | Delroisse et al. 2021, *Front. Mar. Sci.* | Review of luciferases across phyla; many independent evolutionary groups | Our family list and the "independent origins" premise. The review is descriptive; it does not quantify cross-family similarity on one dataset. |
+| [2] | He et al. 2024, *Mol. Biol. Evol.* | Fireflies and click beetles evolved luciferase independently from ACS enzymes | Justifies the click-beetle family. Our data reproduce it: same superfamily (49% identity), with separate luminous origins. |
+| [3] | Kotlobay et al. 2018, *PNAS* | Fungal luciferase Luz is its own protein family | Fungal family and its Luz-domain controls |
+| [4] | Lau et al. 2025, *Mol. Biol. Evol.* | Brittle-star luciferase recruited from a haloalkane dehalogenase, independently of *Renilla* | Reproduced independently: the brittle-star luciferase groups with its own non-luminous DafA, not with *Renilla* |
+| [5] | Takenaka et al. 2012, *Mol. Biol. Evol.* | Copepod luciferase evolution | Copepod family; explains its low AlphaFold confidence |
+| [6] | Liu et al. 2004, *PNAS* | Dinoflagellate luciferase has three catalytic domains | Dinoflagellate family; explains its long length |
+| [7]–[20] | Methods papers | NW, SW, BLOSUM62, BLAST+, NJ, Biopython, ProtParam, Kyte–Doolittle, AlphaFold, AlphaFold DB, UniProt, PROSITE, Kruskal–Wallis, ARI | The methods we used |
+
+**What the literature mostly does.** It studies **one luciferase family at a
+time**: cloning, characterising, building its tree, or tracing its origin.
+Reviews compare families **qualitatively**: different structures, different
+luciferins, different ancestors.
+
+**What this project adds (novelty, in course-project terms)**
+
+1. **One curated multi-origin dataset.** 55 luciferases from 9 independent
+   origins in a single, versioned, reproducible dataset (`seeds.csv`, with
+   a reason recorded for each entry).
+2. **Matched non-luminous controls.** Each luciferase is compared with its
+   closest non-luminous relative, which separates "inherited from the
+   family" from "associated with light". Most comparisons in the
+   literature have no such baseline.
+3. **Quantitative, null-model testing of "no shared sequence".** Shuffle
+   z-scores, BLAST E-values, an exhaustive PROSITE scan and peptide overlap
+   all point the same way. The literature usually states this qualitatively.
+4. **A family-level test of physicochemical convergence (H2).** The sign
+   test uses the family, not the protein, as the unit, which avoids
+   pseudo-replication. It found the consistent hint of lower GRAVY and
+   higher aromaticity. We are not aware of this specific comparison in the
+   cited literature. Treat it as an untested lead, not a discovery, and do
+   not claim it is "first" without a proper literature search.
+5. **Independent reproduction of two published findings** with simple
+   methods: brittle star vs *Renilla* [4], and firefly vs click beetle [2].
+6. **Breadth of methods.** Twelve course topics are applied to one
+   question, and everything is reproducible from one notebook.
+
+**Honest limits of the novelty.**
+- This is a course project, not peer-reviewed research.
+- The sequence result (H1) **confirms** what biologists expect.
+- The H2 hint is the only potentially new observation, and it is not
+  significant at n = 5.
+- No structure-level comparison has been done yet. That is where real
+  novelty could come from: for example, comparing AlphaFold active-site
+  pockets across families.
 
 ## 6. Design decisions (and why)
 
