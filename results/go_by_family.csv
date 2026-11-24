@@ -12,3 +12,7 @@ dinoflagellate,luciferase,8,"luciferin monooxygenase activity; oxidoreductase ac
 ostracod,luciferase,3,Cypridina-luciferin 2-monooxygenase activity
 click_beetle,luciferase,4,CoA-ligase activity; Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity
 click_beetle,control,1,CoA-ligase activity; Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity
+photoprotein,luciferase,6,calcium ion binding
+photoprotein,control,4,calcium ion binding; channel regulator activity; enzyme regulator activity; myosin V binding; myosin heavy chain binding
+decapod_shrimp,luciferase,1,Oplophorus-luciferin 2-monooxygenase activity
+decapod_shrimp,control,3,fatty acid binding; lipid binding

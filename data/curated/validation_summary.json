@@ -1,8 +1,8 @@
 {
-  "retrieved": "2026-11-23",
-  "n_records": 67,
-  "n_luciferases": 55,
-  "n_controls": 12,
+  "retrieved": "2026-11-24",
+  "n_records": 81,
+  "n_luciferases": 62,
+  "n_controls": 19,
   "counts_by_family": {
     "firefly": {
       "luciferase": 8,
@@ -35,10 +35,18 @@
     "click_beetle": {
       "luciferase": 4,
       "control": 1
+    },
+    "photoprotein": {
+      "luciferase": 6,
+      "control": 4
+    },
+    "decapod_shrimp": {
+      "luciferase": 1,
+      "control": 3
     }
   },
   "all_complete": true,
-  "n_reviewed": 23,
+  "n_reviewed": 37,
   "accessions": [
     "P08659",
     "P13129",
@@ -106,6 +114,20 @@
     "Q9HYG2",
     "P40402",
     "A0A6A4GH72",
-    "A0A550C6L9"
+    "A0A550C6L9",
+    "P07164",
+    "P02592",
+    "P39047",
+    "Q27709",
+    "Q8T6Z0",
+    "Q08121",
+    "P05946",
+    "P04571",
+    "P02637",
+    "P62152",
+    "Q9GV45",
+    "P29498",
+    "P41509",
+    "P31416"
   ]
 }

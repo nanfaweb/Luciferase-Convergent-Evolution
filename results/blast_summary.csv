@@ -51,18 +51,32 @@ P17554,ostracod,luciferase,2,0,,
 BAD08210.1,ostracod,luciferase,2,0,,
 QOS14273.1,ostracod,luciferase,2,0,,
 Q718A7,click_beetle,luciferase,4,10,Q5UFR2 Q27757 Q5USC8 P08659 A0A3F2YLV6 P13129 Q01158 Q26304 Q1ET68 Q9VCC6,0.0
-D2KV86,click_beetle,luciferase,4,10,Q5UFR2 Q5USC8 Q01158 P13129 P08659 Q26304 A0A3F2YLV6 Q27757 Q9VCC6 Q1ET68,0.0
+D2KV86,click_beetle,luciferase,4,10,Q5UFR2 Q5USC8 P13129 Q01158 P08659 Q26304 A0A3F2YLV6 Q27757 Q9VCC6 Q1ET68,0.0
 A0A0C6E0Y4,click_beetle,luciferase,4,10,Q5UFR2 Q5USC8 Q27757 P08659 A0A3F2YLV6 Q01158 P13129 Q26304 Q9VCC6 Q1ET68,0.0
-A0A0C6E621,click_beetle,luciferase,4,10,Q5UFR2 Q27757 Q5USC8 A0A3F2YLV6 P08659 P13129 Q01158 Q26304 Q9VCC6 Q1ET68,0.0
+A0A0C6E621,click_beetle,luciferase,4,10,Q5UFR2 Q27757 Q5USC8 A0A3F2YLV6 P08659 Q01158 P13129 Q26304 Q9VCC6 Q1ET68,0.0
 A9ZPM4,click_beetle,control,4,10,Q27757 Q5USC8 Q5UFR2 P08659 A0A3F2YLV6 P13129 Q01158 Q26304 Q9VCC6 Q1ET68,0.0
-Q9VCC6,firefly,control,9,5,A0A0C6E621 A9ZPM4 D2KV86 A0A0C6E0Y4 Q718A7,9.4e-151
+Q9VCC6,firefly,control,9,5,A0A0C6E621 A9ZPM4 D2KV86 A0A0C6E0Y4 Q718A7,1.01e-150
 D4Z2G1,renilla_type,control,5,0,,
 P0A3G2,renilla_type,control,5,0,,
 XRP75329.1,renilla_type,control,5,0,,
 P80645,bacterial_luxa,control,5,0,,
 A0A0D7AKP7,fungal_luz,control,11,0,,
-Q1ET68,firefly,control,9,5,A0A0C6E621 A9ZPM4 Q718A7 A0A0C6E0Y4 D2KV86,3.78e-150
+Q1ET68,firefly,control,9,5,A0A0C6E621 A9ZPM4 A0A0C6E0Y4 Q718A7 D2KV86,4.08e-150
 Q9HYG2,bacterial_luxa,control,2,0,,
 P40402,bacterial_luxa,control,4,0,,
 A0A6A4GH72,fungal_luz,control,11,0,,
 A0A550C6L9,fungal_luz,control,11,0,,
+P07164,photoprotein,luciferase,6,0,,
+P02592,photoprotein,luciferase,6,0,,
+P39047,photoprotein,luciferase,6,0,,
+Q27709,photoprotein,luciferase,6,0,,
+Q8T6Z0,photoprotein,luciferase,6,0,,
+Q08121,photoprotein,luciferase,7,0,,
+P05946,photoprotein,control,0,0,,
+P04571,photoprotein,control,2,0,,
+P02637,photoprotein,control,1,0,,
+P62152,photoprotein,control,6,0,,
+Q9GV45,decapod_shrimp,luciferase,1,0,,
+P29498,decapod_shrimp,control,3,0,,
+P41509,decapod_shrimp,control,2,0,,
+P31416,decapod_shrimp,control,2,0,,

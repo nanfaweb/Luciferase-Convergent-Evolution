@@ -1,10 +1,10 @@
 test,feature,statistic,p_value,n
-Ward clustering vs family (adjusted Rand index),all composition,0.8027,,55
-Kruskal-Wallis across 8 luciferase families,gravy,45.54,1.076e-07,55
-Kruskal-Wallis across 8 luciferase families,isoelectric_point,38.08,2.929e-06,55
-Kruskal-Wallis across 8 luciferase families,aromaticity,44.81,1.491e-07,55
-Kruskal-Wallis across 8 luciferase families,aa_C_pct,49.15,2.123e-08,55
-Sign test: luciferase vs own control (5 families),gravy,0,0.0625,5
-Sign test: luciferase vs own control (5 families),isoelectric_point,2,1,5
-Sign test: luciferase vs own control (5 families),aromaticity,5,0.0625,5
-Sign test: luciferase vs own control (5 families),aa_C_pct,4,0.375,5
+Ward clustering vs family (adjusted Rand index),all composition,0.8209,,62
+Kruskal-Wallis across 10 luciferase families,gravy,54.16,1.763e-08,62
+Kruskal-Wallis across 10 luciferase families,isoelectric_point,47.42,3.282e-07,62
+Kruskal-Wallis across 10 luciferase families,aromaticity,52.77,3.229e-08,62
+Kruskal-Wallis across 10 luciferase families,aa_C_pct,53.33,2.528e-08,62
+Sign test: luciferase vs own control (7 families),gravy,1,0.125,7
+Sign test: luciferase vs own control (7 families),isoelectric_point,3,1,7
+Sign test: luciferase vs own control (7 families),aromaticity,6,0.125,7
+Sign test: luciferase vs own control (7 families),aa_C_pct,5,0.4531,7

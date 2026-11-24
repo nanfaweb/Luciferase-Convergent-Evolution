@@ -66,3 +66,17 @@ Q9HYG2,uniprot,bacterial_luxa,control,Alkanesulfonate monooxygenase SsuD,,,,Pseu
 P40402,uniprot,bacterial_luxa,control,Alkanesulfonate monooxygenase SsuD,,,,Bacillus subtilis SsuD; non-luminous luciferase-like monooxygenase (65% to E. coli SsuD).
 A0A6A4GH72,uniprot,fungal_luz,control,Luz-domain protein (non-luminous Gymnopus androsaceus),,,,Gymnopus androsaceus (non-luminous); Luz-domain homolog (~35% to Luz); predicted only.
 A0A550C6L9,uniprot,fungal_luz,control,Luz-domain protein (non-luminous Schizophyllum amplum),,,,Schizophyllum amplum (non-luminous); Luz-domain homolog (~38% to Luz); predicted only.
+P07164,uniprot,photoprotein,luciferase,,,,,Aequorin-1 (Aequorea victoria); Ca2+-regulated photoprotein (coelenterazine; EF-hand fold); independent origin of light. Photoprotein (not a turnover luciferase). Added 2026-11-24 for the pre-registered test.
+P02592,uniprot,photoprotein,luciferase,,,,,Aequorin-2 (Aequorea victoria); kept only if <97% identical to aequorin-1.
+P39047,uniprot,photoprotein,luciferase,,,,,Mitrocomin (Mitrocoma cellularia); Ca2+-regulated photoprotein; reviewed.
+Q27709,uniprot,photoprotein,luciferase,,,,,Obelin (Obelia longissima); Ca2+-regulated photoprotein; reviewed.
+Q8T6Z0,uniprot,photoprotein,luciferase,,,,,Obelin (Obelia geniculata); Ca2+-regulated photoprotein; reviewed.
+Q08121,uniprot,photoprotein,luciferase,,,,,Clytin (Clytia gregaria); Ca2+-regulated photoprotein; reviewed.
+P05946,uniprot,photoprotein,control,Sarcoplasmic Ca-binding protein (crayfish),,yes,,Non-luminous EF-hand protein (arthropod). Chosen by rule before property values were seen: reviewed; same EF-hand superfamily; one per phylum. Mature chain from protein sequencing (no initiator Met); full length.
+P04571,uniprot,photoprotein,control,Sarcoplasmic Ca-binding protein (sandworm),,yes,,Non-luminous EF-hand protein (annelid); same selection rule. Mature chain (no initiator Met).
+P02637,uniprot,photoprotein,control,Sarcoplasmic Ca-binding protein (scallop),,yes,,Non-luminous EF-hand protein (mollusc); same selection rule. Mature chain (no initiator Met).
+P62152,uniprot,photoprotein,control,Calmodulin (Drosophila),,,,Non-luminous EF-hand protein (insect calmodulin); same selection rule.
+Q9GV45,uniprot,decapod_shrimp,luciferase,,,,,Oplophorus gracilirostris luciferase catalytic subunit (19kOLase; coelenterazine); calycin/lipocalin superfamily; independent origin. Only sequenced member.
+P29498,uniprot,decapod_shrimp,control,Fatty acid-binding protein Sm14 (blood fluke),,,,Non-luminous calycin-superfamily FABP (flatworm). Chosen by rule before property values were seen: reviewed; same superfamily (IPR012674); one per order.
+P41509,uniprot,decapod_shrimp,control,Muscle fatty acid-binding protein (locust),,,,Non-luminous calycin-superfamily FABP (Orthoptera); same selection rule.
+P31416,uniprot,decapod_shrimp,control,Fatty acid-binding protein 1 (hawkmoth),,,,Non-luminous calycin-superfamily FABP (Lepidoptera); same selection rule.

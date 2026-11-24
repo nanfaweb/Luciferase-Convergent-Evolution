@@ -1,3 +1,5 @@
 prosite_id,name,description,pattern,regex
+PS00018,EF_HAND_1,EF-hand calcium-binding domain.,D-{W}-[DNS]-{ILVFYW}-[DENSTG]-[DNQGHRK]-{GP}-[LIVMC]-[DENQSTAGC]-x(2)-[DE]-[LIVMFYW].,D[^W][DNS][^ILVFYW][DENSTG][DNQGHRK][^GP][LIVMC][DENQSTAGC].{2}[DE][LIVMFYW]
+PS00214,FABP,Cytosolic fatty-acid binding proteins signature.,[GSAIVK]-{FE}-[FYW]-x-[LIVMF]-x(2)-{K}-x-[NHG]-[FY]-[DE]-x-[LIVMFY]-[LIVM]-{N}-{G}-[LIVMAKR].,[GSAIVK][^FE][FYW].[LIVMF].{2}[^K].[NHG][FY][DE].[LIVMFY][LIVM][^N][^G][LIVMAKR]
 PS00455,AMP_BINDING,Putative AMP-binding domain signature.,[LIVMFY]-{E}-{VES}-[STG]-[STAG]-G-[ST]-[STEI]-[SG]-x-[PASLIVM]-[KR].,[LIVMFY][^E][^VES][STG][STAG]G[ST][STEI][SG].[PASLIVM][KR]
 PS00494,BACTERIAL_LUCIFERASE,Bacterial luciferase subunits signature.,[GA]-[LIVM]-P-[LIVM]-x-[LIVMFY]-x-W-x(6)-[RK]-x(6)-Y-x(3)-[AR].,[GA][LIVM]P[LIVM].[LIVMFY].W.{6}[RK].{6}Y.{3}[AR]

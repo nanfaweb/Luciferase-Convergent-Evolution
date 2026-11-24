@@ -1,0 +1,12 @@
+family,set,proteins,aromatic_pct_buried,aromatic_pct_exposed,hydropathy_buried,hydropathy_exposed,statistic_aromatic_pct_buried,statistic_aromatic_pct_exposed,statistic_hydropathy_buried,statistic_hydropathy_exposed
+firefly,original,8 luc / 2 ctrl,0.03599,1.979,-0.2659,0.07887,,,,
+renilla_type,original,2 luc / 2 ctrl,3.742,-0.7633,0.08447,-0.5983,,,,
+bacterial_luxa,original,10 luc / 3 ctrl,0.1714,3.452,0.06694,-0.2521,,,,
+fungal_luz,original,8 luc / 3 ctrl,-0.3611,1.008,-0.2407,-0.27,,,,
+click_beetle,original,4 luc / 1 ctrl,0.268,1.65,-0.06315,0.1362,,,,
+photoprotein,new,6 luc / 4 ctrl,-5.083,4.446,-0.2562,-0.3737,,,,
+decapod_shrimp,new,1 luc / 3 ctrl,-1.426,6.429,0.6223,0.7426,,,,
+"ALL (permutation, two-sided)",,,0.7025,,,,-0.7843,,,
+"ALL (permutation, two-sided)",,,,9.999e-05,,,,6.584,,
+"ALL (permutation, two-sided)",,,,,0.9815,,,,0.03022,
+"ALL (permutation, two-sided)",,,,,,0.4454,,,,-1.109

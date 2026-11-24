@@ -49,6 +49,8 @@ FAMILIES = [
     "dinoflagellate",
     "ostracod",
     "click_beetle",
+    "photoprotein",
+    "decapod_shrimp",
 ]
 ROLES = ["luciferase", "control"]
 SOURCES = ["uniprot", "ncbi"]
@@ -301,8 +303,10 @@ def curate_record(session: requests.Session, seed: dict) -> tuple[dict, str, str
     seq = curated_sequence(fasta_sequence(fasta), seed)
 
     truncated = meta["fragment"] or meta["nonterminal"]
-    partial_accepted = truncated and seed.get("allow_partial") == "yes"
-    complete = (not truncated or partial_accepted) and seq.startswith("M")
+    # allow_partial also covers full-length mature chains from protein sequencing (no initiator Met)
+    no_met = not truncated and not seq.startswith("M")
+    partial_accepted = (truncated or no_met) and seed.get("allow_partial") == "yes"
+    complete = partial_accepted or (not truncated and seq.startswith("M"))
     row = {
         "accession": accession,
         "source": seed["source"],

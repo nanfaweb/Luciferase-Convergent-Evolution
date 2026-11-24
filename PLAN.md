@@ -27,10 +27,9 @@ Whatever the outcome, it is reported. A failed replication is a result.
 
 ## Next
 
-- [ ] N1 Add photoprotein + Oplophorus families with controls; re-run pipeline
-- [ ] N2 `src/convergence.py`: pre-registered test, permutation test, robustness, substrate (coelenterazine) convergence
-- [ ] N3 `src/pockets.py`: AlphaFold burial of aromatic/hydrophobic residues
-- [ ] N4 Novelty write-up in reports, PDF, notebook
+- [ ] N4 (paused at 74% weekly usage) Novelty write-up. Update `docs/FINAL_REPORT.md` (81 proteins, 10 families, 11 origins; new section on the pre-registered test, substrate and burial results; refs 21-24 below), `src/report_pdf.py` (NAMES/origin for the new families, abstract/conclusion text, new figures `h2_replication`, `substrate_distance`, `aromatic_burial`), `CONTEXT.md`, `docs/PROJECT_REPORT.md`, `data/README.md`, README/CLAUDE commands (`src.convergence`, `src.pockets`), and notebook cells. Then re-run the notebook and PDF.
+  - New refs (Crossref-checked): Zhang R, He J, Dong Z et al. Sci Rep 10:15882 (2020) doi:10.1038/s41598-020-72900-z; Inouye S et al. FEBS Lett 481(1):19-25 (2000) doi:10.1016/S0014-5793(00)01963-3; Inouye S et al. PNAS 82(10):3154-3158 (1985) doi:10.1073/pnas.82.10.3154; Shimomura O, Johnson FH, Saiga Y. J Cell Comp Physiol 59(3):223-239 (1962) doi:10.1002/jcp.1030590302
+  - Literature search (2026-11-24): no prior cross-family composition comparison of luciferases vs non-luminous homologs found; closest is residue-level luciferin-site patterns within beetles (He 2024; Zhang 2020).
 - [ ] Optional: rename the folder to lowercase-with-dashes (`bio-proj`)
 
 
@@ -48,6 +47,9 @@ Whatever the outcome, it is reported. A failed replication is a result.
 - [x] M7 Conclusions in `docs/PROJECT_REPORT.md`
 - [x] Click-beetle family + extra controls (67 proteins); motif, digest, AlphaFold, DP additions
 - [x] Final report (`docs/FINAL_REPORT.md`), references verified against Crossref, PDF version with figures (`docs/FINAL_REPORT.pdf`, `src/report_pdf.py`)
+- [x] N1 Photoprotein (6 + 4 EF-hand controls) and Oplophorus shrimp (1 + 3 FABP controls) families: 81 proteins, 10 families, 7 with controls; pipeline re-run
+- [x] N2 `src/convergence.py`: **pre-registered replication FAILED** (Oplophorus GRAVY higher; photoprotein aromaticity slightly lower). All 7 families: GRAVY not supported (perm p 0.55); **aromaticity higher in 6/7, family-stratified permutation p = 0.010 (Holm 0.021)**, robust except leave-out-LuxA (0.07). Cys % two-sided p = 0.013 (not predicted). Calibration 4% false positives. Substrate convergence rejected: coelenterazine families are not closer (exact p = 0.995)
+- [x] N3 `src/pockets.py` (exploratory): the aromatic excess sits on **exposed** residues (higher in 6/7 families incl. both new; perm p = 0.0001), not buried ones (p = 0.70)
 - [x] Workspace layout: `PLAN.md`, `CLAUDE.md`, notes in `docs/`
 
 ## Decisions
