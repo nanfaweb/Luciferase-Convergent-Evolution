@@ -329,6 +329,12 @@ luciferins, different ancestors.
   novelty could come from: for example, comparing AlphaFold active-site
   pockets across families.
 
+### 5b. Novelty phase (in progress)
+
+A pre-registered test of the H2 hint on new independent families. The exact prediction and
+pass/fail rules are in `PLAN.md` ("Pre-registered prediction", committed before the new data was
+downloaded; see git history).
+
 ## 6. Design decisions (and why)
 
 1. **Matched non-luminous controls.** Comparing a luciferase with a relative

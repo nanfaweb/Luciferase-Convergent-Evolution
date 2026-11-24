@@ -4,9 +4,33 @@
 
 **Status:** Complete. Full project context for a new agent: `CONTEXT.md`. Formal write-up: `docs/FINAL_REPORT.md`; plain-language log: `docs/PROJECT_REPORT.md`.
 
+## Pre-registered prediction (2026-11-24, written before any new data was downloaded)
+
+Earlier observation (5 families with controls): luciferases have **lower GRAVY** and **higher
+aromaticity** than their own non-luminous relatives in 5/5 families (sign test p = 0.0625 each).
+
+**Prediction for the new, independent families** (Ca2+-regulated photoproteins vs EF-hand
+SCP/calmodulin controls; Oplophorus shrimp luciferase vs FABP controls):
+- the luminous protein's median GRAVY is lower than its controls' median, AND
+- its median aromaticity is higher than its controls' median.
+
+**Pass/fail rules, fixed now:**
+1. Replication *passes* if both new families show both directions. It *fails* if either new
+   family shows either opposite direction.
+2. Main test across all families with controls: one-sided sign test (direction fixed above) and
+   a within-family label-permutation test (10,000 permutations, seed 1), alpha = 0.05, Holm
+   correction over the two predicted properties. pI and Cys % are reported but not predicted.
+3. Robustness reported regardless of outcome: firefly + click beetle merged as one ACS origin;
+   photoproteins excluded; leave-one-family-out.
+
+Whatever the outcome, it is reported. A failed replication is a result.
+
 ## Next
 
-- [ ] Optional follow-up: compare 3D structures (e.g. AlphaFold) for active-site convergence
+- [ ] N1 Add photoprotein + Oplophorus families with controls; re-run pipeline
+- [ ] N2 `src/convergence.py`: pre-registered test, permutation test, robustness, substrate (coelenterazine) convergence
+- [ ] N3 `src/pockets.py`: AlphaFold burial of aromatic/hydrophobic residues
+- [ ] N4 Novelty write-up in reports, PDF, notebook
 - [ ] Optional: rename the folder to lowercase-with-dashes (`bio-proj`)
 
 
