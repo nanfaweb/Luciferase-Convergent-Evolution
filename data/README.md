@@ -1,9 +1,12 @@
 # Dataset
 
-67 protein sequences: 55 luciferases from eight luciferase families (nine
-independent origins, counting the brittle star and the click beetles), plus 12
-non-luminous homologs used as controls. Sources are UniProtKB (62) and NCBI
-Protein (5). Click beetles and 5 extra controls were added on 2026-11-23; see
+81 protein sequences: 62 luminous proteins from ten families (eleven independent
+origins: 55 luciferases in 8 families, 6 Ca2+-regulated photoproteins, 1
+Oplophorus shrimp luciferase), plus 19 non-luminous homologs used as controls.
+Sources are UniProtKB (76) and NCBI Protein (5). The photoprotein and shrimp
+families (and their EF-hand / FABP controls) were added on 2026-11-24 for the
+pre-registered test described in `PLAN.md`; three SCP controls are mature chains
+without an initiator Met and are flagged with `allow_partial`. Click beetles and 5 extra controls were added on 2026-11-23; see
 `seeds.csv` for the reason each one was included.
 Retrieved 2026-11-03.
 

@@ -5,8 +5,8 @@ it was built, what was decided and why, what was found and what it means, how
 it compares with the literature (novelty), and how to work on
 it. Read it first, then `PLAN.md` for the current to-do list.
 
-Last updated: 2026-11-24. State: **complete**. The analysis, notebook and
-both reports are committed and pushed to `origin/main`
+Last updated: 2026-11-24, after the novelty phase. State: **complete**. The
+analysis, notebook and both reports are committed and pushed to `origin/main`
 (https://github.com/nanfaweb/Luciferase-Convergent-Evolution).
 
 ---
@@ -36,22 +36,31 @@ both reports are committed and pushed to `origin/main`
 
 ## 2. Answer (the result in one paragraph)
 
-Independently evolved luciferases converged in **function, not sequence**.
-Across 1,259 pairs of luciferases from unrelated families, median identity
-is about 20% and the median Smith–Waterman z-score is 0, which is chance
-level. BLAST finds no hits between independent families, and no PROSITE
-motif or tryptic peptide is shared between them. The only cross-family
-similarity is firefly with click beetle (about 49% identity), which share an
-ancestral acyl-CoA synthetase family.
+Independently evolved luminous proteins converged in **function, not
+sequence**. The current dataset has 81 proteins: 62 luminous proteins in 10
+families (11 independent origins) and 19 non-luminous controls.
 
-Physicochemical profiles sort by family. Clustering recovers the families
-with an adjusted Rand index (ARI) of 0.80, and Kruskal–Wallis p < 1e-5.
+- **Sequence.** Across 1,650 pairs from unrelated families, median identity
+  is about 20% and the median Smith–Waterman z-score is 0 (chance). BLAST
+  finds no hits between independent families, and no PROSITE motif or tryptic
+  peptide is shared. The only cross-family similarity is firefly with click
+  beetle, which share an acyl-CoA synthetase ancestor.
+- **Properties.** Composition sorts proteins by family (ARI 0.82).
+- **Novelty phase (2026-11-24).** This adds the project's contribution
+  beyond the literature:
+  - **The pre-registered replication FAILED.** "Less hydrophobic than own
+    controls" does not generalise: Oplophorus is more hydrophobic.
+  - **Aromaticity holds.** Across all 7 families with controls, luminous
+    proteins are more aromatic than their own non-luminous relatives:
+    family-stratified permutation p = 0.010 (Holm 0.021). Only one of the
+    two new families agreed.
+  - **The aromatic excess is on the surface** (exploratory): on exposed
+    residues in AlphaFold models (p = 0.0001), not on buried ones (p = 0.70).
+  - **No substrate convergence.** Families that use the same luciferin
+    (coelenterazine) are not compositionally closer (p = 0.995).
 
-In all 5 families that have controls, luciferases are **less hydrophobic
-(lower GRAVY) and more aromatic** than their controls. The sign test gives
-p = 0.0625 for each, the smallest value possible with 5 families. This is a
-consistent hint, **not a significant finding**. Conclusions must stay
-cautious: never claim that a property causes light production.
+Conclusions must stay cautious: these are associations, and no property
+should ever be claimed to cause light production.
 
 ## 3. Dataset
 
@@ -85,6 +94,8 @@ controls.
 | copepod | 10 | – | No InterPro entry, which is expected |
 | dinoflagellate | 8 | – | Three-domain enzyme |
 | ostracod | 3 | – | Cypridinid |
+| photoprotein (new) | 6 | 4: SCP P05946, P04571, P02637 (mature chains, `allow_partial`) + calmodulin P62152 | Ca2+-regulated photoproteins (aequorin ×2, mitrocomin, obelin ×2, clytin); EF-hand family; not classic turnover luciferases |
+| decapod_shrimp (new) | 1 (Oplophorus Q9GV45) | 3: FABPs P29498, P41509, P31416 | Calycin/lipocalin superfamily; the controls are distant (superfamily only) |
 
 **Selection rules.**
 - There must be functional evidence that the protein is a luciferase.
@@ -124,6 +135,8 @@ Run everything from the project root. **The order matters.**
 | E7 | `python -m src.motifs` | W2, W3, W12 | PROSITE patterns from UniProt cross-references, converted to regex and scanned against every protein. Also a GO summary. → `prosite_patterns.csv`, `motif_hits.csv`, `go_by_family.csv` |
 | E8 | `python -m src.digest` | W5, W14 | Trypsin cut `(?<=[KR])(?!P)`, peptides of 6–30 aa, monoisotopic mass → `tryptic_peptides.csv`, `tryptic_summary.csv` |
 | E10 | `python -m src.structure` | W15 | AlphaFold DB API, mean pLDDT (`globalMetricValue`) → `alphafold_confidence.csv` |
+| E11, E12 | `python -m src.convergence` (needs features) | W11 | Pre-registered test (directions fixed in `PREDICTED`), within-family permutation (10,000, seed 1), Holm, robustness, calibration; substrate test → `convergence_tests.csv`, `convergence_by_family.csv`, `substrate_convergence.csv`, `figures/h2_replication.png`, `substrate_distance.png` |
+| E13 | `python -m src.pockets` | W15 | AlphaFold PDBs cached in `data/structures/` (gitignored); Cα burial (10 Å), pLDDT ≥ 70, per-protein median split → `burial_by_protein.csv`, `aromatic_burial.csv`, `figures/aromatic_burial.png` |
 | – | `python -m src.report_pdf` (last) | – | Builds 3 summary figures (`similarity_by_category`, `control_differences`, `alphafold_plddt`) and `docs/FINAL_REPORT.pdf`. Numbers are read live from `results/`; references come from `docs/FINAL_REPORT.md`. |
 | – | `python -m nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=1200 notebooks/01_analysis.ipynb` | – | Re-runs everything; executes with 0 errors |
 
@@ -141,7 +154,23 @@ Run everything from the project root. **The order matters.**
 - HMMs: used only through Pfam/InterPro domains during curation. No HMM was
   trained, because unrelated luciferases cannot be aligned into one profile.
 
-## 5. Results and what they mean (67-protein run)
+## 5. Results and what they mean
+
+**Note.** Sections 5.1–5.11 below were written for the 67-protein run. With
+81 proteins the conclusions are unchanged. The current numbers are in
+`docs/FINAL_REPORT.md` §5.1:
+- same family: 209 pairs, 68% identity, z = 130;
+- luminous protein vs own control: 113 pairs, 30%, z = 15;
+- firefly vs click beetle: 32 pairs, 49%, z = 137;
+- other cross-family: 1,650 pairs, 20%, z = 0, with 45 pairs above z = 3
+  (maximum 6.7);
+- BLAST: 684 hits, firefly/click beetle only across families;
+- motifs: 4 PROSITE patterns, none crossing independent families;
+- peptides: 1,976, of which 2 are shared;
+- ARI 0.82;
+- AlphaFold: 76 of 81 proteins.
+
+The novelty results are in section 5b.
 
 Each result gives the number, then **what it means** and **why it came out
 that way**. Figures are in `results/figures/`; the PDF report numbers its
@@ -273,7 +302,7 @@ apart.
 | Hypothesis | Verdict |
 |---|---|
 | H1 (no shared sequence) | **Supported** by six independent methods: alignment, dot plots, BLAST, motifs, peptides and trees |
-| H2 (consistent property shift) | **Suggestive, not proven** |
+| H2 (consistent property shift) | GRAVY: **rejected** by the pre-registered test. Aromaticity: **supported** across 7 families (see 5b) |
 | Global properties | Follow ancestry |
 
 Luciferases converged in **function, not sequence**.
@@ -320,26 +349,98 @@ luciferins, different ancestors.
 6. **Breadth of methods.** Twelve course topics are applied to one
    question, and everything is reproducible from one notebook.
 
+**Contributions added in the novelty phase (2026-11-24; details in 5b)**
+
+7. **A pre-registered replication.** The prediction was committed in
+   `d2978e2` before the new data existed. It FAILED for GRAVY, and that is
+   reported as a result.
+8. **A family-stratified permutation framework.** Labels are shuffled only
+   within families, it is calibrated on random features, and it found an
+   aromaticity association across 7 families (p = 0.010, Holm 0.021).
+9. **A substrate-convergence test.** Coelenterazine users from 4 unrelated
+   folds are not closer in composition (p = 0.995), a negative answer.
+10. **A structural localisation.** The aromatic excess sits on exposed
+    residues in AlphaFold models (p = 0.0001), including both new families.
+11. **Literature check (2026-11-24).** We found no prior cross-family
+    composition comparison against own non-luminous relatives, and no
+    substrate-convergence test. The closest work is residue-level
+    luciferin-site patterns within beetles (He 2024 [2]; Zhang 2020 [21]).
+    The reports say "did not find", not "first".
+
 **Honest limits of the novelty.**
 - This is a course project, not peer-reviewed research.
-- The sequence result (H1) **confirms** what biologists expect.
-- The H2 hint is the only potentially new observation, and it is not
-  significant at n = 5.
-- No structure-level comparison has been done yet. That is where real
-  novelty could come from: for example, comparing AlphaFold active-site
-  pockets across families.
+- H1 **confirms** what biologists expect.
+- The aromaticity association rests on 7 families. Only one of the two new
+  families replicated it.
+- The burial and substrate analyses are exploratory: they were designed
+  after the main test.
+- The Oplophorus family has one luminous sequence and distant FABP controls.
+- Photoproteins are not classic luciferases.
 
-### 5b. Novelty phase (in progress)
+### 5b. Novelty phase: pre-registered test (E11–E13)
 
-A pre-registered test of the H2 hint on new independent families. The exact prediction and
-pass/fail rules are in `PLAN.md` ("Pre-registered prediction", committed before the new data was
-downloaded; see git history).
+**Why.** Before this phase the project had no real novelty. Its only lead was
+the "less hydrophobic, more aromatic" pattern in 5 families (p = 0.0625 each).
+
+**How.**
+- The prediction and the pass/fail rules were committed to `PLAN.md` in
+  `d2978e2` **before** the new families were downloaded.
+- Two independent luminous families with non-luminous relatives were added.
+  Their controls were chosen by a fixed rule: reviewed, same superfamily, one
+  per phylum or order, chosen without looking at their properties.
+- Tests are in `src/convergence.py` and `src/pockets.py`.
+
+**Replication on the new families** (difference = luminous − control median)
+
+| Family | GRAVY (predicted lower) | Aromaticity (predicted higher) |
+|---|---|---|
+| Photoprotein | −0.32 ✔ | −0.007 ✘ |
+| Oplophorus shrimp | **+0.76 ✘** | +0.032 ✔ |
+
+The replication **FAILED**.
+
+**All 7 families with controls**
+
+| Property | Families in predicted direction | Permutation p | Holm |
+|---|---|---|---|
+| GRAVY lower | 6/7 | 0.55 (Oplophorus +3.7 SD dominates) | – |
+| Aromaticity higher | 6/7 | 0.010 | 0.021 |
+
+**Robustness (aromaticity)**
+- Beetle families merged: p = 0.014.
+- Photoproteins excluded: p = 0.009.
+- Leave-one-out: p = 0.0003–0.072. The weakest run is without LuxA.
+- Calibration: 4% of 500 random features gave p < 0.05.
+- Cys % (two-sided, not predicted): p = 0.013.
+
+**Substrate test (E12, exploratory).** Coelenterazine families (*Renilla*-type,
+copepod, photoprotein, Oplophorus):
+- mean centroid distance 8.2, against a null median of 6.3;
+- exact p = 0.995 over 210 label sets.
+
+They are not more similar; if anything, they are more different.
+
+**Burial (E13, exploratory).** For each of the 7 families, aromatic % is
+compared between luminous proteins and their controls, separately for
+exposed and buried residues:
+- **exposed:** higher in 6 of 7 families (photoprotein +4.4, Oplophorus
+  +6.4); p = 0.0001;
+- **buried:** p = 0.70;
+- **hydropathy:** p = 0.98 (buried), 0.45 (exposed).
+
+**Interpretation, kept cautious.** There is a modest, family-controlled
+aromatic enrichment, located mainly on the surface. It is an association
+that suggests a hypothesis about substrate or partner binding. It is not
+evidence of a mechanism.
 
 ## 6. Design decisions (and why)
 
-1. **Matched non-luminous controls.** Comparing a luciferase with a relative
-   from its own family cancels out family traits. Only these 5 families have
-   plausible controls.
+1. **Matched non-luminous controls.** Comparing a luminous protein with
+   relatives from its own family cancels out family traits. 7 families now
+   have controls.
+2. **Pre-registration and family-stratified permutation.** These guard
+   against a pattern found after looking at the data, and against
+   pseudo-replication.
 2. **The family is the statistical unit.** Proteins within a family are not
    independent, so the sign test runs over families.
 3. **No mixed-family tree or MSA.** Unrelated proteins cannot be

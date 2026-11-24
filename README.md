@@ -34,7 +34,7 @@ python -m src.features
 
 Then run the analysis modules listed in `CLAUDE.md`, or the notebook `notebooks/01_analysis.ipynb`. The full write-up is [`docs/FINAL_REPORT.md`](docs/FINAL_REPORT.md), also as a PDF with figures and tables: [`docs/FINAL_REPORT.pdf`](docs/FINAL_REPORT.pdf) (rebuild with `python -m src.report_pdf`).
 
-`python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (55 luciferases from 8 families, 12 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
+`python -m src.download` fetches every accession in `data/seeds.csv` from UniProt (or NCBI Protein, where UniProt lacks it) and checks each record. It then writes `data/raw/` and `data/curated/`. `python -m src.verify_data` re-checks the files offline; with `--live` it also checks them against the current UniProt records. The dataset (62 luminous proteins from 10 families, 19 non-luminous controls), the selection rules and the limitations are documented in [`data/README.md`](data/README.md).
 
 For a full hand-over of the project (decisions, numbers, pitfalls), read [`CONTEXT.md`](CONTEXT.md).
 
@@ -56,7 +56,8 @@ See [`PLAN.md`](PLAN.md) for scope, syllabus mapping, and execution phases. Back
 | W11 | Clustering | `src/analysis.py`, `results/figures/pca_features.png` |
 | W12 | BLAST | `src/blast.py`, `results/blast_summary.csv` |
 | W14 | Proteomics | `src/features.py`, `results/features.csv` |
-| W15 | Deep learning (AlphaFold) | `src/structure.py`, `results/alphafold_confidence.csv` |
+| W15 | Deep learning (AlphaFold) | `src/structure.py`, `src/pockets.py`, `results/aromatic_burial.csv` |
+| W11 + novelty | Pre-registered, family-stratified convergence tests | `src/convergence.py`, `results/convergence_tests.csv` |
 
 W1–W2 (intro/motifs via InterPro), W13 (HMMs as Pfam/InterPro profiles), and W15 (deep learning) are mentioned in presentation notes only.
 

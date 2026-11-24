@@ -232,7 +232,7 @@ def plot_substrate(dist: pd.DataFrame, p: float) -> None:
     n_coel = sum(LUCIFERIN[f] == "coelenterazine" for f in order)
     ax.add_patch(plt.Rectangle((-0.5, -0.5), n_coel, n_coel, fill=False, ec="red", lw=1.5))
     fig.colorbar(im, ax=ax, shrink=0.8, label="Composition distance (lower = more similar)")
-    ax.set_title(f"Family composition distances (* coelenterazine users; exact p = {p:.2f})", fontsize=9)
+    ax.set_title(f"Family composition distances (* coelenterazine users; exact p = {p:.3f})", fontsize=9)
     fig.tight_layout()
     fig.savefig(RESULTS_DIR / "figures" / "substrate_distance.png", dpi=200)
     plt.close(fig)

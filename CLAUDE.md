@@ -1,6 +1,6 @@
 # Luciferase convergent evolution
 
-Compares luciferase proteins from 8 luciferase families (9 independent origins) (plus non-luminous controls) for shared sequence-level or physicochemical features.
+Compares luminous proteins from 10 families (11 independent origins) (plus non-luminous controls) for shared sequence-level or physicochemical features.
 
 Read `PLAN.md` first.
 
@@ -20,6 +20,7 @@ Run from the project root, in this order:
 - Trees: `python -m src.phylo` (needs `src.align` output)
 - Clustering and stats: `python -m src.analysis` (needs `src.features` output)
 - Motifs + GO: `python -m src.motifs`; trypsin digest: `python -m src.digest`; AlphaFold: `python -m src.structure`
+- Novelty tests: `python -m src.convergence` (pre-registered test, substrate test); `python -m src.pockets` (AlphaFold burial; caches models in `data/structures/`)
 - PDF report (after all modules): `python -m src.report_pdf` → `docs/FINAL_REPORT.pdf`
 - Notebook: `jupyter nbconvert --to notebook --execute --inplace notebooks/01_analysis.ipynb`
 

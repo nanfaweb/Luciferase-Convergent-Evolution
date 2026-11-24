@@ -367,6 +367,61 @@ The numbers in the phase sections above are from the earlier 58-protein run. The
 
 ---
 
+## Update 2026-11-24: looking for something new (novelty phase)
+
+**Why we did this.** Most of what we found agreed with what scientists
+already knew. Our one possible new idea was weak: "luciferases are less
+oily (less hydrophobic) and have more ring-shaped (aromatic) amino acids
+than their non-glowing relatives". It held in 5 families, but 5 is too few
+to be sure. So we tested it properly.
+
+**What we did.**
+1. **We wrote our prediction down first.** It went into git before we
+   downloaded any new data, so nobody can say we changed it afterwards.
+   This is called *pre-registration*.
+2. **We added two new glowing families**, each with non-glowing relatives:
+   - jellyfish photoproteins (such as aequorin), compared with
+     calcium-binding proteins;
+   - a deep-sea shrimp luciferase, compared with fatty-acid-binding
+     proteins.
+
+   The dataset is now 81 proteins: 62 glowing proteins in 10 families,
+   with 19 non-glowing relatives.
+3. **We used a fairer test.** It shuffles the "glowing / not glowing" labels
+   only *inside* each family, so family ancestry cannot fool it. We checked
+   the test on 500 random, made-up properties: it gave a false alarm only
+   4% of the time, as it should.
+4. **We looked at 3D shapes.** Using AlphaFold models, we asked whether the
+   extra aromatic amino acids sit inside the protein (core) or on its
+   surface.
+5. **We asked a new question:** do unrelated proteins that use the *same*
+   light-producing molecule (coelenterazine) look alike in composition?
+
+**What we found.**
+- **Our prediction partly failed.** The shrimp luciferase is *more* oily
+  than its relatives, so "less oily" is not a general rule. We report this
+  honestly; a failed prediction is still a result.
+- **"More aromatic" held up.** Across all 7 families with relatives, the
+  glowing protein is more aromatic in 6 of them. The fair test gives
+  p = 0.010, still significant after correcting for testing two things.
+- **The extra aromatic amino acids are on the surface, not in the core.**
+  This is true in 6 of 7 families, including both new ones (p = 0.0001).
+- **Using the same light molecule does not make proteins alike.** The
+  coelenterazine users are, if anything, *less* alike than random families
+  (p = 0.995).
+
+**Why this is new.** We searched the literature. Others have studied one
+family at a time, or single amino acids inside beetle luciferases. We did
+not find anyone comparing glowing proteins with their own non-glowing
+relatives across many families like this.
+
+**Be careful.** This is a link (an association), not proof that aromatic
+amino acids cause light. It rests on 7 families, and only one of the two
+new families agreed on aromaticity. The surface finding is exploratory,
+because we chose that test after seeing the first results.
+
+---
+
 ## Glossary
 
 | Term | Meaning |
